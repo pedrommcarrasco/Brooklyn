@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5334903A21889FB3001ED443 /* BrooklynView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5334903921889FB3001ED443 /* BrooklynView.h */; };
-		5334903C21889FB3001ED443 /* BrooklynView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5334903B21889FB3001ED443 /* BrooklynView.m */; };
+		53D037202188B78500EA775D /* BrooklynView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D0371F2188B78500EA775D /* BrooklynView.swift */; };
+		53D037222188B94400EA775D /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D037212188B94400EA775D /* Settings.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5334903621889FB3001ED443 /* Brooklyn.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brooklyn.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		5334903921889FB3001ED443 /* BrooklynView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrooklynView.h; sourceTree = "<group>"; };
-		5334903B21889FB3001ED443 /* BrooklynView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrooklynView.m; sourceTree = "<group>"; };
 		5334903D21889FB3001ED443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D0371F2188B78500EA775D /* BrooklynView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrooklynView.swift; sourceTree = "<group>"; };
+		53D037212188B94400EA775D /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +48,35 @@
 		5334903821889FB3001ED443 /* Brooklyn */ = {
 			isa = PBXGroup;
 			children = (
-				5334903921889FB3001ED443 /* BrooklynView.h */,
-				5334903B21889FB3001ED443 /* BrooklynView.m */,
+				53D0371D2188B74B00EA775D /* Contexts */,
 				5334903D21889FB3001ED443 /* Info.plist */,
 			);
 			path = Brooklyn;
+			sourceTree = "<group>";
+		};
+		53D0371D2188B74B00EA775D /* Contexts */ = {
+			isa = PBXGroup;
+			children = (
+				53D037232188C11D00EA775D /* Settings */,
+				53D0371E2188B75500EA775D /* ScreenSaver */,
+			);
+			path = Contexts;
+			sourceTree = "<group>";
+		};
+		53D0371E2188B75500EA775D /* ScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				53D0371F2188B78500EA775D /* BrooklynView.swift */,
+			);
+			path = ScreenSaver;
+			sourceTree = "<group>";
+		};
+		53D037232188C11D00EA775D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				53D037212188B94400EA775D /* Settings.xib */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,7 +86,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5334903A21889FB3001ED443 /* BrooklynView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +121,7 @@
 				TargetAttributes = {
 					5334903521889FB3001ED443 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -123,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D037222188B94400EA775D /* Settings.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5334903C21889FB3001ED443 /* BrooklynView.m in Sources */,
+				53D037202188B78500EA775D /* BrooklynView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +279,20 @@
 		5334904121889FB3001ED443 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Brooklyn/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pedrommcarrasco.Brooklyn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -267,12 +300,19 @@
 		5334904221889FB3001ED443 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Brooklyn/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pedrommcarrasco.Brooklyn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;

@@ -21,6 +21,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2018 Pedro Carrasco. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string>BrooklynView</string>
+	<string>NSApplication</string>
 </dict>
 </plist>
