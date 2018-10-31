@@ -13,6 +13,7 @@
 		20CAF51221892E3A0086AED8 /* Bundle+PathAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAF51121892E3A0086AED8 /* Bundle+PathAware.swift */; };
 		20CAF51521892E800086AED8 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAF51421892E800086AED8 /* Video.swift */; };
 		20CAF51721892E950086AED8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAF51621892E950086AED8 /* Extension.swift */; };
+		53794F372189BADC0033A11A /* AVPlayerItem+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53794F362189BADC0033A11A /* AVPlayerItem+Init.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		20CAF51621892E950086AED8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		218D6EDE20FC3CEB0029D4A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F222261B73B5AC00B9A11A /* Brooklyn.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brooklyn.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		53794F362189BADC0033A11A /* AVPlayerItem+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayerItem+Init.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				20CAF5082189251A0086AED8 /* AVPlayer+Init.swift */,
+				53794F362189BADC0033A11A /* AVPlayerItem+Init.swift */,
 				20CAF51121892E3A0086AED8 /* Bundle+PathAware.swift */,
 			);
 			path = Extensions;
@@ -185,6 +188,7 @@
 				20CAF51521892E800086AED8 /* Video.swift in Sources */,
 				20CAF51221892E3A0086AED8 /* Bundle+PathAware.swift in Sources */,
 				20CAF5092189251A0086AED8 /* AVPlayer+Init.swift in Sources */,
+				53794F372189BADC0033A11A /* AVPlayerItem+Init.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -285,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
