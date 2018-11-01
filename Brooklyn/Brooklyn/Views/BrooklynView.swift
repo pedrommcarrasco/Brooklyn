@@ -95,7 +95,7 @@ private extension BrooklynView {
         videoLayer.autoresizingMask = [.layerWidthSizable, .layerHeightSizable]
         videoLayer.needsDisplayOnBoundsChange = true
         videoLayer.contentsGravity = .resizeAspectFill
-        videoLayer.backgroundColor = Color.black.cgColor
+        videoLayer.backgroundColor = NSColor.black.cgColor
     }
 }
 
