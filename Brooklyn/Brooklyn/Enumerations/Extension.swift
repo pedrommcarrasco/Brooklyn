@@ -8,6 +8,8 @@
 
 import Foundation
 
+// MARK: - Extension
 enum Extension: String {
+    
     case mp4
 }

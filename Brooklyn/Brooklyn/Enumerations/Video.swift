@@ -8,6 +8,8 @@
 
 import Foundation
 
+// MARK: - Video
 enum Video: String {
-    case random
+    
+    case all
 }

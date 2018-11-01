@@ -95,7 +95,7 @@ private extension BrooklynView {
         videoLayer.autoresizingMask = [.layerWidthSizable, .layerHeightSizable]
         videoLayer.needsDisplayOnBoundsChange = true
         videoLayer.contentsGravity = .resizeAspectFill
-        videoLayer.backgroundColor = NSColor.black.cgColor
+        videoLayer.backgroundColor = Color.black.cgColor
     }
 }
 
@@ -104,7 +104,7 @@ private extension BrooklynView {
 
     static func looper(with player: AVQueuePlayer) -> AVPlayerLooper? {
 
-        guard let item = AVPlayerItem(name: .random, extension: .mp4) else { return nil }
+        guard let item = AVPlayerItem(name: .all, extension: .mp4) else { return nil }
 
         return AVPlayerLooper(player: player, templateItem: item)
     }
