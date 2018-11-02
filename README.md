@@ -31,8 +31,8 @@
 
 There are two options to uninstall Brooklyn from your MacBook.
 
-- Right-click on the Brooklyn screensaver in System Preferences and select `Delete "Brooklyn"`.
-- Delete the "Brooklyn.saver" directly either in `/Library/Screen Savers` or `/Users/USERNAME/Library/Screen Savers`. 
+- Right-click on the Brooklyn screensaver in System Preferences and select `Delete Brooklyn`.
+- Delete the `Brooklyn.saver` directly either in `/Library/Screen Savers` or `/Users/USERNAME/Library/Screen Savers`. 
 
 ## Compatibility 🔧
 
