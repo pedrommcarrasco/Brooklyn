@@ -1,10 +1,15 @@
+
+
 ![](https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/logo.jpg?raw=true)
 
 Screen Saver based on the animations presented during **Apple Special Event** (October 30, 2018) from the Brooklyn Academy of Music, Howard Gilman Opera House.
 
-![](https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/showcase.gif?raw=true)
+<p align="center">
+    <img ![](https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/showcase.gif?raw=true)/>
+</p>
 
-![](https://img.shields.io/github/downloads/pedrommcarrasco/brooklyn/total.svg?maxAge=86400) ![GitHub contributors](https://img.shields.io/github/contributors/pedrommcarrasco/brooklyn.svg?maxAge=2592000) [![apm](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/pedrommcarrasco/Brooklyn/blob/master/LICENSE)
+
+![GitHub All Releases](https://img.shields.io/github/downloads/pedrommcarrasco/brooklyn/total.svg) ![GitHub contributors](https://img.shields.io/github/contributors/pedrommcarrasco/brooklyn.svg) [![apm](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/pedrommcarrasco/Brooklyn/blob/master/LICENSE)
 
 ## Features ✅
 
@@ -22,7 +27,7 @@ Screen Saver based on the animations presented during **Apple Special Event** (O
 ## Instalation 📦
 
 1. Close System Preferences
-2. [Click here to Download]()
+2. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/1.0.0/Brooklyn.saver.zip)
 3. Open **Brooklyn.saver** (double click)
 
 ## Uninstallation 🗑️
