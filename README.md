@@ -4,11 +4,7 @@ Screen Saver based on the animations presented during **Apple Special Event** (O
 
 ![](https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/showcase.gif?raw=true)
 
-![](https://img.shields.io/github/downloads/pedrommcarrasco/brooklyn/total.svg?maxAge=86400)
-
-![GitHub contributors](https://img.shields.io/github/contributors/pedrommcarrasco/brooklyn.svg?maxAge=2592000)
-
-[![apm](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/pedrommcarrasco/Brooklyn/blob/master/LICENSE)
+![](https://img.shields.io/github/downloads/pedrommcarrasco/brooklyn/total.svg?maxAge=86400) ![GitHub contributors](https://img.shields.io/github/contributors/pedrommcarrasco/brooklyn.svg?maxAge=2592000) [![apm](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/pedrommcarrasco/Brooklyn/blob/master/LICENSE)
 
 ## Features ✅
 
@@ -17,10 +13,11 @@ Screen Saver based on the animations presented during **Apple Special Event** (O
 
 ### Upcoming ⌛
 
+* Add CI (TravisCI or CircleCI)
 * Isolate & edit every animation
 * Provide a preferences menu to choose which animations the user wants to display
 * Homebrew cask support (download via terminal, auto-updates, etc)
-* Add CI (TravisCI or CircleCI)
+* Custom clock
 
 ## Instalation 📦
 
@@ -41,7 +38,7 @@ Brooklyn is written in Swift, which requires OS X Mavericks (10.9) or above.
 
 ## Contributing  🙌 
 
-Feel free to contribute to this project by providng [ideas](https://github.com/pedrommcarrasco/Fluky/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or opening [pull requests](https://github.com/pedrommcarrasco/Fluky/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc).
+Feel free to contribute to this project by providng [ideas](https://github.com/pedrommcarrasco/Fluky/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or opening [pull requests](https://github.com/pedrommcarrasco/Fluky/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) with new features, or simply solving an existing issue.
 
 ## License ⛔
 
