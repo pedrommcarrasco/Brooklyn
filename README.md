@@ -40,7 +40,7 @@ Brooklyn is written in Swift, which requires OS X Mavericks (10.9) or above.
 
 ## Contributing  🙌 
 
-Feel free to contribute to this project by providng [ideas](https://github.com/pedrommcarrasco/Fluky/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or opening [pull requests](https://github.com/pedrommcarrasco/Fluky/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) with new features, or simply solving an existing issue.
+Feel free to contribute to this project by providing [ideas](https://github.com/pedrommcarrasco/Fluky/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or opening [pull requests](https://github.com/pedrommcarrasco/Fluky/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) with new features or solving an existing issue.
 
 ## License ⛔
 
