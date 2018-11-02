@@ -10,8 +10,8 @@
 
 ## Features ✅
 
-* Doesn't require internet
-* Provides an *all animations* screen saver
+* Doesn't require internet connection
+* Provides an *all animations* screensaver
 
 ### Upcoming ⌛
 
