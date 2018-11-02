@@ -44,4 +44,4 @@ Feel free to contribute to this project by providing [ideas](https://github.com/
 
 ## License ⛔
 
-Brooklyn's available under the MIT license. See the [LICENSE](https://github.com/pedrommcarrasco/Fluky/blob/master/LICENSE) file for more information.
+Brooklyn's available under the MIT license. See the [LICENSE](https://github.com/pedrommcarrasco/Fluky/blob/master/LICENSE) file for more information. Logo & original animations are Apple's property.
