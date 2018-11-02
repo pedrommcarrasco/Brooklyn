@@ -17,7 +17,7 @@
 
 * Add CI (TravisCI or CircleCI)
 * Isolate & edit every animation
-* Provide a preferences menu to choose which animations the user wants to display
+* Provide a preferences menu to select which animations will be displayed
 * Homebrew cask support (download via terminal, auto-updates, etc)
 * Custom clock
 
