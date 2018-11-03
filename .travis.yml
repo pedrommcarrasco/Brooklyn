@@ -9,5 +9,5 @@ env:
 
 script:
  - set -o pipefail
- - xcodebuild clean -scheme $(SCHEME)
- - xcodebuild build -scheme $(SCHEME)
+ - xcodebuild clean -scheme "$SCHEME"
+ - xcodebuild build -scheme "$SCHEME"
