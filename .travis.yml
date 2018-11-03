@@ -1,0 +1,13 @@
+language: swift
+osx_image: xcode10
+
+install: true
+
+env:
+  global:
+  - SCHEME=Brooklyn
+
+script:
+ - set -o pipefail
+ - xcodebuild clean -scheme $(SCHEME)
+ - xcodebuild build -scheme $(SCHEME)
