@@ -12,7 +12,7 @@
 
 * Doesn't require internet connection
 * Provides an *all animations* screensaver
-* CI Support
+* CI support
 
 ### Upcoming ⌛
 
