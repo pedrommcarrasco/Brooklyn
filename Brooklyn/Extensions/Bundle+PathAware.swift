@@ -12,7 +12,6 @@ import Foundation
 extension Bundle {
     
     static var pathAware: Bundle {
-        
         return Bundle(for: BrooklynView.self)
     }
 }
