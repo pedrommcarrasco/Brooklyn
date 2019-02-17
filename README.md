@@ -1,6 +1,6 @@
 ![](https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/logo.jpg?raw=true)
 
-> Screen Saver based on the animations presented during **Apple Special Event** (October 30, 2018) from the Brooklyn Academy of Music, Howard Gilman Opera House.
+> Screen Saver by [Pedro Carrasco](https://twitter.com/pedrommcarrasco) based on the animations presented during **Apple Special Event** (October 30, 2018) from the Brooklyn Academy of Music, Howard Gilman Opera House.
 
 <p align="center">
     <img src="https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/showcase.gif?raw=true" alt="Example"/>
