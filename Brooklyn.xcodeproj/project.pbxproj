@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2023A59B21B8649D0017B374 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2023A59A21B8649D0017B374 /* PreferencesWindowController.swift */; };
+		2023A59E21B8652B0017B374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2023A59D21B8652B0017B374 /* AppDelegate.swift */; };
 		203E6506218C65CD0021F2F2 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 203E6504218C65CD0021F2F2 /* thumbnail.png */; };
 		203E6507218C65CD0021F2F2 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 203E6505218C65CD0021F2F2 /* thumbnail@2x.png */; };
 		20CAF50621891FCE0086AED8 /* BrooklynView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAF50521891FCE0086AED8 /* BrooklynView.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2023A59A21B8649D0017B374 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		2023A59D21B8652B0017B374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		203E6504218C65CD0021F2F2 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		203E6505218C65CD0021F2F2 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		20CAF50521891FCE0086AED8 /* BrooklynView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrooklynView.swift; sourceTree = "<group>"; };
@@ -41,12 +45,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20CAF50321891F990086AED8 /* Views */ = {
+		2023A59721B864600017B374 /* Contexts */ = {
+			isa = PBXGroup;
+			children = (
+				2023A59921B864800017B374 /* Screen Saver */,
+				2023A59821B8647A0017B374 /* Preferences */,
+			);
+			path = Contexts;
+			sourceTree = "<group>";
+		};
+		2023A59821B8647A0017B374 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				2023A59A21B8649D0017B374 /* PreferencesWindowController.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		2023A59921B864800017B374 /* Screen Saver */ = {
 			isa = PBXGroup;
 			children = (
 				20CAF50521891FCE0086AED8 /* BrooklynView.swift */,
 			);
-			path = Views;
+			path = "Screen Saver";
+			sourceTree = "<group>";
+		};
+		2023A59C21B865200017B374 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2023A59D21B8652B0017B374 /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		20CAF50421891F9E0086AED8 /* Resources */ = {
@@ -80,10 +109,11 @@
 		218D6EDA20FC3CEB0029D4A9 /* Brooklyn */ = {
 			isa = PBXGroup;
 			children = (
+				2023A59C21B865200017B374 /* App */,
+				2023A59721B864600017B374 /* Contexts */,
 				20CAF51321892E740086AED8 /* Enumerations */,
 				20CAF507218924E50086AED8 /* Extensions */,
 				20CAF50421891F9E0086AED8 /* Resources */,
-				20CAF50321891F990086AED8 /* Views */,
 				218D6EDE20FC3CEB0029D4A9 /* Info.plist */,
 			);
 			path = Brooklyn;
@@ -192,7 +222,9 @@
 				20CAF50621891FCE0086AED8 /* BrooklynView.swift in Sources */,
 				20CAF51521892E800086AED8 /* Video.swift in Sources */,
 				20CAF51221892E3A0086AED8 /* Bundle+PathAware.swift in Sources */,
+				2023A59E21B8652B0017B374 /* AppDelegate.swift in Sources */,
 				53794F372189BADC0033A11A /* AVPlayerItem+Init.swift in Sources */,
+				2023A59B21B8649D0017B374 /* PreferencesWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
