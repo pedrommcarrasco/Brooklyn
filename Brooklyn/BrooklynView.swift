@@ -18,7 +18,7 @@ final class BrooklynView: ScreenSaverView {
     
     // MARK: Constant
     private enum Constant {
-    
+
         static let secondPerFrame = 1.0 / 30.0
     }
     
@@ -28,17 +28,18 @@ final class BrooklynView: ScreenSaverView {
     // MARK: Properties
     private let looper: AVPlayerLooper?
     private let player = AVQueuePlayer()
+    private var preferencesWindow: NSWindowController?
     
     // MARK: Initialization
     required init?(coder decoder: NSCoder) {
-        self.looper = Static.looper(with: player)
+        self.looper = AVPlayerLooper.make(for: player, with: .all, for: BrooklynView.self)
         super.init(coder: decoder)
 
         configure()
     }
     
     override init?(frame: NSRect, isPreview: Bool) {
-        self.looper = Static.looper(with: player)
+        self.looper = AVPlayerLooper.make(for: player, with: .all, for: BrooklynView.self)
         super.init(frame: frame, isPreview: isPreview)
 
         self.animationTimeInterval = Constant.secondPerFrame
@@ -93,12 +94,15 @@ private extension BrooklynView {
     }
 }
 
-// MARK: - Private Static
-private extension BrooklynView {
+// MARK: - Preferences
+extension BrooklynView {
 
-    static func looper(with player: AVQueuePlayer) -> AVPlayerLooper? {
-        guard let item = AVPlayerItem(video: .all, extension: .mp4) else { return nil }
+    override var hasConfigureSheet: Bool {
+        return true
+    }
 
-        return AVPlayerLooper(player: player, templateItem: item)
+    override var configureSheet: NSWindow? {
+        preferencesWindow = PreferencesWindowController()
+        return preferencesWindow?.window
     }
 }
