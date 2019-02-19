@@ -97,7 +97,7 @@ private extension BrooklynView {
 private extension BrooklynView {
 
     static func looper(with player: AVQueuePlayer) -> AVPlayerLooper? {
-        guard let item = AVPlayerItem(name: .all, extension: .mp4) else { return nil }
+        guard let item = AVPlayerItem(video: .all, extension: .mp4) else { return nil }
 
         return AVPlayerLooper(player: player, templateItem: item)
     }

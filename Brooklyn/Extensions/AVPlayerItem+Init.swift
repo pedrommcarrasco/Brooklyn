@@ -11,8 +11,8 @@ import AVKit
 // MARK: Init
 extension AVPlayerItem {
 
-    convenience init?(name: Video, extension ext: Extension) {
-        guard let url = Bundle.pathAware.url(forResource: name.rawValue, withExtension: ext.rawValue) else { return nil }
+    convenience init?(video: Video, extension ext: Extension) {
+        guard let url = Bundle.pathAware.url(forResource: video.rawValue, withExtension: ext.rawValue) else { return nil }
 
         self.init(url: url)
     }
