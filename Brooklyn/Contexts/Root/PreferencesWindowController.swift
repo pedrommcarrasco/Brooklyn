@@ -14,24 +14,25 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     // MARK: Init
     override init(window: NSWindow?) {
         super.init(window: window)
-
-        window?.makeKeyAndOrderFront(self)
-        window?.title = "Preferences"
-
         contentViewController = PreferencesTabController()
+        configure()
     }
 
     init() {
-        let window = NSWindow()
+        let window = NSWindow(contentViewController: PreferencesTabController())
         super.init(window: window)
-        
-        window.title = "Preferences"
-        window.makeKeyAndOrderFront(self)
-
-        contentViewController = PreferencesTabController()
+        configure()
     }
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+}
+
+private extension PreferencesWindowController {
+
+    func configure() {
+        window?.title = "Preferences"
+        window?.makeKeyAndOrderFront(self)
     }
 }

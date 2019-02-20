@@ -18,7 +18,6 @@ final class BrooklynView: ScreenSaverView {
     
     // MARK: Constant
     private enum Constant {
-
         static let secondPerFrame = 1.0 / 30.0
     }
     
@@ -28,8 +27,8 @@ final class BrooklynView: ScreenSaverView {
     // MARK: Properties
     private let looper: AVPlayerLooper?
     private let player = AVQueuePlayer()
-    private var preferencesWindow: NSWindowController?
-    
+    private lazy var preferences = PreferencesWindowController()
+
     // MARK: Initialization
     required init?(coder decoder: NSCoder) {
         self.looper = AVPlayerLooper.make(for: player, with: .all, for: BrooklynView.self)
@@ -102,7 +101,6 @@ extension BrooklynView {
     }
 
     override var configureSheet: NSWindow? {
-        preferencesWindow = PreferencesWindowController()
-        return preferencesWindow?.window
+        return preferences.window
     }
 }

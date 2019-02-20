@@ -12,7 +12,7 @@ final class PreferencesTabController: NSTabViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        addChild(AnimationsViewController(nibName: "AnimationsViewController", bundle: nil))
+        addChild(AnimationsViewController(nibName: AnimationsViewController.identifier, bundle: nil))
 
         tabViewItems.first?.label = "Animations"
     }
