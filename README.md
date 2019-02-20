@@ -27,6 +27,10 @@
 2. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/1.0.0/Brooklyn.saver.zip)
 3. Open **Brooklyn.saver** (double click)
 
+### Homebrew Installation 🍺
+
+`brew cask install brooklyn`
+
 ## Uninstallation 🗑️
 
 There are two options to uninstall Brooklyn from your MacBook.
