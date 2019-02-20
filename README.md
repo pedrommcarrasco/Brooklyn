@@ -12,31 +12,38 @@
 
 * Doesn't require internet connection
 * Provides an *all animations* screensaver
-* CI support
+* Homebrew support
 
 ### Upcoming ⌛
 
-* Isolate & edit every animation
 * Provide a preferences menu to select which animations will be displayed
-* Homebrew cask support (download via terminal, auto-updates, etc)
 * Custom clock
 
 ## Installation 📦
 
-1. Close System Preferences
-2. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/1.0.0/Brooklyn.saver.zip)
-3. Open **Brooklyn.saver** (double click)
+Independently of how you install **Brooklyn**, please **close your System Preferences**
 
-### Homebrew Installation 🍺
+### Manual :hand:
 
-`brew cask install brooklyn`
+1. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/1.0.0/Brooklyn.saver.zip)
+2. Open **Brooklyn.saver** (double click)
+
+### Homebrew 🍺
+
+1. Open terminal
+2. Enter `brew cask install brooklyn`
 
 ## Uninstallation 🗑️
 
-There are two options to uninstall Brooklyn from your MacBook.
+### Manual :hand:
 
-- Right-click on the Brooklyn screensaver in System Preferences and select `Delete Brooklyn`.
-- Delete the `Brooklyn.saver` directly either in `/Library/Screen Savers` or `/Users/USERNAME/Library/Screen Savers`. 
+- Right-click on Brooklyn in System Preferences and select `Delete Brooklyn`, or
+- Delete `Brooklyn.saver` either in `/Library/Screen Savers` or `/Users/USERNAME/Library/Screen Savers`. 
+
+### Homebrew 🍺
+
+1. Open terminal
+2. Enter `brew cask uninstall brooklyn`
 
 ## Compatibility 🔧
 
