@@ -27,7 +27,7 @@ final class BrooklynView: ScreenSaverView {
     // MARK: Properties
     private let looper: AVPlayerLooper?
     private let player = AVQueuePlayer()
-    private lazy var preferences = PreferencesWindowController()
+    private lazy var preferences = PreferencesWindowController(windowNibName: PreferencesWindowController.identifier)
 
     // MARK: Initialization
     required init?(coder decoder: NSCoder) {

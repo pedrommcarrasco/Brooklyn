@@ -16,6 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private var controller: PreferencesWindowController?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        controller = PreferencesWindowController(window: window)
+        controller = PreferencesWindowController(windowNibName: PreferencesWindowController.identifier)
+        controller?.window?.makeKeyAndOrderFront(self)
     }
 }
