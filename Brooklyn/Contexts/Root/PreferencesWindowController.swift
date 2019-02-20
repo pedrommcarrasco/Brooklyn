@@ -14,12 +14,14 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     // MARK: Init
     override init(window: NSWindow?) {
         super.init(window: window)
-        contentViewController = PreferencesTabController()
         configure()
     }
 
     init() {
-        let window = NSWindow(contentViewController: PreferencesTabController())
+        let window = NSWindow(contentRect: .init(x: 0, y: 0, width: 800, height: 500),
+                              styleMask: .resizable,
+                              backing: .buffered,
+                              defer: true)
         super.init(window: window)
         configure()
     }
@@ -29,10 +31,13 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     }
 }
 
+// MARK: - Configuration
 private extension PreferencesWindowController {
 
     func configure() {
         window?.title = "Preferences"
         window?.makeKeyAndOrderFront(self)
+
+        contentViewController = PreferencesTabController()
     }
 }
