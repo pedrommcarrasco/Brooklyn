@@ -1,5 +1,5 @@
 //
-//  Video.swift
+//  Animation.swift
 //  Brooklyn
 //
 //  Created by Pedro Carrasco on 31/10/2018.
@@ -8,9 +8,9 @@
 
 import Foundation
 
-// MARK: - Video
-enum Video: String, CaseIterable {
-    case all
+// MARK: - Animation
+enum Animation: String, CaseIterable {
+    case original
     case cubicMess
     case neon
     case runningInGrass
@@ -18,11 +18,11 @@ enum Video: String, CaseIterable {
 }
 
 // MARK: - Properties
-extension Video {
+extension Animation {
 
     var name: String {
         switch self {
-        case .all: return "All"
+        case .original: return "Original"
         case .cubicMess: return "Cubic Mess"
         case .neon: return "Neon"
         case .runningInGrass: return "Running in Grass"

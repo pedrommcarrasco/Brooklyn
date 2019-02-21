@@ -8,6 +8,7 @@
 
 import Cocoa
 
+// MARK: - Dequeue
 extension NSTableView {
 
     public func dequeueCell<T: NSTableCellView>(for owner: Any?, as type: T.Type) -> T {

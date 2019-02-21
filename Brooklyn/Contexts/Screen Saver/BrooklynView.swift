@@ -25,20 +25,17 @@ final class BrooklynView: ScreenSaverView {
     private let videoLayer = AVPlayerLayer()
     
     // MARK: Properties
-    private let looper: AVPlayerLooper?
-    private let player = AVQueuePlayer()
+    private let animationsManager = AnimationsManager()
     private lazy var preferences = PreferencesWindowController(windowNibName: PreferencesWindowController.identifier)
 
     // MARK: Initialization
     required init?(coder decoder: NSCoder) {
-        self.looper = AVPlayerLooper.make(for: player, with: .all, for: BrooklynView.self)
         super.init(coder: decoder)
 
         configure()
     }
     
     override init?(frame: NSRect, isPreview: Bool) {
-        self.looper = AVPlayerLooper.make(for: player, with: .all, for: BrooklynView.self)
         super.init(frame: frame, isPreview: isPreview)
 
         self.animationTimeInterval = Constant.secondPerFrame
@@ -51,14 +48,14 @@ extension BrooklynView {
     
     override func startAnimation() {
         super.startAnimation()
-        
-        player.play()
+
+        animationsManager.player.play()
     }
     
     override func stopAnimation() {
         super.stopAnimation()
         
-        player.pause()
+        animationsManager.player.pause()
     }
 }
 
@@ -77,7 +74,7 @@ private extension BrooklynView {
     }
     
     func setupLayer() {
-        videoLayer.player = player
+        videoLayer.player = animationsManager.player
     }
 }
 

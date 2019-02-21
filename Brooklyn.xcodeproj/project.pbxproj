@@ -13,8 +13,14 @@
 		20B669C3221DEFDB00645925 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B669C1221DEE3800645925 /* PreferencesWindowController.xib */; };
 		20B669C4221DEFDE00645925 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689945221C66F60071D26F /* PreferencesWindowController.swift */; };
 		20CAF50621891FCE0086AED8 /* BrooklynView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAF50521891FCE0086AED8 /* BrooklynView.swift */; };
+		5332EB19221F091F00286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
+		5332EB1A221F095100286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
+		5334E3E0221EBBA000C3811A /* AnimationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3DF221EBBA000C3811A /* AnimationsManager.swift */; };
+		5334E3E1221EBF2D00C3811A /* AnimationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3DF221EBBA000C3811A /* AnimationsManager.swift */; };
+		5334E3E3221EC78100C3811A /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3E2221EC78100C3811A /* PlayerManager.swift */; };
+		5334E3E4221ED4DB00C3811A /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3E2221EC78100C3811A /* PlayerManager.swift */; };
 		53689937221C66BD0071D26F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689935221C66BD0071D26F /* Extension.swift */; };
-		53689939221C66BD0071D26F /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689936221C66BD0071D26F /* Video.swift */; };
+		53689939221C66BD0071D26F /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689936221C66BD0071D26F /* Animation.swift */; };
 		5368993D221C66C10071D26F /* NSTableView+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368993C221C66C10071D26F /* NSTableView+Dequeue.swift */; };
 		53689948221C66F60071D26F /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689945221C66F60071D26F /* PreferencesWindowController.swift */; };
 		5368994B221C68520071D26F /* AVPlayerLooper+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368994A221C68520071D26F /* AVPlayerLooper+Factory.swift */; };
@@ -25,7 +31,7 @@
 		53E840E6221D9AAB005FA65E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E840E4221D9AAB005FA65E /* MainMenu.xib */; };
 		53E840EA221D9B48005FA65E /* AnimationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689958221C6DA60071D26F /* AnimationCellView.swift */; };
 		53E840EC221D9B51005FA65E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689935221C66BD0071D26F /* Extension.swift */; };
-		53E840ED221D9B53005FA65E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689936221C66BD0071D26F /* Video.swift */; };
+		53E840ED221D9B53005FA65E /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689936221C66BD0071D26F /* Animation.swift */; };
 		53E840EE221D9B57005FA65E /* NSTableView+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368993C221C66C10071D26F /* NSTableView+Dequeue.swift */; };
 		53E840EF221D9B5A005FA65E /* AVPlayerLooper+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368994A221C68520071D26F /* AVPlayerLooper+Factory.swift */; };
 		53E840F0221D9B5D005FA65E /* AVPlayerItem+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368994D221C68790071D26F /* AVPlayerItem+Init.swift */; };
@@ -37,8 +43,8 @@
 		53E840FB221D9BA5005FA65E /* unstablePipes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 53E840F4221D9BA5005FA65E /* unstablePipes.mp4 */; };
 		53E840FC221D9BA5005FA65E /* neon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 53E840F5221D9BA5005FA65E /* neon.mp4 */; };
 		53E840FD221D9BA5005FA65E /* neon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 53E840F5221D9BA5005FA65E /* neon.mp4 */; };
-		53E840FF221DA1D1005FA65E /* all.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 53E840FE221DA1D1005FA65E /* all.mp4 */; };
-		53E84100221DA1D1005FA65E /* all.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 53E840FE221DA1D1005FA65E /* all.mp4 */; };
+		53E840FF221DA1D1005FA65E /* original.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 53E840FE221DA1D1005FA65E /* original.mp4 */; };
+		53E84100221DA1D1005FA65E /* original.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 53E840FE221DA1D1005FA65E /* original.mp4 */; };
 		53E84109221DA549005FA65E /* NSObject+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E84108221DA549005FA65E /* NSObject+Identifier.swift */; };
 		53E8410A221DA549005FA65E /* NSObject+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E84108221DA549005FA65E /* NSObject+Identifier.swift */; };
 /* End PBXBuildFile section */
@@ -50,8 +56,11 @@
 		20CAF50521891FCE0086AED8 /* BrooklynView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrooklynView.swift; sourceTree = "<group>"; };
 		218D6EDE20FC3CEB0029D4A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F222261B73B5AC00B9A11A /* Brooklyn.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brooklyn.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		5332EB18221F091F00286C65 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		5334E3DF221EBBA000C3811A /* AnimationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsManager.swift; sourceTree = "<group>"; };
+		5334E3E2221EC78100C3811A /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
 		53689935221C66BD0071D26F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		53689936221C66BD0071D26F /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		53689936221C66BD0071D26F /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		5368993C221C66C10071D26F /* NSTableView+Dequeue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTableView+Dequeue.swift"; sourceTree = "<group>"; };
 		53689945221C66F60071D26F /* PreferencesWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
 		5368994A221C68520071D26F /* AVPlayerLooper+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayerLooper+Factory.swift"; sourceTree = "<group>"; };
@@ -67,7 +76,7 @@
 		53E840F3221D9BA4005FA65E /* runningInGrass.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = runningInGrass.mp4; sourceTree = "<group>"; };
 		53E840F4221D9BA5005FA65E /* unstablePipes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = unstablePipes.mp4; sourceTree = "<group>"; };
 		53E840F5221D9BA5005FA65E /* neon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = neon.mp4; sourceTree = "<group>"; };
-		53E840FE221DA1D1005FA65E /* all.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = all.mp4; sourceTree = "<group>"; };
+		53E840FE221DA1D1005FA65E /* original.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = original.mp4; sourceTree = "<group>"; };
 		53E84108221DA549005FA65E /* NSObject+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Identifier.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +119,7 @@
 		20CAF50421891F9E0086AED8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				53E840F1221D9B88005FA65E /* Videos */,
+				53E840F1221D9B88005FA65E /* Animations */,
 				203E6504218C65CD0021F2F2 /* thumbnail.png */,
 				203E6505218C65CD0021F2F2 /* thumbnail@2x.png */,
 			);
@@ -124,6 +133,7 @@
 				53689943221C66E90071D26F /* Contexts */,
 				53689934221C66BD0071D26F /* Enumerations */,
 				5368993B221C66C10071D26F /* Extensions */,
+				5334E3DE221EBB7A00C3811A /* Manager */,
 				20CAF50421891F9E0086AED8 /* Resources */,
 			);
 			path = Brooklyn;
@@ -147,11 +157,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5334E3DE221EBB7A00C3811A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5332EB18221F091F00286C65 /* Database.swift */,
+				5334E3DF221EBBA000C3811A /* AnimationsManager.swift */,
+				5334E3E2221EC78100C3811A /* PlayerManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		53689934221C66BD0071D26F /* Enumerations */ = {
 			isa = PBXGroup;
 			children = (
 				53689935221C66BD0071D26F /* Extension.swift */,
-				53689936221C66BD0071D26F /* Video.swift */,
+				53689936221C66BD0071D26F /* Animation.swift */,
 			);
 			path = Enumerations;
 			sourceTree = "<group>";
@@ -188,16 +208,16 @@
 			path = Canvas;
 			sourceTree = "<group>";
 		};
-		53E840F1221D9B88005FA65E /* Videos */ = {
+		53E840F1221D9B88005FA65E /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				53E840FE221DA1D1005FA65E /* all.mp4 */,
+				53E840FE221DA1D1005FA65E /* original.mp4 */,
 				53E840F2221D9BA3005FA65E /* cubicMess.mp4 */,
 				53E840F5221D9BA5005FA65E /* neon.mp4 */,
 				53E840F3221D9BA4005FA65E /* runningInGrass.mp4 */,
 				53E840F4221D9BA5005FA65E /* unstablePipes.mp4 */,
 			);
-			path = Videos;
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +319,7 @@
 				20B669C2221DEE3800645925 /* PreferencesWindowController.xib in Resources */,
 				53E840FA221D9BA5005FA65E /* unstablePipes.mp4 in Resources */,
 				53E840F8221D9BA5005FA65E /* runningInGrass.mp4 in Resources */,
-				53E840FF221DA1D1005FA65E /* all.mp4 in Resources */,
+				53E840FF221DA1D1005FA65E /* original.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +334,7 @@
 				20B669C3221DEFDB00645925 /* PreferencesWindowController.xib in Resources */,
 				53E840FB221D9BA5005FA65E /* unstablePipes.mp4 in Resources */,
 				53E840F9221D9BA5005FA65E /* runningInGrass.mp4 in Resources */,
-				53E84100221DA1D1005FA65E /* all.mp4 in Resources */,
+				53E84100221DA1D1005FA65E /* original.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,9 +349,12 @@
 				20CAF50621891FCE0086AED8 /* BrooklynView.swift in Sources */,
 				5368993D221C66C10071D26F /* NSTableView+Dequeue.swift in Sources */,
 				53689959221C6DA60071D26F /* AnimationCellView.swift in Sources */,
-				53689939221C66BD0071D26F /* Video.swift in Sources */,
+				53689939221C66BD0071D26F /* Animation.swift in Sources */,
 				5368994E221C68790071D26F /* AVPlayerItem+Init.swift in Sources */,
+				5332EB19221F091F00286C65 /* Database.swift in Sources */,
+				5334E3E3221EC78100C3811A /* PlayerManager.swift in Sources */,
 				53689937221C66BD0071D26F /* Extension.swift in Sources */,
+				5334E3E0221EBBA000C3811A /* AnimationsManager.swift in Sources */,
 				5368994B221C68520071D26F /* AVPlayerLooper+Factory.swift in Sources */,
 				53E84109221DA549005FA65E /* NSObject+Identifier.swift in Sources */,
 			);
@@ -347,8 +370,11 @@
 				53E840EF221D9B5A005FA65E /* AVPlayerLooper+Factory.swift in Sources */,
 				53E840EA221D9B48005FA65E /* AnimationCellView.swift in Sources */,
 				53E840E5221D9AAB005FA65E /* AppDelegate.swift in Sources */,
+				5332EB1A221F095100286C65 /* Database.swift in Sources */,
+				5334E3E4221ED4DB00C3811A /* PlayerManager.swift in Sources */,
 				53E840EC221D9B51005FA65E /* Extension.swift in Sources */,
-				53E840ED221D9B53005FA65E /* Video.swift in Sources */,
+				53E840ED221D9B53005FA65E /* Animation.swift in Sources */,
+				5334E3E1221EBF2D00C3811A /* AnimationsManager.swift in Sources */,
 				53E8410A221DA549005FA65E /* NSObject+Identifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,7 +493,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7GE4Q65N57;
 				INFOPLIST_FILE = "$(SRCROOT)/Brooklyn/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +501,8 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oedrommcarrasco.brooklyn;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrommcarrasco.brooklyn;
 				PRODUCT_NAME = Brooklyn;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -491,7 +518,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7GE4Q65N57;
 				INFOPLIST_FILE = "$(SRCROOT)/Brooklyn/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,7 +526,8 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oedrommcarrasco.brooklyn;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrommcarrasco.brooklyn;
 				PRODUCT_NAME = Brooklyn;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = saver;
@@ -530,7 +558,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = pedrommcarrasco.Canvas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrommcarrasco.canvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -561,7 +589,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = pedrommcarrasco.Canvas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedrommcarrasco.canvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;

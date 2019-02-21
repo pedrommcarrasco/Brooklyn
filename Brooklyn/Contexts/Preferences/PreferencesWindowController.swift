@@ -22,8 +22,8 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     @IBOutlet private weak var animationPlayerView: AVPlayerView!
     
     // MARK: Private Properties
-    private var looper: AVPlayerLooper?
-    private let data = Video.allCases
+    private let animationManager = AnimationsManager()
+    private let playerManager = PlayerManager(items: [Animation.allCases[2]])
     
     override func windowDidLoad() {
         super.windowDidLoad()
@@ -43,13 +43,10 @@ private extension PreferencesWindowController {
         animationsTableView.dataSource = self
         animationsTableView.delegate = self
         animationsTableView.intercellSpacing = Constant.intercellSpacing
-        animationsTableView.selectionHighlightStyle = .none
     }
     
     func setupPlayer() {
-        let player = AVQueuePlayer()
-        self.looper = AVPlayerLooper.make(for: player, with: .all, for: PreferencesWindowController.self)
-        animationPlayerView.player = player
+        animationPlayerView.player = playerManager.player
         animationPlayerView.player?.play()
     }
 }
@@ -58,18 +55,25 @@ private extension PreferencesWindowController {
 extension PreferencesWindowController: NSTableViewDataSource {
     
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return Video.allCases.count
+        return animationManager.availableAnimations.count
     }
     
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
         let cell = tableView.dequeueCell(for: self, as: AnimationCellView.self)
-        cell.configure(with: data[row].name, state: .off)
+        let item = animationManager.availableAnimations[row]
+        cell.configure(with: item.name, state: animationManager.selectedAnimations.contains(item) ? .on : .off)
+        cell.onToogle = { [weak animationManager] in animationManager?.toogle(item) }
         return cell
     }
 }
 
 // MARK: - NSTableViewDelegate
-extension PreferencesWindowController: NSTableViewDelegate { }
+extension PreferencesWindowController: NSTableViewDelegate {
+
+    func tableViewSelectionDidChange(_ notification: Notification) {
+        print("Selected \(animationsTableView.selectedRow)")
+    }
+}
 
 // MARK: - Actions
 private extension PreferencesWindowController {

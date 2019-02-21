@@ -8,6 +8,7 @@
 
 import Foundation
 
+// MARK: - Identifier
 extension NSObject {
 
     static var identifier: String { return String(describing: self) }
