@@ -118,8 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				20B669C1221DEE3800645925 /* PreferencesWindowController.xib */,
-				53689958221C6DA60071D26F /* AnimationCellView.swift */,
 				53689945221C66F60071D26F /* PreferencesWindowController.swift */,
+				53689958221C6DA60071D26F /* AnimationCellView.swift */,
 			);
 			path = Preferences;
 			sourceTree = "<group>";

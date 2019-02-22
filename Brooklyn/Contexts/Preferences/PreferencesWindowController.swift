@@ -23,7 +23,11 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     
     // MARK: Private Properties
     private let animationManager = AnimationsManager()
-    
+}
+
+// MARK: - Lifecycle
+extension PreferencesWindowController {
+   
     override func windowDidLoad() {
         super.windowDidLoad()
         configure()

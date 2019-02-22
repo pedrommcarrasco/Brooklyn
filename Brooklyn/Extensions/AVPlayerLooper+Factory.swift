@@ -17,7 +17,6 @@ extension AVPlayerLooper {
                      for caller: AnyClass) -> AVPlayerLooper? {
 
         guard let item = AVPlayerItem.init(video: video, extension: ext, for: caller) else { return nil }
-
         return AVPlayerLooper(player: player, templateItem: item)
     }
 }

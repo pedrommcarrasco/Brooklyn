@@ -31,14 +31,13 @@ final class BrooklynView: ScreenSaverView {
     // MARK: Initialization
     required init?(coder decoder: NSCoder) {
         super.init(coder: decoder)
-
+        animationTimeInterval = Constant.secondPerFrame
         configure()
     }
     
     override init?(frame: NSRect, isPreview: Bool) {
         super.init(frame: frame, isPreview: isPreview)
-
-        self.animationTimeInterval = Constant.secondPerFrame
+        animationTimeInterval = Constant.secondPerFrame
         configure()
     }
 }
@@ -48,13 +47,11 @@ extension BrooklynView {
     
     override func startAnimation() {
         super.startAnimation()
-
         animationsManager.player.play()
     }
     
     override func stopAnimation() {
         super.stopAnimation()
-        
         animationsManager.player.pause()
     }
 }
