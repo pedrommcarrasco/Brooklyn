@@ -16,8 +16,15 @@ final class PlayerManager {
 
     // MARK: Lifecycle
     init(items: [Animation]) {
-        self.player = AVQueuePlayer(items: PlayerManager.makeItems(with: items))
-        observe()
+        self.player = AVQueuePlayer(items: items.compactMap {
+            return AVPlayerItem(video: $0, extension: .mp4, for: PlayerManager.self)
+        })
+        configure()
+    }
+    
+    init(item: Animation) {
+        self.player = AVQueuePlayer(playerItem: AVPlayerItem(video: item, extension: .mp4, for: PlayerManager.self))
+        configure()
     }
 
     deinit {
@@ -25,47 +32,45 @@ final class PlayerManager {
     }
 }
 
-// MARK: - Observers
+// MARK: - Functions
 extension PlayerManager {
 
+    func play(_ animation: Animation) {
+        guard let item = AVPlayerItem(video: animation, extension: .mp4, for: PlayerManager.self) else { return }
+        player.insert(item, after: player.items().last)
+        player.advanceToNextItem()
+    }
+}
+
+// MARK: - Configuration
+private extension PlayerManager {
+    
+    func configure() {
+        player.actionAtItemEnd = .none
+        observe()
+    }
+}
+
+// MARK: - Observers
+private extension PlayerManager {
+    
     func observe() {
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(playerItemDidFinish),
                                                name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
                                                object: nil)
     }
-
+    
     func unobserve() {
         NotificationCenter.default.removeObserver(self,
                                                   name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
                                                   object: nil)
     }
-}
-
-// MARK: - Functions
-extension PlayerManager {
-
-    func play(_ animation: Animation) {
-        self.player = AVQueuePlayer(items: PlayerManager.makeItems(with: [animation]))
-    }
-
+    
     @objc
     func playerItemDidFinish() {
-        guard let finishedItem = player.currentItem?.copy() as? AVPlayerItem else { return }
-        self.player.insert(finishedItem, after: player.items().last)
-    }
-}
-
-// MARK: - Factory
-extension PlayerManager {
-
-    static func makeItems(with items: [Animation]) -> [AVPlayerItem] {
-        let playerItems = items.compactMap { return AVPlayerItem(video: $0, extension: .mp4, for: PlayerManager.self) }
-
-        if playerItems.count == 1, let itemCopy = playerItems.first?.copy() as? AVPlayerItem {
-            return playerItems + [itemCopy]
+        if player.currentItem == player.items().last {
+            player.seek(to: .zero)
         }
-
-        return playerItems
     }
 }

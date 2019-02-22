@@ -98,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20861F7D2220172D00C8F80E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				5332EB18221F091F00286C65 /* Database.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		20B669BF221DEE1400645925 /* Screen Saver */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +139,7 @@
 			children = (
 				218D6EDE20FC3CEB0029D4A9 /* Info.plist */,
 				53689943221C66E90071D26F /* Contexts */,
+				20861F7D2220172D00C8F80E /* Database */,
 				53689934221C66BD0071D26F /* Enumerations */,
 				5368993B221C66C10071D26F /* Extensions */,
 				5334E3DE221EBB7A00C3811A /* Manager */,
@@ -160,7 +169,6 @@
 		5334E3DE221EBB7A00C3811A /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				5332EB18221F091F00286C65 /* Database.swift */,
 				5334E3DF221EBBA000C3811A /* AnimationsManager.swift */,
 				5334E3E2221EC78100C3811A /* PlayerManager.swift */,
 			);

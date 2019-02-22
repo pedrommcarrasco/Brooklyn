@@ -23,7 +23,6 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     
     // MARK: Private Properties
     private let animationManager = AnimationsManager()
-    private let playerManager = PlayerManager(items: [Animation.allCases[2]])
     
     override func windowDidLoad() {
         super.windowDidLoad()
@@ -46,7 +45,7 @@ private extension PreferencesWindowController {
     }
     
     func setupPlayer() {
-        animationPlayerView.player = playerManager.player
+        animationPlayerView.player = animationManager.player
         animationPlayerView.player?.play()
     }
 }
@@ -71,7 +70,7 @@ extension PreferencesWindowController: NSTableViewDataSource {
 extension PreferencesWindowController: NSTableViewDelegate {
 
     func tableViewSelectionDidChange(_ notification: Notification) {
-        print("Selected \(animationsTableView.selectedRow)")
+        animationManager.preview(animationManager.availableAnimations[animationsTableView.selectedRow])
     }
 }
 

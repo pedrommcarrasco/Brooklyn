@@ -8,12 +8,15 @@
 
 import ScreenSaver
 
+// MARK: Database
 struct Database {
 
+    // MARK: Key
     fileprivate enum Key {
         static let selectedAnimations = "selectedAnimations"
     }
 
+    // MARK: Properties
     static var standard: ScreenSaverDefaults {
         guard let bundleIdentifier = Bundle(for: AnimationsManager.self).bundleIdentifier,
             let database = ScreenSaverDefaults(forModuleWithName: bundleIdentifier)
@@ -29,26 +32,24 @@ struct Database {
     }
 }
 
+// MARK: - ScreenSaverDefaults's Functions
 extension ScreenSaverDefaults {
 
     var selectedAnimations: [Animation] {
-        guard let rawValues = array(forKey: Database.Key.selectedAnimations) as? [String] else {
-            return [.original]
-        }
-
+        guard let rawValues = array(forKey: Database.Key.selectedAnimations) as? [String] else { return [.original] }
         return rawValues.compactMap(Animation.init)
     }
 
-    func set(_ animation: Animation) {
+    func set(_ animations: [Animation]) {
+        set(animations.map { $0.rawValue }, for: Database.Key.selectedAnimations)
+    }
+}
 
-        var animations = selectedAnimations
-        if animations.contains(animation) {
-            animations.removeAll { $0 == animation }
-        } else {
-            animations.append(animation)
-        }
-
-        set(animations.map { $0.rawValue }, forKey: Database.Key.selectedAnimations)
+// MARK: - ScreenSaverDefaults's Private Functions
+private extension ScreenSaverDefaults {
+    
+    func set(_ object: Any, for key: String) {
+        set(object, forKey: key)
         synchronize()
     }
 }

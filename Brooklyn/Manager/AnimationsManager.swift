@@ -14,19 +14,36 @@ import AVKit
 final class AnimationsManager {
 
     // MARK: Properties
+    let availableAnimations = Animation.allCases
+    private(set) var selectedAnimations: [Animation]
     var player: AVQueuePlayer { return playerManager.player }
-
-    var availableAnimations = Animation.allCases
-    var selectedAnimations: [Animation] { return Database.standard.selectedAnimations }
-
+    
     // MARK: Private Properties
-    private lazy var playerManager = PlayerManager(items: selectedAnimations)
+    private let playerManager: PlayerManager
+    
+    // MARK: Init
+    init() {
+        self.selectedAnimations = Database.standard.selectedAnimations
+        self.playerManager = PlayerManager(items: selectedAnimations)
+    }
 }
 
 // MARK: - Functions
 extension AnimationsManager {
+    
+    func preview(_ animation: Animation) {
+        playerManager.play(animation)
+    }
 
     func toogle(_ animation: Animation) {
-        Database.standard.set(animation)
+        var animations = selectedAnimations
+        if animations.contains(animation) {
+            animations.removeAll { $0 == animation }
+        } else {
+            animations.append(animation)
+        }
+        
+        selectedAnimations = animations
+        Database.standard.set(selectedAnimations)
     }
 }
