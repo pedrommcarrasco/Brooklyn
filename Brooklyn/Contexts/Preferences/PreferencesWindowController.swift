@@ -20,6 +20,7 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     // MARK: Outlets
     @IBOutlet private weak var animationsTableView: NSTableView!
     @IBOutlet private weak var animationPlayerView: AVPlayerView!
+    @IBOutlet private weak var previewLabel: NSTextField!
     
     // MARK: Private Properties
     private let animationManager = AnimationsManager()
@@ -40,6 +41,7 @@ private extension PreferencesWindowController {
     func configure() {
         setupTableView()
         setupPlayer()
+        setupLabel()
     }
     
     func setupTableView() {
@@ -51,6 +53,10 @@ private extension PreferencesWindowController {
     func setupPlayer() {
         animationPlayerView.player = animationManager.player
         animationPlayerView.player?.play()
+    }
+    
+    func setupLabel() {
+        previewLabel.stringValue = animationManager.selectedAnimations.first?.name ?? ""
     }
 }
 
@@ -74,7 +80,10 @@ extension PreferencesWindowController: NSTableViewDataSource {
 extension PreferencesWindowController: NSTableViewDelegate {
 
     func tableViewSelectionDidChange(_ notification: Notification) {
-        animationManager.preview(animationManager.availableAnimations[animationsTableView.selectedRow])
+        // TODO: USE SAFE
+        let selectedAnimation = animationManager.availableAnimations[animationsTableView.selectedRow]
+        previewLabel.stringValue = selectedAnimation.name
+        animationManager.preview(selectedAnimation)
     }
 }
 
