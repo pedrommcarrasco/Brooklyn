@@ -25,7 +25,7 @@ final class BrooklynView: ScreenSaverView {
     private let videoLayer = AVPlayerLayer()
     
     // MARK: Properties
-    private let animationsManager = AnimationsManager()
+    private let manager = BrooklynManager()
     private lazy var preferences = PreferencesWindowController(windowNibName: PreferencesWindowController.identifier)
 
     // MARK: Initialization
@@ -47,12 +47,12 @@ extension BrooklynView {
     
     override func startAnimation() {
         super.startAnimation()
-        animationsManager.player.play()
+        manager.player.play()
     }
     
     override func stopAnimation() {
         super.stopAnimation()
-        animationsManager.player.pause()
+        manager.player.pause()
     }
 }
 
@@ -71,7 +71,7 @@ private extension BrooklynView {
     }
     
     func setupLayer() {
-        videoLayer.player = animationsManager.player
+        videoLayer.player = manager.player
     }
 }
 

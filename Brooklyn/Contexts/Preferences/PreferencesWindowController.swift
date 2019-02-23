@@ -21,9 +21,11 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     @IBOutlet private weak var animationsTableView: NSTableView!
     @IBOutlet private weak var animationPlayerView: AVPlayerView!
     @IBOutlet private weak var previewLabel: NSTextField!
+    @IBOutlet private weak var loopsComboBox: NSComboBox!
+    @IBOutlet weak var randomOrderCheckBox: NSButton!
     
     // MARK: Private Properties
-    private let animationManager = AnimationsManager()
+    private let manager = BrooklynManager(mode: .preferences)
 }
 
 // MARK: - Lifecycle
@@ -41,7 +43,8 @@ private extension PreferencesWindowController {
     func configure() {
         setupTableView()
         setupPlayer()
-        setupLabel()
+        setupLabels()
+        setupBoxes()
     }
     
     func setupTableView() {
@@ -51,12 +54,19 @@ private extension PreferencesWindowController {
     }
     
     func setupPlayer() {
-        animationPlayerView.player = animationManager.player
+        animationPlayerView.player = manager.player
         animationPlayerView.player?.play()
     }
     
-    func setupLabel() {
-        previewLabel.stringValue = animationManager.selectedAnimations.first?.name ?? ""
+    func setupLabels() {
+        previewLabel.stringValue = manager.selectedAnimations.first?.name ?? ""
+    }
+    
+    func setupBoxes() {
+        loopsComboBox.selectItem(at: manager.numberOfLoops)
+        loopsComboBox.delegate = self
+        
+        randomOrderCheckBox.state = manager.hasRandomOrder ? .on : .off
     }
 }
 
@@ -64,14 +74,14 @@ private extension PreferencesWindowController {
 extension PreferencesWindowController: NSTableViewDataSource {
     
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return animationManager.availableAnimations.count
+        return manager.availableAnimations.count
     }
     
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+        guard let item = manager.availableAnimations[safe: row] else { return nil }
         let cell = tableView.dequeueCell(for: self, as: AnimationCellView.self)
-        let item = animationManager.availableAnimations[row]
-        cell.configure(with: item.name, state: animationManager.selectedAnimations.contains(item) ? .on : .off)
-        cell.onToogle = { [weak animationManager] in animationManager?.toogle(item) }
+        cell.configure(with: item.name, state: manager.selectedAnimations.contains(item) ? .on : .off)
+        cell.onToogle = { [weak manager] in manager?.toogle(item) }
         return cell
     }
 }
@@ -80,15 +90,39 @@ extension PreferencesWindowController: NSTableViewDataSource {
 extension PreferencesWindowController: NSTableViewDelegate {
 
     func tableViewSelectionDidChange(_ notification: Notification) {
-        // TODO: USE SAFE
-        let selectedAnimation = animationManager.availableAnimations[animationsTableView.selectedRow]
+        guard let selectedAnimation = manager.availableAnimations[safe: animationsTableView.selectedRow] else { return }
         previewLabel.stringValue = selectedAnimation.name
-        animationManager.preview(selectedAnimation)
+        manager.preview(selectedAnimation)
+    }
+}
+
+// MARK: - NSComboBoxDelegate
+extension PreferencesWindowController: NSComboBoxDelegate {
+    
+    func comboBoxSelectionDidChange(_ notification: Notification) {
+        manager.setNumberOfLoops(to: loopsComboBox.indexOfSelectedItem)
     }
 }
 
 // MARK: - Actions
 private extension PreferencesWindowController {
+    
+    @IBAction func randomOrderAction(_ sender: NSButton) {
+        manager.toogleHasRandomOrder()
+    }
+    
+    @IBAction func helpAction(_ sender: NSButton) {
+        URLType.help.open()
+    }
+    
+    @IBAction func githubAction(_ sender: NSButton) {
+        URLType.github.open()
+    }
+    
+    
+    @IBAction func twitterAction(_ sender: NSButton) {
+        URLType.twitter.open()
+    }
     
     @IBAction func doneAction(_ sender: NSButton) {
         guard let window = window else { return }

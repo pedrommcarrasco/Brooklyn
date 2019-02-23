@@ -14,19 +14,24 @@ struct Database {
     // MARK: Key
     fileprivate enum Key {
         static let selectedAnimations = "selectedAnimations"
+        static let numberOfLoops = "numberOfLoops"
+        static let randomOrder = "randomOrder"
     }
 
     // MARK: Properties
     static var standard: ScreenSaverDefaults {
-        guard let bundleIdentifier = Bundle(for: AnimationsManager.self).bundleIdentifier,
+        guard let bundleIdentifier = Bundle(for: BrooklynManager.self).bundleIdentifier,
             let database = ScreenSaverDefaults(forModuleWithName: bundleIdentifier)
             else { fatalError("Failed to retrieve database") }
 
         database.register(defaults:
-            [Key.selectedAnimations: [Animation.original.rawValue]]
+            [Key.selectedAnimations: [Animation.original.rawValue],
+             Key.numberOfLoops: 0,
+             Key.randomOrder: false
+             ]
         )
 
-        database.removePersistentDomain(forName: Bundle(for: AnimationsManager.self).bundleIdentifier!)
+        database.removePersistentDomain(forName: Bundle(for: BrooklynManager.self).bundleIdentifier!)
 
         return database
     }
@@ -40,8 +45,24 @@ extension ScreenSaverDefaults {
         return rawValues.compactMap(Animation.init)
     }
 
-    func set(_ animations: [Animation]) {
+    func set(animations: [Animation]) {
         set(animations.map { $0.rawValue }, for: Database.Key.selectedAnimations)
+    }
+    
+    var numberOfLoops: Int {
+        return integer(forKey: Database.Key.numberOfLoops)
+    }
+    
+    func set(numberOfLoops: Int) {
+        set(numberOfLoops, for: Database.Key.numberOfLoops)
+    }
+    
+    var hasRandomOrder: Bool {
+        return bool(forKey: Database.Key.randomOrder)
+    }
+    
+    func set(hasRandomOrder: Bool) {
+        set(hasRandomOrder, for: Database.Key.randomOrder)
     }
 }
 
