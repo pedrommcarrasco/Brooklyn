@@ -9,7 +9,7 @@
 import AVFoundation
 
 // MARK: - LoopPlayer
-class LoopPlayer: AVQueuePlayer {
+final class LoopPlayer: AVQueuePlayer {
     
     // MARK: Lifecycle
     init(items: [Animation], numberOfLoops: Int, shouldRandomize: Bool) {
