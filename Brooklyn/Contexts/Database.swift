@@ -20,7 +20,7 @@ struct Database {
 
     // MARK: Properties
     static var standard: ScreenSaverDefaults {
-        guard let bundleIdentifier = Bundle(for: Database.self).bundleIdentifier,
+        guard let bundleIdentifier = Bundle(for: BrooklynManager.self).bundleIdentifier,
             let database = ScreenSaverDefaults(forModuleWithName: bundleIdentifier)
             else { fatalError("Failed to retrieve database") }
 
