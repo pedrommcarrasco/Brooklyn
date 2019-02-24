@@ -20,7 +20,7 @@ struct Database {
 
     // MARK: Properties
     static var standard: ScreenSaverDefaults {
-        guard let bundleIdentifier = Bundle(for: BrooklynManager.self).bundleIdentifier,
+        guard let bundleIdentifier = Bundle(for: Database.self).bundleIdentifier,
             let database = ScreenSaverDefaults(forModuleWithName: bundleIdentifier)
             else { fatalError("Failed to retrieve database") }
 
@@ -30,8 +30,6 @@ struct Database {
              Key.randomOrder: false
              ]
         )
-
-        database.removePersistentDomain(forName: Bundle(for: BrooklynManager.self).bundleIdentifier!)
 
         return database
     }
