@@ -17,15 +17,21 @@ final class AnimationCellView: NSTableCellView {
     // MARK: Properties
     var title: String { return textField?.stringValue ?? "" }
     var state: NSControl.StateValue{ return button.state }
-
     var onToogle: (() -> ())?
+}
 
-    // MARK: Configure
+// MARK: - Configuration
+extension AnimationCellView {
+    
     func configure(with title: String, state: NSControl.StateValue) {
         textField?.stringValue = title
         button.state = state
     }
+}
 
+// MARK: - Actions
+private extension AnimationCellView {
+    
     @IBAction func buttonAction(_ sender: NSButton) {
         onToogle?()
     }
