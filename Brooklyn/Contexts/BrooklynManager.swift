@@ -12,30 +12,32 @@ import AVKit
 
 // MARK: BrooklynManager
 final class BrooklynManager {
-
+    
     // MARK: Properties
     let availableAnimations: [Animation]
-    var player: AVQueuePlayer { return playerManager.player }
+    let player: LoopPlayer
     
+    // MARK: Private Set Properties
     private (set) var selectedAnimations: [Animation]
     private (set) var numberOfLoops: Int
     private (set) var hasRandomOrder: Bool
     
-    // MARK: Private Properties
-    private let playerManager: PlayerManager
-    
     // MARK: Init
-    init(mode: DisplayMode = .screensaver) {
-        self.availableAnimations = Animation.allCases.sorted { $0.name < $1.name  && $1 != .original}
+    init(mode: DisplayMode) {
+        self.availableAnimations = Animation.allCases
         self.selectedAnimations = Database.standard.selectedAnimations
         self.numberOfLoops = Database.standard.numberOfLoops
         self.hasRandomOrder = Database.standard.hasRandomOrder
         
         switch mode {
         case .screensaver:
-            self.playerManager = PlayerManager(items: selectedAnimations)
+            self.player = LoopPlayer(items: selectedAnimations,
+                                     numberOfLoops: numberOfLoops,
+                                     shouldRandomize: hasRandomOrder)
         case .preferences:
-            self.playerManager = PlayerManager(item: selectedAnimations.first ?? .original)
+            self.player = LoopPlayer(items: [selectedAnimations.first ?? .original],
+                                     numberOfLoops: 0,
+                                     shouldRandomize: false)
         }
     }
 }
@@ -43,10 +45,6 @@ final class BrooklynManager {
 // MARK: - Animations
 extension BrooklynManager {
     
-    func preview(_ animation: Animation) {
-        playerManager.play(animation)
-    }
-
     func toogle(_ animation: Animation) {
         var animations = selectedAnimations
         if animations.contains(animation) {

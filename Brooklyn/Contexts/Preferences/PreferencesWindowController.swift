@@ -21,8 +21,8 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     @IBOutlet private weak var animationsTableView: NSTableView!
     @IBOutlet private weak var animationPlayerView: AVPlayerView!
     @IBOutlet private weak var previewLabel: NSTextField!
-    @IBOutlet private weak var loopsComboBox: NSComboBox!
-    @IBOutlet weak var randomOrderCheckBox: NSButton!
+    @IBOutlet private weak var randomOrderCheckBox: NSButton!
+    @IBOutlet private weak var numberOfLoopsPopUp: NSPopUpButton!
     
     // MARK: Private Properties
     private let manager = BrooklynManager(mode: .preferences)
@@ -44,7 +44,7 @@ private extension PreferencesWindowController {
         setupTableView()
         setupPlayer()
         setupLabels()
-        setupBoxes()
+        setupButtons()
     }
     
     func setupTableView() {
@@ -62,10 +62,8 @@ private extension PreferencesWindowController {
         previewLabel.stringValue = manager.selectedAnimations.first?.name ?? ""
     }
     
-    func setupBoxes() {
-        loopsComboBox.selectItem(at: manager.numberOfLoops)
-        loopsComboBox.delegate = self
-        
+    func setupButtons() {
+        numberOfLoopsPopUp.selectItem(at: manager.numberOfLoops)
         randomOrderCheckBox.state = manager.hasRandomOrder ? .on : .off
     }
 }
@@ -92,20 +90,16 @@ extension PreferencesWindowController: NSTableViewDelegate {
     func tableViewSelectionDidChange(_ notification: Notification) {
         guard let selectedAnimation = manager.availableAnimations[safe: animationsTableView.selectedRow] else { return }
         previewLabel.stringValue = selectedAnimation.name
-        manager.preview(selectedAnimation)
-    }
-}
-
-// MARK: - NSComboBoxDelegate
-extension PreferencesWindowController: NSComboBoxDelegate {
-    
-    func comboBoxSelectionDidChange(_ notification: Notification) {
-        manager.setNumberOfLoops(to: loopsComboBox.indexOfSelectedItem)
+        manager.player.play(selectedAnimation)
     }
 }
 
 // MARK: - Actions
 private extension PreferencesWindowController {
+    
+    @IBAction func numberOfLoopsAction(_ sender: NSPopUpButtonCell) {
+        manager.setNumberOfLoops(to: numberOfLoopsPopUp.indexOfSelectedItem)
+    }
     
     @IBAction func randomOrderAction(_ sender: NSButton) {
         manager.toogleHasRandomOrder()

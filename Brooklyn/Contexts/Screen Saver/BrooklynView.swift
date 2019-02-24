@@ -25,7 +25,7 @@ final class BrooklynView: ScreenSaverView {
     private let videoLayer = AVPlayerLayer()
     
     // MARK: Properties
-    private let manager = BrooklynManager()
+    private let manager = BrooklynManager(mode: .screensaver)
     private lazy var preferences = PreferencesWindowController(windowNibName: PreferencesWindowController.identifier)
 
     // MARK: Initialization

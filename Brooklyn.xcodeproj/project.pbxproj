@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		201F4FB722207868007B43FF /* Collection+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F4FB622207868007B43FF /* Collection+Index.swift */; };
 		201F4FB8222078B6007B43FF /* Collection+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F4FB622207868007B43FF /* Collection+Index.swift */; };
+		2023D4FA222204E6007B6243 /* LoopPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2023D4F9222204E6007B6243 /* LoopPlayer.swift */; };
+		2023D4FB222205B0007B6243 /* LoopPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2023D4F9222204E6007B6243 /* LoopPlayer.swift */; };
 		203E6506218C65CD0021F2F2 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 203E6504218C65CD0021F2F2 /* thumbnail.png */; };
 		203E6507218C65CD0021F2F2 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 203E6505218C65CD0021F2F2 /* thumbnail@2x.png */; };
 		206ECE3022217ECC00971C99 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206ECE2F22217ECC00971C99 /* Media.xcassets */; };
@@ -25,8 +27,6 @@
 		5332EB1A221F095100286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
 		5334E3E0221EBBA000C3811A /* BrooklynManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3DF221EBBA000C3811A /* BrooklynManager.swift */; };
 		5334E3E1221EBF2D00C3811A /* BrooklynManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3DF221EBBA000C3811A /* BrooklynManager.swift */; };
-		5334E3E3221EC78100C3811A /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3E2221EC78100C3811A /* PlayerManager.swift */; };
-		5334E3E4221ED4DB00C3811A /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3E2221EC78100C3811A /* PlayerManager.swift */; };
 		53689937221C66BD0071D26F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689935221C66BD0071D26F /* Extension.swift */; };
 		53689939221C66BD0071D26F /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689936221C66BD0071D26F /* Animation.swift */; };
 		5368993D221C66C10071D26F /* NSTableView+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368993C221C66C10071D26F /* NSTableView+Dequeue.swift */; };
@@ -59,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		201F4FB622207868007B43FF /* Collection+Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Index.swift"; sourceTree = "<group>"; };
+		2023D4F9222204E6007B6243 /* LoopPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopPlayer.swift; sourceTree = "<group>"; };
 		203E6504218C65CD0021F2F2 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		203E6505218C65CD0021F2F2 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		206ECE2F22217ECC00971C99 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		21F222261B73B5AC00B9A11A /* Brooklyn.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brooklyn.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		5332EB18221F091F00286C65 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		5334E3DF221EBBA000C3811A /* BrooklynManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrooklynManager.swift; sourceTree = "<group>"; };
-		5334E3E2221EC78100C3811A /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
 		53689935221C66BD0071D26F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		53689936221C66BD0071D26F /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		5368993C221C66C10071D26F /* NSTableView+Dequeue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTableView+Dequeue.swift"; sourceTree = "<group>"; };
@@ -110,14 +110,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20861F7D2220172D00C8F80E /* Database */ = {
-			isa = PBXGroup;
-			children = (
-				5332EB18221F091F00286C65 /* Database.swift */,
-			);
-			path = Database;
-			sourceTree = "<group>";
-		};
 		20B669BF221DEE1400645925 /* Screen Saver */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,10 +144,8 @@
 			children = (
 				218D6EDE20FC3CEB0029D4A9 /* Info.plist */,
 				53689943221C66E90071D26F /* Contexts */,
-				20861F7D2220172D00C8F80E /* Database */,
 				53689934221C66BD0071D26F /* Enumerations */,
 				5368993B221C66C10071D26F /* Extensions */,
-				5334E3DE221EBB7A00C3811A /* Manager */,
 				20CAF50421891F9E0086AED8 /* Resources */,
 			);
 			path = Brooklyn;
@@ -177,15 +167,6 @@
 				53E840D5221D9A8E005FA65E /* Canvas.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5334E3DE221EBB7A00C3811A /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				5334E3DF221EBBA000C3811A /* BrooklynManager.swift */,
-				5334E3E2221EC78100C3811A /* PlayerManager.swift */,
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 		53689934221C66BD0071D26F /* Enumerations */ = {
@@ -214,6 +195,9 @@
 		53689943221C66E90071D26F /* Contexts */ = {
 			isa = PBXGroup;
 			children = (
+				5334E3DF221EBBA000C3811A /* BrooklynManager.swift */,
+				5332EB18221F091F00286C65 /* Database.swift */,
+				2023D4F9222204E6007B6243 /* LoopPlayer.swift */,
 				20B669C0221DEE2200645925 /* Preferences */,
 				20B669BF221DEE1400645925 /* Screen Saver */,
 			);
@@ -375,13 +359,13 @@
 				20CAF50621891FCE0086AED8 /* BrooklynView.swift in Sources */,
 				5368993D221C66C10071D26F /* NSTableView+Dequeue.swift in Sources */,
 				206ECE332221869400971C99 /* URLType.swift in Sources */,
+				2023D4FA222204E6007B6243 /* LoopPlayer.swift in Sources */,
 				201F4FB722207868007B43FF /* Collection+Index.swift in Sources */,
 				53689959221C6DA60071D26F /* AnimationCellView.swift in Sources */,
 				206ECE3C2221993000971C99 /* DisplayMode.swift in Sources */,
 				53689939221C66BD0071D26F /* Animation.swift in Sources */,
 				5368994E221C68790071D26F /* AVPlayerItem+Init.swift in Sources */,
 				5332EB19221F091F00286C65 /* Database.swift in Sources */,
-				5334E3E3221EC78100C3811A /* PlayerManager.swift in Sources */,
 				53689937221C66BD0071D26F /* Extension.swift in Sources */,
 				5334E3E0221EBBA000C3811A /* BrooklynManager.swift in Sources */,
 				5368994B221C68520071D26F /* AVPlayerLooper+Factory.swift in Sources */,
@@ -395,6 +379,7 @@
 			files = (
 				53E840F0221D9B5D005FA65E /* AVPlayerItem+Init.swift in Sources */,
 				53E840EE221D9B57005FA65E /* NSTableView+Dequeue.swift in Sources */,
+				2023D4FB222205B0007B6243 /* LoopPlayer.swift in Sources */,
 				20B669C4221DEFDE00645925 /* PreferencesWindowController.swift in Sources */,
 				206ECE342221879200971C99 /* URLType.swift in Sources */,
 				53E840EF221D9B5A005FA65E /* AVPlayerLooper+Factory.swift in Sources */,
@@ -402,7 +387,6 @@
 				206ECE3D2221993000971C99 /* DisplayMode.swift in Sources */,
 				53E840E5221D9AAB005FA65E /* AppDelegate.swift in Sources */,
 				5332EB1A221F095100286C65 /* Database.swift in Sources */,
-				5334E3E4221ED4DB00C3811A /* PlayerManager.swift in Sources */,
 				201F4FB8222078B6007B43FF /* Collection+Index.swift in Sources */,
 				53E840EC221D9B51005FA65E /* Extension.swift in Sources */,
 				53E840ED221D9B53005FA65E /* Animation.swift in Sources */,
