@@ -21,7 +21,7 @@
         <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="240" width="800" height="500"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,17 +225,21 @@ DQ
                     </button>
                     <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tdt-p9-Ns2">
                         <rect key="frame" x="740" y="219" width="47" height="25"/>
-                        <popUpButtonCell key="cell" type="push" title="0" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="UIQ-Yg-eD7" id="toG-O3-2if">
+                        <popUpButtonCell key="cell" type="push" title="0" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="UIQ-Yg-eD7" id="toG-O3-2if">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="menu"/>
                             <menu key="menu" id="8kY-7R-GOo">
                                 <items>
-                                    <menuItem title="0" id="UIQ-Yg-eD7"/>
-                                    <menuItem title="1" state="on" id="4eo-d2-M8i"/>
+                                    <menuItem title="0" state="on" id="UIQ-Yg-eD7"/>
+                                    <menuItem title="1" id="4eo-d2-M8i"/>
                                     <menuItem title="2" id="bOw-Fc-MH6"/>
                                     <menuItem title="3" id="3xv-7D-mFS"/>
                                     <menuItem title="4" id="nIb-Pz-Mcz"/>
                                     <menuItem title="5" id="IHH-fr-gs6"/>
+                                    <menuItem title="6" id="cU6-Gx-ZE7"/>
+                                    <menuItem title="7" id="vxF-9Y-CZh"/>
+                                    <menuItem title="8" id="qpF-xV-kVA"/>
+                                    <menuItem title="9" id="ZeU-eC-oaA"/>
                                 </items>
                             </menu>
                             <connections>
