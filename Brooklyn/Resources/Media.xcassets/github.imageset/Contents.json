@@ -1,0 +1,40 @@
+{
+  "images" : [
+    {
+      "idiom" : "mac",
+      "filename" : "github_dark.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "filename" : "github_light.png",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "filename" : "github_dark-1.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "mac",
+      "filename" : "github_light-1.png",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
