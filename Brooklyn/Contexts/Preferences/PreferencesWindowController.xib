@@ -21,7 +21,7 @@
         <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="240" width="800" height="500"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,7 +57,7 @@
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YlX-oQ-WQ2">
-                                                            <rect key="frame" x="373" y="-2" width="18" height="18"/>
+                                                            <rect key="frame" x="365" y="-2" width="18" height="18"/>
                                                             <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="only" inset="2" id="lWN-QX-1EU">
                                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                                 <font key="font" metaFont="system"/>
@@ -80,7 +80,7 @@
                                                         <constraint firstItem="YlX-oQ-WQ2" firstAttribute="top" secondItem="itX-DZ-KKb" secondAttribute="top" id="TKO-aF-fxC"/>
                                                         <constraint firstAttribute="bottom" secondItem="YlX-oQ-WQ2" secondAttribute="bottom" id="gh8-dj-uDg"/>
                                                         <constraint firstItem="dTy-aT-kxV" firstAttribute="top" secondItem="itX-DZ-KKb" secondAttribute="top" id="gz6-ne-QKk"/>
-                                                        <constraint firstAttribute="trailing" secondItem="YlX-oQ-WQ2" secondAttribute="trailing" constant="8" id="ien-zt-ZNm"/>
+                                                        <constraint firstAttribute="trailing" secondItem="YlX-oQ-WQ2" secondAttribute="trailing" constant="16" id="ien-zt-ZNm"/>
                                                         <constraint firstAttribute="bottom" secondItem="dTy-aT-kxV" secondAttribute="bottom" id="k8V-y7-7pm"/>
                                                     </constraints>
                                                     <connections>

@@ -119,6 +119,7 @@ private extension PreferencesWindowController {
     }
     
     @IBAction func doneAction(_ sender: NSButton) {
+        animationsTableView.deselectAll(nil)
         guard let window = window else { return }
         window.endSheet(window)
     }
