@@ -22,6 +22,72 @@
 		20B669C2221DEE3800645925 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B669C1221DEE3800645925 /* PreferencesWindowController.xib */; };
 		20B669C3221DEFDB00645925 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B669C1221DEE3800645925 /* PreferencesWindowController.xib */; };
 		20B669C4221DEFDE00645925 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689945221C66F60071D26F /* PreferencesWindowController.swift */; };
+		20C1221722254BBC004CAF67 /* avatarTissue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1221622254BBC004CAF67 /* avatarTissue.mp4 */; };
+		20C1221822254BBC004CAF67 /* avatarTissue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1221622254BBC004CAF67 /* avatarTissue.mp4 */; };
+		20C1221A22254BDE004CAF67 /* ballPit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1221922254BDE004CAF67 /* ballPit.mp4 */; };
+		20C1221B22254BDE004CAF67 /* ballPit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1221922254BDE004CAF67 /* ballPit.mp4 */; };
+		20C1221D22254C12004CAF67 /* defragmentation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1221C22254C12004CAF67 /* defragmentation.mp4 */; };
+		20C1221E22254C12004CAF67 /* defragmentation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1221C22254C12004CAF67 /* defragmentation.mp4 */; };
+		20C1222022254C37004CAF67 /* fangs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1221F22254C37004CAF67 /* fangs.mp4 */; };
+		20C1222122254C37004CAF67 /* fangs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1221F22254C37004CAF67 /* fangs.mp4 */; };
+		20C1222322254C58004CAF67 /* geometricShapes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1222222254C58004CAF67 /* geometricShapes.mp4 */; };
+		20C1222422254C58004CAF67 /* geometricShapes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1222222254C58004CAF67 /* geometricShapes.mp4 */; };
+		20C1222622254C70004CAF67 /* glow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1222522254C70004CAF67 /* glow.mp4 */; };
+		20C1222722254C70004CAF67 /* glow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1222522254C70004CAF67 /* glow.mp4 */; };
+		20C1222922254C8B004CAF67 /* gummyWorms.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1222822254C8B004CAF67 /* gummyWorms.mp4 */; };
+		20C1222A22254C8B004CAF67 /* gummyWorms.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1222822254C8B004CAF67 /* gummyWorms.mp4 */; };
+		20C1222C22254CA2004CAF67 /* hills.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1222B22254CA2004CAF67 /* hills.mp4 */; };
+		20C1222D22254CA2004CAF67 /* hills.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1222B22254CA2004CAF67 /* hills.mp4 */; };
+		20C1223222254CD9004CAF67 /* layers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223122254CD9004CAF67 /* layers.mp4 */; };
+		20C1223322254CD9004CAF67 /* layers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223122254CD9004CAF67 /* layers.mp4 */; };
+		20C1223522254CEF004CAF67 /* leaf.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223422254CEF004CAF67 /* leaf.mp4 */; };
+		20C1223622254CEF004CAF67 /* leaf.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223422254CEF004CAF67 /* leaf.mp4 */; };
+		20C1223822254D06004CAF67 /* lines.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223722254D06004CAF67 /* lines.mp4 */; };
+		20C1223922254D06004CAF67 /* lines.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223722254D06004CAF67 /* lines.mp4 */; };
+		20C1223B22254D21004CAF67 /* magnify.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223A22254D21004CAF67 /* magnify.mp4 */; };
+		20C1223C22254D21004CAF67 /* magnify.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223A22254D21004CAF67 /* magnify.mp4 */; };
+		20C1223E22254D3B004CAF67 /* moistyColors.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223D22254D3B004CAF67 /* moistyColors.mp4 */; };
+		20C1223F22254D3B004CAF67 /* moistyColors.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1223D22254D3B004CAF67 /* moistyColors.mp4 */; };
+		20C1224122254D73004CAF67 /* monochrome.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224022254D73004CAF67 /* monochrome.mp4 */; };
+		20C1224222254D73004CAF67 /* monochrome.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224022254D73004CAF67 /* monochrome.mp4 */; };
+		20C1224422254D88004CAF67 /* noiseStripes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224322254D88004CAF67 /* noiseStripes.mp4 */; };
+		20C1224522254D88004CAF67 /* noiseStripes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224322254D88004CAF67 /* noiseStripes.mp4 */; };
+		20C1224722254D9B004CAF67 /* paintbrush.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224622254D9B004CAF67 /* paintbrush.mp4 */; };
+		20C1224822254D9B004CAF67 /* paintbrush.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224622254D9B004CAF67 /* paintbrush.mp4 */; };
+		20C1224A22254DB5004CAF67 /* picasso.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224922254DB5004CAF67 /* picasso.mp4 */; };
+		20C1224B22254DB5004CAF67 /* picasso.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224922254DB5004CAF67 /* picasso.mp4 */; };
+		20C1224D22254DC9004CAF67 /* playDoh.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224C22254DC9004CAF67 /* playDoh.mp4 */; };
+		20C1224E22254DC9004CAF67 /* playDoh.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224C22254DC9004CAF67 /* playDoh.mp4 */; };
+		20C1225022254DDD004CAF67 /* riverNoir.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224F22254DDD004CAF67 /* riverNoir.mp4 */; };
+		20C1225122254DDD004CAF67 /* riverNoir.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1224F22254DDD004CAF67 /* riverNoir.mp4 */; };
+		20C1225322254DFF004CAF67 /* shards.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225222254DFF004CAF67 /* shards.mp4 */; };
+		20C1225422254DFF004CAF67 /* shards.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225222254DFF004CAF67 /* shards.mp4 */; };
+		20C1225622254E1B004CAF67 /* shelves.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225522254E1B004CAF67 /* shelves.mp4 */; };
+		20C1225722254E1B004CAF67 /* shelves.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225522254E1B004CAF67 /* shelves.mp4 */; };
+		20C1225922254E3D004CAF67 /* skittles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225822254E3C004CAF67 /* skittles.mp4 */; };
+		20C1225A22254E3D004CAF67 /* skittles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225822254E3C004CAF67 /* skittles.mp4 */; };
+		20C1225C22254E57004CAF67 /* soundSpectrum.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225B22254E57004CAF67 /* soundSpectrum.mp4 */; };
+		20C1225D22254E57004CAF67 /* soundSpectrum.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225B22254E57004CAF67 /* soundSpectrum.mp4 */; };
+		20C1225F22254E71004CAF67 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225E22254E71004CAF67 /* splash.mp4 */; };
+		20C1226022254E71004CAF67 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225E22254E71004CAF67 /* splash.mp4 */; };
+		20C1226222254E86004CAF67 /* surfaceWater.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226122254E86004CAF67 /* surfaceWater.mp4 */; };
+		20C1226322254E86004CAF67 /* surfaceWater.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226122254E86004CAF67 /* surfaceWater.mp4 */; };
+		20C1226522254E9A004CAF67 /* trapezium.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226422254E9A004CAF67 /* trapezium.mp4 */; };
+		20C1226622254E9A004CAF67 /* trapezium.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226422254E9A004CAF67 /* trapezium.mp4 */; };
+		20C1226822254EAE004CAF67 /* virus.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226722254EAE004CAF67 /* virus.mp4 */; };
+		20C1226922254EAE004CAF67 /* virus.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226722254EAE004CAF67 /* virus.mp4 */; };
+		20C1226B22254EC4004CAF67 /* volumetric.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226A22254EC3004CAF67 /* volumetric.mp4 */; };
+		20C1226C22254EC4004CAF67 /* volumetric.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226A22254EC3004CAF67 /* volumetric.mp4 */; };
+		20C1226E22254ED7004CAF67 /* waterDrops.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226D22254ED7004CAF67 /* waterDrops.mp4 */; };
+		20C1226F22254ED7004CAF67 /* waterDrops.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226D22254ED7004CAF67 /* waterDrops.mp4 */; };
+		20C1227122254EF4004CAF67 /* wet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227022254EF4004CAF67 /* wet.mp4 */; };
+		20C1227222254EF4004CAF67 /* wet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227022254EF4004CAF67 /* wet.mp4 */; };
+		20C1227422254F04004CAF67 /* yolk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227322254F04004CAF67 /* yolk.mp4 */; };
+		20C1227522254F04004CAF67 /* yolk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227322254F04004CAF67 /* yolk.mp4 */; };
+		20C1227722254F19004CAF67 /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227622254F19004CAF67 /* zebra.mp4 */; };
+		20C1227822254F19004CAF67 /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227622254F19004CAF67 /* zebra.mp4 */; };
+		20C1227A22257FAE004CAF67 /* iris.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227922257FAD004CAF67 /* iris.mp4 */; };
+		20C1227B22257FAE004CAF67 /* iris.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227922257FAD004CAF67 /* iris.mp4 */; };
 		20CAF50621891FCE0086AED8 /* BrooklynView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAF50521891FCE0086AED8 /* BrooklynView.swift */; };
 		5332EB19221F091F00286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
 		5332EB1A221F095100286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
@@ -66,6 +132,39 @@
 		206ECE322221869400971C99 /* URLType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLType.swift; sourceTree = "<group>"; };
 		206ECE3B2221993000971C99 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
 		20B669C1221DEE3800645925 /* PreferencesWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesWindowController.xib; sourceTree = "<group>"; };
+		20C1221622254BBC004CAF67 /* avatarTissue.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = avatarTissue.mp4; sourceTree = "<group>"; };
+		20C1221922254BDE004CAF67 /* ballPit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ballPit.mp4; sourceTree = "<group>"; };
+		20C1221C22254C12004CAF67 /* defragmentation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = defragmentation.mp4; sourceTree = "<group>"; };
+		20C1221F22254C37004CAF67 /* fangs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fangs.mp4; sourceTree = "<group>"; };
+		20C1222222254C58004CAF67 /* geometricShapes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = geometricShapes.mp4; sourceTree = "<group>"; };
+		20C1222522254C70004CAF67 /* glow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = glow.mp4; sourceTree = "<group>"; };
+		20C1222822254C8B004CAF67 /* gummyWorms.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gummyWorms.mp4; sourceTree = "<group>"; };
+		20C1222B22254CA2004CAF67 /* hills.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hills.mp4; sourceTree = "<group>"; };
+		20C1223122254CD9004CAF67 /* layers.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = layers.mp4; sourceTree = "<group>"; };
+		20C1223422254CEF004CAF67 /* leaf.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = leaf.mp4; sourceTree = "<group>"; };
+		20C1223722254D06004CAF67 /* lines.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lines.mp4; sourceTree = "<group>"; };
+		20C1223A22254D21004CAF67 /* magnify.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = magnify.mp4; sourceTree = "<group>"; };
+		20C1223D22254D3B004CAF67 /* moistyColors.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moistyColors.mp4; sourceTree = "<group>"; };
+		20C1224022254D73004CAF67 /* monochrome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monochrome.mp4; sourceTree = "<group>"; };
+		20C1224322254D88004CAF67 /* noiseStripes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = noiseStripes.mp4; sourceTree = "<group>"; };
+		20C1224622254D9B004CAF67 /* paintbrush.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = paintbrush.mp4; sourceTree = "<group>"; };
+		20C1224922254DB5004CAF67 /* picasso.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = picasso.mp4; sourceTree = "<group>"; };
+		20C1224C22254DC9004CAF67 /* playDoh.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = playDoh.mp4; sourceTree = "<group>"; };
+		20C1224F22254DDD004CAF67 /* riverNoir.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = riverNoir.mp4; sourceTree = "<group>"; };
+		20C1225222254DFF004CAF67 /* shards.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shards.mp4; sourceTree = "<group>"; };
+		20C1225522254E1B004CAF67 /* shelves.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shelves.mp4; sourceTree = "<group>"; };
+		20C1225822254E3C004CAF67 /* skittles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = skittles.mp4; sourceTree = "<group>"; };
+		20C1225B22254E57004CAF67 /* soundSpectrum.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundSpectrum.mp4; sourceTree = "<group>"; };
+		20C1225E22254E71004CAF67 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
+		20C1226122254E86004CAF67 /* surfaceWater.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = surfaceWater.mp4; sourceTree = "<group>"; };
+		20C1226422254E9A004CAF67 /* trapezium.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trapezium.mp4; sourceTree = "<group>"; };
+		20C1226722254EAE004CAF67 /* virus.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = virus.mp4; sourceTree = "<group>"; };
+		20C1226A22254EC3004CAF67 /* volumetric.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = volumetric.mp4; sourceTree = "<group>"; };
+		20C1226D22254ED7004CAF67 /* waterDrops.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = waterDrops.mp4; sourceTree = "<group>"; };
+		20C1227022254EF4004CAF67 /* wet.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = wet.mp4; sourceTree = "<group>"; };
+		20C1227322254F04004CAF67 /* yolk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yolk.mp4; sourceTree = "<group>"; };
+		20C1227622254F19004CAF67 /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
+		20C1227922257FAD004CAF67 /* iris.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iris.mp4; sourceTree = "<group>"; };
 		20CAF50521891FCE0086AED8 /* BrooklynView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrooklynView.swift; sourceTree = "<group>"; };
 		218D6EDE20FC3CEB0029D4A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F222261B73B5AC00B9A11A /* Brooklyn.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brooklyn.saver; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,11 +318,44 @@
 		53E840F1221D9B88005FA65E /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				53E840FE221DA1D1005FA65E /* original.mp4 */,
+				20C1221622254BBC004CAF67 /* avatarTissue.mp4 */,
+				20C1221922254BDE004CAF67 /* ballPit.mp4 */,
 				53E840F2221D9BA3005FA65E /* cubicMess.mp4 */,
+				20C1221C22254C12004CAF67 /* defragmentation.mp4 */,
+				20C1221F22254C37004CAF67 /* fangs.mp4 */,
+				20C1222222254C58004CAF67 /* geometricShapes.mp4 */,
+				20C1222522254C70004CAF67 /* glow.mp4 */,
+				20C1222822254C8B004CAF67 /* gummyWorms.mp4 */,
+				20C1222B22254CA2004CAF67 /* hills.mp4 */,
+				20C1227922257FAD004CAF67 /* iris.mp4 */,
+				20C1223122254CD9004CAF67 /* layers.mp4 */,
+				20C1223422254CEF004CAF67 /* leaf.mp4 */,
+				20C1223722254D06004CAF67 /* lines.mp4 */,
+				20C1223A22254D21004CAF67 /* magnify.mp4 */,
+				20C1223D22254D3B004CAF67 /* moistyColors.mp4 */,
+				20C1224022254D73004CAF67 /* monochrome.mp4 */,
 				53E840F5221D9BA5005FA65E /* neon.mp4 */,
+				20C1224322254D88004CAF67 /* noiseStripes.mp4 */,
+				53E840FE221DA1D1005FA65E /* original.mp4 */,
+				20C1224622254D9B004CAF67 /* paintbrush.mp4 */,
+				20C1224922254DB5004CAF67 /* picasso.mp4 */,
+				20C1224C22254DC9004CAF67 /* playDoh.mp4 */,
+				20C1224F22254DDD004CAF67 /* riverNoir.mp4 */,
 				53E840F3221D9BA4005FA65E /* runningInGrass.mp4 */,
+				20C1225222254DFF004CAF67 /* shards.mp4 */,
+				20C1225522254E1B004CAF67 /* shelves.mp4 */,
+				20C1225822254E3C004CAF67 /* skittles.mp4 */,
+				20C1225B22254E57004CAF67 /* soundSpectrum.mp4 */,
+				20C1225E22254E71004CAF67 /* splash.mp4 */,
+				20C1226122254E86004CAF67 /* surfaceWater.mp4 */,
+				20C1226422254E9A004CAF67 /* trapezium.mp4 */,
 				53E840F4221D9BA5005FA65E /* unstablePipes.mp4 */,
+				20C1226722254EAE004CAF67 /* virus.mp4 */,
+				20C1226A22254EC3004CAF67 /* volumetric.mp4 */,
+				20C1226D22254ED7004CAF67 /* waterDrops.mp4 */,
+				20C1227022254EF4004CAF67 /* wet.mp4 */,
+				20C1227322254F04004CAF67 /* yolk.mp4 */,
+				20C1227622254F19004CAF67 /* zebra.mp4 */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -320,15 +452,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C1225322254DFF004CAF67 /* shards.mp4 in Resources */,
+				20C1222C22254CA2004CAF67 /* hills.mp4 in Resources */,
 				53E840FC221D9BA5005FA65E /* neon.mp4 in Resources */,
+				20C1225C22254E57004CAF67 /* soundSpectrum.mp4 in Resources */,
 				203E6506218C65CD0021F2F2 /* thumbnail.png in Resources */,
+				20C1225022254DDD004CAF67 /* riverNoir.mp4 in Resources */,
+				20C1227122254EF4004CAF67 /* wet.mp4 in Resources */,
+				20C1223522254CEF004CAF67 /* leaf.mp4 in Resources */,
+				20C1221D22254C12004CAF67 /* defragmentation.mp4 in Resources */,
+				20C1225F22254E71004CAF67 /* splash.mp4 in Resources */,
+				20C1226222254E86004CAF67 /* surfaceWater.mp4 in Resources */,
 				203E6507218C65CD0021F2F2 /* thumbnail@2x.png in Resources */,
+				20C1222922254C8B004CAF67 /* gummyWorms.mp4 in Resources */,
+				20C1221722254BBC004CAF67 /* avatarTissue.mp4 in Resources */,
+				20C1222322254C58004CAF67 /* geometricShapes.mp4 in Resources */,
 				53E840F6221D9BA5005FA65E /* cubicMess.mp4 in Resources */,
+				20C1227A22257FAE004CAF67 /* iris.mp4 in Resources */,
+				20C1222022254C37004CAF67 /* fangs.mp4 in Resources */,
+				20C1224D22254DC9004CAF67 /* playDoh.mp4 in Resources */,
+				20C1221A22254BDE004CAF67 /* ballPit.mp4 in Resources */,
+				20C1224122254D73004CAF67 /* monochrome.mp4 in Resources */,
+				20C1223E22254D3B004CAF67 /* moistyColors.mp4 in Resources */,
+				20C1226822254EAE004CAF67 /* virus.mp4 in Resources */,
+				20C1227422254F04004CAF67 /* yolk.mp4 in Resources */,
+				20C1225622254E1B004CAF67 /* shelves.mp4 in Resources */,
+				20C1224A22254DB5004CAF67 /* picasso.mp4 in Resources */,
 				20B669C2221DEE3800645925 /* PreferencesWindowController.xib in Resources */,
 				53E840FA221D9BA5005FA65E /* unstablePipes.mp4 in Resources */,
+				20C1223222254CD9004CAF67 /* layers.mp4 in Resources */,
+				20C1224722254D9B004CAF67 /* paintbrush.mp4 in Resources */,
 				53E840F8221D9BA5005FA65E /* runningInGrass.mp4 in Resources */,
 				206ECE3022217ECC00971C99 /* Media.xcassets in Resources */,
+				20C1223B22254D21004CAF67 /* magnify.mp4 in Resources */,
+				20C1226E22254ED7004CAF67 /* waterDrops.mp4 in Resources */,
+				20C1226522254E9A004CAF67 /* trapezium.mp4 in Resources */,
+				20C1222622254C70004CAF67 /* glow.mp4 in Resources */,
+				20C1224422254D88004CAF67 /* noiseStripes.mp4 in Resources */,
 				53E840FF221DA1D1005FA65E /* original.mp4 in Resources */,
+				20C1226B22254EC4004CAF67 /* volumetric.mp4 in Resources */,
+				20C1225922254E3D004CAF67 /* skittles.mp4 in Resources */,
+				20C1227722254F19004CAF67 /* zebra.mp4 in Resources */,
+				20C1223822254D06004CAF67 /* lines.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,15 +501,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C1225422254DFF004CAF67 /* shards.mp4 in Resources */,
+				20C1222D22254CA2004CAF67 /* hills.mp4 in Resources */,
 				53E840FD221D9BA5005FA65E /* neon.mp4 in Resources */,
+				20C1225D22254E57004CAF67 /* soundSpectrum.mp4 in Resources */,
 				53E840DA221D9A8F005FA65E /* Assets.xcassets in Resources */,
+				20C1225122254DDD004CAF67 /* riverNoir.mp4 in Resources */,
+				20C1227222254EF4004CAF67 /* wet.mp4 in Resources */,
+				20C1223622254CEF004CAF67 /* leaf.mp4 in Resources */,
+				20C1221E22254C12004CAF67 /* defragmentation.mp4 in Resources */,
+				20C1226022254E71004CAF67 /* splash.mp4 in Resources */,
+				20C1226322254E86004CAF67 /* surfaceWater.mp4 in Resources */,
 				53E840E6221D9AAB005FA65E /* MainMenu.xib in Resources */,
+				20C1222A22254C8B004CAF67 /* gummyWorms.mp4 in Resources */,
+				20C1221822254BBC004CAF67 /* avatarTissue.mp4 in Resources */,
+				20C1222422254C58004CAF67 /* geometricShapes.mp4 in Resources */,
 				53E840F7221D9BA5005FA65E /* cubicMess.mp4 in Resources */,
+				20C1227B22257FAE004CAF67 /* iris.mp4 in Resources */,
+				20C1222122254C37004CAF67 /* fangs.mp4 in Resources */,
+				20C1224E22254DC9004CAF67 /* playDoh.mp4 in Resources */,
+				20C1221B22254BDE004CAF67 /* ballPit.mp4 in Resources */,
+				20C1224222254D73004CAF67 /* monochrome.mp4 in Resources */,
+				20C1223F22254D3B004CAF67 /* moistyColors.mp4 in Resources */,
+				20C1226922254EAE004CAF67 /* virus.mp4 in Resources */,
+				20C1227522254F04004CAF67 /* yolk.mp4 in Resources */,
+				20C1225722254E1B004CAF67 /* shelves.mp4 in Resources */,
+				20C1224B22254DB5004CAF67 /* picasso.mp4 in Resources */,
 				20B669C3221DEFDB00645925 /* PreferencesWindowController.xib in Resources */,
 				53E840FB221D9BA5005FA65E /* unstablePipes.mp4 in Resources */,
+				20C1223322254CD9004CAF67 /* layers.mp4 in Resources */,
+				20C1224822254D9B004CAF67 /* paintbrush.mp4 in Resources */,
 				53E840F9221D9BA5005FA65E /* runningInGrass.mp4 in Resources */,
 				206ECE312221827400971C99 /* Media.xcassets in Resources */,
+				20C1223C22254D21004CAF67 /* magnify.mp4 in Resources */,
+				20C1226F22254ED7004CAF67 /* waterDrops.mp4 in Resources */,
+				20C1226622254E9A004CAF67 /* trapezium.mp4 in Resources */,
+				20C1222722254C70004CAF67 /* glow.mp4 in Resources */,
+				20C1224522254D88004CAF67 /* noiseStripes.mp4 in Resources */,
 				53E84100221DA1D1005FA65E /* original.mp4 in Resources */,
+				20C1226C22254EC4004CAF67 /* volumetric.mp4 in Resources */,
+				20C1225A22254E3D004CAF67 /* skittles.mp4 in Resources */,
+				20C1227822254F19004CAF67 /* zebra.mp4 in Resources */,
+				20C1223922254D06004CAF67 /* lines.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

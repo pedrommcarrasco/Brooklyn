@@ -39,10 +39,12 @@ extension LoopPlayer {
     
     func play(_ animation: Animation) {
         guard let item = AVPlayerItem(video: animation, extension: .mp4, for: LoopPlayer.self) else { return }
+        actionAtItemEnd = .none
+        removeAllItems()
         [item].prepareForQueue().forEach {
             insert($0, after: items().last)
-            advanceToNextItem()
         }
+        actionAtItemEnd = .advance
     }
 }
 
