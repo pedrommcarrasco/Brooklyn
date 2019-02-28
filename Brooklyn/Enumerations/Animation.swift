@@ -13,8 +13,10 @@ enum Animation: String, CaseIterable {
     case original
     case avatarTissue
     case ballPit
+    case connectivity
     case cubicMess
     case defragmentation
+    case fadingPieces
     case fangs
     case geometricShapes
     case glow
@@ -44,6 +46,7 @@ enum Animation: String, CaseIterable {
     case unstablePipes
     case virus
     case volumetric
+    case watercolors
     case waterDrops
     case wet
     case yolk
@@ -58,8 +61,10 @@ extension Animation {
         case .original: return "Original"
         case .avatarTissue: return "Avatar Tissue"
         case .ballPit: return "Ball Pit"
+        case .connectivity: return "Connectivity"
         case .cubicMess: return "Cubic Mess"
         case .defragmentation: return "Defragmentation"
+        case .fadingPieces: return "Fading Pieces"
         case .fangs: return "Fangs"
         case .geometricShapes: return "Geometric Shapes"
         case .glow: return "Glow"
@@ -89,6 +94,7 @@ extension Animation {
         case .unstablePipes: return "Unstable Pipes"
         case .virus: return "Virus"
         case .volumetric: return "Volumetric"
+        case .watercolors: return "Watercolors"
         case .waterDrops: return "Water Drops"
         case .wet: return "Wet"
         case .yolk: return "Yolk"
