@@ -18,6 +18,7 @@ enum Animation: String, CaseIterable {
     case cityLife
     case connectivity
     case cubicMess
+    case cursor
     case defragmentation
     case eggsy
     case fadingPieces
@@ -70,6 +71,7 @@ extension Animation {
         case .cityLife: return "City Life"
         case .connectivity: return "Connectivity"
         case .cubicMess: return "Cubic Mess"
+        case .cursor: return "Cursor"
         case .defragmentation: return "Defragmentation"
         case .eggsy: return "Eggsy"
         case .fadingPieces: return "Fading Pieces"

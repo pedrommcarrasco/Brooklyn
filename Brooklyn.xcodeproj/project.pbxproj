@@ -103,6 +103,8 @@
 		20C1227722254F19004CAF67 /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227622254F19004CAF67 /* zebra.mp4 */; };
 		20C1227822254F19004CAF67 /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1227622254F19004CAF67 /* zebra.mp4 */; };
 		20CAF50621891FCE0086AED8 /* BrooklynView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAF50521891FCE0086AED8 /* BrooklynView.swift */; };
+		20CC535D222C46AA0011AFA8 /* cursor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20CC535C222C46AA0011AFA8 /* cursor.mp4 */; };
+		20CC535E222C46AA0011AFA8 /* cursor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20CC535C222C46AA0011AFA8 /* cursor.mp4 */; };
 		5332EB19221F091F00286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
 		5332EB1A221F095100286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
 		5334E3E0221EBBA000C3811A /* BrooklynManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3DF221EBBA000C3811A /* BrooklynManager.swift */; };
@@ -187,6 +189,7 @@
 		20C1227322254F04004CAF67 /* yolk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yolk.mp4; sourceTree = "<group>"; };
 		20C1227622254F19004CAF67 /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
 		20CAF50521891FCE0086AED8 /* BrooklynView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrooklynView.swift; sourceTree = "<group>"; };
+		20CC535C222C46AA0011AFA8 /* cursor.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cursor.mp4; sourceTree = "<group>"; };
 		218D6EDE20FC3CEB0029D4A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F222261B73B5AC00B9A11A /* Brooklyn.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brooklyn.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		5332EB18221F091F00286C65 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
@@ -346,12 +349,13 @@
 				202F52D22229FCBA004FF9CD /* cityLife.mp4 */,
 				204295332228A23B00477014 /* connectivity.mp4 */,
 				53E840F2221D9BA3005FA65E /* cubicMess.mp4 */,
+				20CC535C222C46AA0011AFA8 /* cursor.mp4 */,
 				20C1221C22254C12004CAF67 /* defragmentation.mp4 */,
 				202F52C32229EC41004FF9CD /* eggsy.mp4 */,
+				2072124D222B14D90026F1E1 /* fadingPieces.mp4 */,
 				20C1221F22254C37004CAF67 /* fangs.mp4 */,
 				202F52D52229FCE1004FF9CD /* fruitNinja.mp4 */,
 				20C1222222254C58004CAF67 /* geometricShapes.mp4 */,
-				2072124D222B14D90026F1E1 /* fadingPieces.mp4 */,
 				20C1222522254C70004CAF67 /* glow.mp4 */,
 				202F52D82229FCFD004FF9CD /* goldenBarbs.mp4 */,
 				20C1222822254C8B004CAF67 /* gummyWorms.mp4 */,
@@ -521,6 +525,7 @@
 				20C1226E22254ED7004CAF67 /* waterDrops.mp4 in Resources */,
 				202F52BE2229EC07004FF9CD /* blueSand.mp4 in Resources */,
 				20C1226522254E9A004CAF67 /* trapezium.mp4 in Resources */,
+				20CC535D222C46AA0011AFA8 /* cursor.mp4 in Resources */,
 				20C1222622254C70004CAF67 /* glow.mp4 in Resources */,
 				20C1224422254D88004CAF67 /* noiseStripes.mp4 in Resources */,
 				202F52C72229EC5E004FF9CD /* cells.mp4 in Resources */,
@@ -577,6 +582,7 @@
 				20C1226F22254ED7004CAF67 /* waterDrops.mp4 in Resources */,
 				202F52BF2229EC07004FF9CD /* blueSand.mp4 in Resources */,
 				20C1226622254E9A004CAF67 /* trapezium.mp4 in Resources */,
+				20CC535E222C46AA0011AFA8 /* cursor.mp4 in Resources */,
 				20C1222722254C70004CAF67 /* glow.mp4 in Resources */,
 				20C1224522254D88004CAF67 /* noiseStripes.mp4 in Resources */,
 				202F52C82229EC5E004FF9CD /* cells.mp4 in Resources */,
