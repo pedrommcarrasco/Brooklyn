@@ -16,7 +16,6 @@ enum Animation: String, CaseIterable {
     case blueSand
     case cells
     case cityLife
-    case colorPath
     case connectivity
     case cubicMess
     case defragmentation
@@ -29,20 +28,16 @@ enum Animation: String, CaseIterable {
     case goldenBarbs
     case gummyWorms
     case hills
-    case iris
     case layers
     case leaf
     case lines
     case magnify
-    case moistyColors
     case monochrome
     case neon
     case noiseStripes
     case paintbrush
     case picasso
-    case pinkAndPurple
     case playDoh
-    case popcorns
     case riverNoir
     case runningInGrass
     case shards
@@ -51,7 +46,6 @@ enum Animation: String, CaseIterable {
     case soundSpectrum
     case splash
     case sulleysFur
-    case surfaceWater
     case trapezium
     case unstablePipes
     case virus
@@ -74,7 +68,6 @@ extension Animation {
         case .blueSand: return "Blue Sand"
         case .cells: return "Cells"
         case .cityLife: return "City Life"
-        case .colorPath: return "Color Path"
         case .connectivity: return "Connectivity"
         case .cubicMess: return "Cubic Mess"
         case .defragmentation: return "Defragmentation"
@@ -87,20 +80,16 @@ extension Animation {
         case .goldenBarbs: return "Golden Barbs"
         case .gummyWorms: return "Gummy Worms"
         case .hills: return "Hills"
-        case .iris: return "Iris"
         case .layers: return "Layers"
         case .leaf: return "Leaf"
         case .lines: return "Lines"
         case .magnify: return "Magnify"
-        case .moistyColors: return "Moisty Colors"
         case .monochrome: return "Monochrome"
         case .neon: return "Neon"
         case .noiseStripes: return "Noise Stripes"
         case .paintbrush: return "Paintbrush"
         case .picasso: return "Picasso"
-        case .pinkAndPurple: return "Pink & Purple"
         case .playDoh: return "Play-Doh"
-        case .popcorns: return "Popcorns"
         case .riverNoir: return "River Noir"
         case .runningInGrass: return "Running in Grass"
         case .shards: return "Shards"
@@ -109,7 +98,6 @@ extension Animation {
         case .soundSpectrum: return "Sound Spectrum"
         case .splash: return "Splash"
         case .sulleysFur: return "Sulley's Fur"
-        case .surfaceWater: return "Surface Water"
         case .trapezium: return "Trapezium"
         case .unstablePipes: return "Unstable Pipes"
         case .virus: return "Virus"
