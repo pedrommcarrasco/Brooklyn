@@ -15,8 +15,6 @@
 		202F52BF2229EC07004FF9CD /* blueSand.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 202F52BD2229EC07004FF9CD /* blueSand.mp4 */; };
 		202F52C12229EC1C004FF9CD /* snakes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 202F52C02229EC1C004FF9CD /* snakes.mp4 */; };
 		202F52C22229EC1C004FF9CD /* snakes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 202F52C02229EC1C004FF9CD /* snakes.mp4 */; };
-		202F52C42229EC41004FF9CD /* eggsy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 202F52C32229EC41004FF9CD /* eggsy.mp4 */; };
-		202F52C52229EC41004FF9CD /* eggsy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 202F52C32229EC41004FF9CD /* eggsy.mp4 */; };
 		202F52C72229EC5E004FF9CD /* cells.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 202F52C62229EC5E004FF9CD /* cells.mp4 */; };
 		202F52C82229EC5E004FF9CD /* cells.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 202F52C62229EC5E004FF9CD /* cells.mp4 */; };
 		202F52CD2229FC62004FF9CD /* sulleysFur.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 202F52CC2229FC62004FF9CD /* sulleysFur.mp4 */; };
@@ -126,8 +124,6 @@
 		20C1226022254E71004CAF67 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1225E22254E71004CAF67 /* splash.mp4 */; };
 		20C1226522254E9A004CAF67 /* trapezium.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226422254E9A004CAF67 /* trapezium.mp4 */; };
 		20C1226622254E9A004CAF67 /* trapezium.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226422254E9A004CAF67 /* trapezium.mp4 */; };
-		20C1226822254EAE004CAF67 /* virus.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226722254EAE004CAF67 /* virus.mp4 */; };
-		20C1226922254EAE004CAF67 /* virus.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226722254EAE004CAF67 /* virus.mp4 */; };
 		20C1226B22254EC4004CAF67 /* volumetric.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226A22254EC3004CAF67 /* volumetric.mp4 */; };
 		20C1226C22254EC4004CAF67 /* volumetric.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226A22254EC3004CAF67 /* volumetric.mp4 */; };
 		20C1226E22254ED7004CAF67 /* waterDrops.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20C1226D22254ED7004CAF67 /* waterDrops.mp4 */; };
@@ -180,7 +176,6 @@
 		2023D4F9222204E6007B6243 /* LoopPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopPlayer.swift; sourceTree = "<group>"; };
 		202F52BD2229EC07004FF9CD /* blueSand.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = blueSand.mp4; sourceTree = "<group>"; };
 		202F52C02229EC1C004FF9CD /* snakes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = snakes.mp4; sourceTree = "<group>"; };
-		202F52C32229EC41004FF9CD /* eggsy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = eggsy.mp4; sourceTree = "<group>"; };
 		202F52C62229EC5E004FF9CD /* cells.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cells.mp4; sourceTree = "<group>"; };
 		202F52CC2229FC62004FF9CD /* sulleysFur.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sulleysFur.mp4; sourceTree = "<group>"; };
 		202F52D22229FCBA004FF9CD /* cityLife.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cityLife.mp4; sourceTree = "<group>"; };
@@ -236,7 +231,6 @@
 		20C1225522254E1B004CAF67 /* shelves.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shelves.mp4; sourceTree = "<group>"; };
 		20C1225E22254E71004CAF67 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
 		20C1226422254E9A004CAF67 /* trapezium.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trapezium.mp4; sourceTree = "<group>"; };
-		20C1226722254EAE004CAF67 /* virus.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = virus.mp4; sourceTree = "<group>"; };
 		20C1226A22254EC3004CAF67 /* volumetric.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = volumetric.mp4; sourceTree = "<group>"; };
 		20C1226D22254ED7004CAF67 /* waterDrops.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = waterDrops.mp4; sourceTree = "<group>"; };
 		20C1227022254EF4004CAF67 /* wet.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = wet.mp4; sourceTree = "<group>"; };
@@ -411,7 +405,6 @@
 				208BB860222CC35800C65D5C /* cuphead.mp4 */,
 				20CC535C222C46AA0011AFA8 /* cursor.mp4 */,
 				20C1221C22254C12004CAF67 /* defragmentation.mp4 */,
-				202F52C32229EC41004FF9CD /* eggsy.mp4 */,
 				2072124D222B14D90026F1E1 /* fadingPieces.mp4 */,
 				20C1221F22254C37004CAF67 /* fangs.mp4 */,
 				202F52D52229FCE1004FF9CD /* fruitNinja.mp4 */,
@@ -452,7 +445,6 @@
 				208BB85A222CAE1400C65D5C /* theRoom.mp4 */,
 				20C1226422254E9A004CAF67 /* trapezium.mp4 */,
 				53E840F4221D9BA5005FA65E /* unstablePipes.mp4 */,
-				20C1226722254EAE004CAF67 /* virus.mp4 */,
 				20C1226A22254EC3004CAF67 /* volumetric.mp4 */,
 				208BB851222C9D2300C65D5C /* warp.mp4 */,
 				204295302228A21600477014 /* watercolors.mp4 */,
@@ -575,7 +567,6 @@
 				20C1225F22254E71004CAF67 /* splash.mp4 in Resources */,
 				2072124E222B14D90026F1E1 /* fadingPieces.mp4 in Resources */,
 				203E6507218C65CD0021F2F2 /* thumbnail@2x.png in Resources */,
-				202F52C42229EC41004FF9CD /* eggsy.mp4 in Resources */,
 				208BB855222CA7E000C65D5C /* auroraBorealis.mp4 in Resources */,
 				202F52C12229EC1C004FF9CD /* snakes.mp4 in Resources */,
 				208BB86D222D594C00C65D5C /* tissue.mp4 in Resources */,
@@ -592,7 +583,6 @@
 				20C1221A22254BDE004CAF67 /* ballPit.mp4 in Resources */,
 				20C1224122254D73004CAF67 /* monochrome.mp4 in Resources */,
 				208BB861222CC35800C65D5C /* cuphead.mp4 in Resources */,
-				20C1226822254EAE004CAF67 /* virus.mp4 in Resources */,
 				208BB876222D850C00C65D5C /* zelda.mp4 in Resources */,
 				20C1227422254F04004CAF67 /* yolk.mp4 in Resources */,
 				20C1225622254E1B004CAF67 /* shelves.mp4 in Resources */,
@@ -650,7 +640,6 @@
 				20C1226022254E71004CAF67 /* splash.mp4 in Resources */,
 				2072124F222B14D90026F1E1 /* fadingPieces.mp4 in Resources */,
 				53E840E6221D9AAB005FA65E /* MainMenu.xib in Resources */,
-				202F52C52229EC41004FF9CD /* eggsy.mp4 in Resources */,
 				208BB856222CA7E000C65D5C /* auroraBorealis.mp4 in Resources */,
 				202F52C22229EC1C004FF9CD /* snakes.mp4 in Resources */,
 				208BB86E222D594C00C65D5C /* tissue.mp4 in Resources */,
@@ -667,7 +656,6 @@
 				20C1221B22254BDE004CAF67 /* ballPit.mp4 in Resources */,
 				20C1224222254D73004CAF67 /* monochrome.mp4 in Resources */,
 				208BB862222CC35800C65D5C /* cuphead.mp4 in Resources */,
-				20C1226922254EAE004CAF67 /* virus.mp4 in Resources */,
 				208BB877222D850C00C65D5C /* zelda.mp4 in Resources */,
 				20C1227522254F04004CAF67 /* yolk.mp4 in Resources */,
 				20C1225722254E1B004CAF67 /* shelves.mp4 in Resources */,

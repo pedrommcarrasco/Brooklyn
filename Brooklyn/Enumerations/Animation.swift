@@ -25,7 +25,6 @@ enum Animation: String, CaseIterable {
     case cursor
     case defragmentation
     case doodle
-    case eggsy
     case fadingPieces
     case fangs
     case fruitNinja
@@ -65,7 +64,6 @@ enum Animation: String, CaseIterable {
     case tissue
     case trapezium
     case unstablePipes
-    case virus
     case volumetric
     case warp
     case watercolors
@@ -96,7 +94,6 @@ extension Animation {
         case .cursor: return "Cursor"
         case .defragmentation: return "Defragmentation"
         case .doodle: return "Doodle"
-        case .eggsy: return "Eggsy"
         case .fadingPieces: return "Fading Pieces"
         case .fangs: return "Fangs"
         case .fruitNinja: return "Fruit Ninja"
@@ -136,7 +133,6 @@ extension Animation {
         case .tissue: return "Tissue"
         case .trapezium: return "Trapezium"
         case .unstablePipes: return "Unstable Pipes"
-        case .virus: return "Virus"
         case .volumetric: return "Volumetric"
         case .warp: return "Warp"
         case .watercolors: return "Watercolors"
