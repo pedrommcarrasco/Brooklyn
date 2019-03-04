@@ -15,6 +15,7 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     // MARK: Constant
     private enum Constant {
         static let intercellSpacing = NSSize(width: 0, height: 8)
+        static let spacebarKeyCode = 0x31
     }
     
     // MARK: Outlets
@@ -35,6 +36,19 @@ extension PreferencesWindowController {
         super.windowDidLoad()
         configure()
     }
+    
+    override func keyUp(with event: NSEvent) {
+        super.keyUp(with: event)
+        
+        if event.keyCode == Constant.spacebarKeyCode {
+            guard !animationsTableView.selectedRowIndexes.isEmpty else { return }
+            animationsTableView.selectedRowIndexes.forEach {
+                guard $0 >= 0 else { return }
+                let selectedCell = animationsTableView.view(atColumn: 0, row: $0, makeIfNecessary: false)
+                (selectedCell as? AnimationCellView)?.spacebarAction()
+            }
+        }
+    }
 }
 
 // MARK: - Configuration
@@ -51,6 +65,7 @@ private extension PreferencesWindowController {
         animationsTableView.dataSource = self
         animationsTableView.delegate = self
         animationsTableView.intercellSpacing = Constant.intercellSpacing
+        animationsTableView.allowsMultipleSelection = true
     }
     
     func setupPlayer() {
