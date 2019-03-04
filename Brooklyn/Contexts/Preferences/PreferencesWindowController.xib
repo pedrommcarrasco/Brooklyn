@@ -21,7 +21,7 @@
         <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="240" width="800" height="500"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,7 +112,7 @@
                     </avPlayerView>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eY6-hS-6X6">
                         <rect key="frame" x="718" y="9" width="72" height="32"/>
-                        <buttonCell key="cell" type="push" title="Done" bezelStyle="rounded" imagePosition="leading" alignment="center" borderStyle="border" sound="Pop" inset="2" id="NWC-RO-pmp">
+                        <buttonCell key="cell" type="push" title="Done" bezelStyle="rounded" alignment="center" borderStyle="border" sound="Pop" inset="2" id="NWC-RO-pmp">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
@@ -200,7 +200,7 @@ DQ
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="w6a-cl-Htl"/>
                         </constraints>
-                        <buttonCell key="cell" type="square" title="Follow the creator on Twitter" bezelStyle="shadowlessSquare" image="twitter" imagePosition="leading" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="Xgd-vn-cgV">
+                        <buttonCell key="cell" type="square" title="Follow the creator on Twitter" bezelStyle="shadowlessSquare" image="twitter" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="Xgd-vn-cgV">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -214,7 +214,7 @@ DQ
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="6su-ic-SIf"/>
                         </constraints>
-                        <buttonCell key="cell" type="square" title="Star Brooklyn &amp; watch it on GitHub" bezelStyle="shadowlessSquare" image="github" imagePosition="leading" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="KgX-fg-HvM">
+                        <buttonCell key="cell" type="square" title="Star Brooklyn &amp; watch it on GitHub" bezelStyle="shadowlessSquare" image="github" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="KgX-fg-HvM">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>

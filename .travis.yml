@@ -10,4 +10,4 @@ env:
 script:
  - set -o pipefail
  - xcodebuild clean -scheme "$SCHEME"
- - xcodebuild build -scheme "$SCHEME"
+ - xcodebuild build -scheme "$SCHEME" CODE_SIGNING_REQUIRED=NO
