@@ -14,6 +14,7 @@ enum Animation: String, CaseIterable {
     case avatarTissue
     case auroraBorealis
     case ballPit
+    case bits
     case blueSand
     case cells
     case cityLife
@@ -23,6 +24,7 @@ enum Animation: String, CaseIterable {
     case cuphead
     case cursor
     case defragmentation
+    case doodle
     case eggsy
     case fadingPieces
     case fangs
@@ -83,6 +85,7 @@ extension Animation {
         case .avatarTissue: return "Avatar Tissue"
         case .auroraBorealis: return "Aurora Borealis"
         case .ballPit: return "Ball Pit"
+        case .bits: return "Bits"
         case .blueSand: return "Blue Sand"
         case .cells: return "Cells"
         case .cityLife: return "City Life"
@@ -92,6 +95,7 @@ extension Animation {
         case .cuphead: return "Cuphead"
         case .cursor: return "Cursor"
         case .defragmentation: return "Defragmentation"
+        case .doodle: return "Doodle"
         case .eggsy: return "Eggsy"
         case .fadingPieces: return "Fading Pieces"
         case .fangs: return "Fangs"

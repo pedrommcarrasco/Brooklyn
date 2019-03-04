@@ -75,6 +75,10 @@
 		208BB87D222D8A0800C65D5C /* juicy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 208BB87B222D8A0800C65D5C /* juicy.mp4 */; };
 		208BB87F222D8A9C00C65D5C /* pangea.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 208BB87E222D8A9C00C65D5C /* pangea.mp4 */; };
 		208BB880222D8A9C00C65D5C /* pangea.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 208BB87E222D8A9C00C65D5C /* pangea.mp4 */; };
+		208BB882222D9A0000C65D5C /* doodle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 208BB881222D9A0000C65D5C /* doodle.mp4 */; };
+		208BB883222D9A0000C65D5C /* doodle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 208BB881222D9A0000C65D5C /* doodle.mp4 */; };
+		208BB885222D9A1F00C65D5C /* bits.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 208BB884222D9A1F00C65D5C /* bits.mp4 */; };
+		208BB886222D9A1F00C65D5C /* bits.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 208BB884222D9A1F00C65D5C /* bits.mp4 */; };
 		20B669C2221DEE3800645925 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B669C1221DEE3800645925 /* PreferencesWindowController.xib */; };
 		20B669C3221DEFDB00645925 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B669C1221DEE3800645925 /* PreferencesWindowController.xib */; };
 		20B669C4221DEFDE00645925 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53689945221C66F60071D26F /* PreferencesWindowController.swift */; };
@@ -207,6 +211,8 @@
 		208BB878222D852500C65D5C /* fullMoon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fullMoon.mp4; sourceTree = "<group>"; };
 		208BB87B222D8A0800C65D5C /* juicy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = juicy.mp4; sourceTree = "<group>"; };
 		208BB87E222D8A9C00C65D5C /* pangea.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pangea.mp4; sourceTree = "<group>"; };
+		208BB881222D9A0000C65D5C /* doodle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doodle.mp4; sourceTree = "<group>"; };
+		208BB884222D9A1F00C65D5C /* bits.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bits.mp4; sourceTree = "<group>"; };
 		20B669C1221DEE3800645925 /* PreferencesWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesWindowController.xib; sourceTree = "<group>"; };
 		20C1221622254BBC004CAF67 /* avatarTissue.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = avatarTissue.mp4; sourceTree = "<group>"; };
 		20C1221922254BDE004CAF67 /* ballPit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ballPit.mp4; sourceTree = "<group>"; };
@@ -394,9 +400,11 @@
 				20C1221622254BBC004CAF67 /* avatarTissue.mp4 */,
 				20C1221922254BDE004CAF67 /* ballPit.mp4 */,
 				202F52BD2229EC07004FF9CD /* blueSand.mp4 */,
+				208BB884222D9A1F00C65D5C /* bits.mp4 */,
 				202F52C62229EC5E004FF9CD /* cells.mp4 */,
 				202F52D22229FCBA004FF9CD /* cityLife.mp4 */,
 				208BB866222D515000C65D5C /* nature.mp4 */,
+				208BB881222D9A0000C65D5C /* doodle.mp4 */,
 				204295332228A23B00477014 /* connectivity.mp4 */,
 				208BB85D222CB29A00C65D5C /* crescentMoon.mp4 */,
 				53E840F2221D9BA3005FA65E /* cubicMess.mp4 */,
@@ -561,6 +569,7 @@
 				202F52D32229FCBA004FF9CD /* cityLife.mp4 in Resources */,
 				20C1223522254CEF004CAF67 /* leaf.mp4 in Resources */,
 				20C1221D22254C12004CAF67 /* defragmentation.mp4 in Resources */,
+				208BB885222D9A1F00C65D5C /* bits.mp4 in Resources */,
 				208BB870222D84D400C65D5C /* polarPeak.mp4 in Resources */,
 				20721242222B11690026F1E1 /* soundSpectrum.mp4 in Resources */,
 				20C1225F22254E71004CAF67 /* splash.mp4 in Resources */,
@@ -606,6 +615,7 @@
 				20C1226522254E9A004CAF67 /* trapezium.mp4 in Resources */,
 				20CC535D222C46AA0011AFA8 /* cursor.mp4 in Resources */,
 				20C1222622254C70004CAF67 /* glow.mp4 in Resources */,
+				208BB882222D9A0000C65D5C /* doodle.mp4 in Resources */,
 				20C1224422254D88004CAF67 /* noiseStripes.mp4 in Resources */,
 				202F52C72229EC5E004FF9CD /* cells.mp4 in Resources */,
 				53E840FF221DA1D1005FA65E /* original.mp4 in Resources */,
@@ -634,6 +644,7 @@
 				202F52D42229FCBA004FF9CD /* cityLife.mp4 in Resources */,
 				20C1223622254CEF004CAF67 /* leaf.mp4 in Resources */,
 				20C1221E22254C12004CAF67 /* defragmentation.mp4 in Resources */,
+				208BB886222D9A1F00C65D5C /* bits.mp4 in Resources */,
 				208BB871222D84D400C65D5C /* polarPeak.mp4 in Resources */,
 				20721243222B11690026F1E1 /* soundSpectrum.mp4 in Resources */,
 				20C1226022254E71004CAF67 /* splash.mp4 in Resources */,
@@ -679,6 +690,7 @@
 				20C1226622254E9A004CAF67 /* trapezium.mp4 in Resources */,
 				20CC535E222C46AA0011AFA8 /* cursor.mp4 in Resources */,
 				20C1222722254C70004CAF67 /* glow.mp4 in Resources */,
+				208BB883222D9A0000C65D5C /* doodle.mp4 in Resources */,
 				20C1224522254D88004CAF67 /* noiseStripes.mp4 in Resources */,
 				202F52C82229EC5E004FF9CD /* cells.mp4 in Resources */,
 				53E84100221DA1D1005FA65E /* original.mp4 in Resources */,
