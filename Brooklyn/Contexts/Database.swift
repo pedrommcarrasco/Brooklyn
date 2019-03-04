@@ -40,7 +40,8 @@ extension ScreenSaverDefaults {
 
     var selectedAnimations: [Animation] {
         guard let rawValues = array(forKey: Database.Key.selectedAnimations) as? [String] else { return [.original] }
-        return rawValues.compactMap(Animation.init)
+        let animations = rawValues.compactMap(Animation.init)
+        return animations.isEmpty ? [.original] : animations
     }
 
     func set(animations: [Animation]) {
