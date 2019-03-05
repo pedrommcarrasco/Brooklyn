@@ -141,8 +141,8 @@ DQ
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fah-n6-w7f">
-                        <rect key="frame" x="432" y="219" width="118" height="17"/>
-                        <textFieldCell key="cell" lineBreakMode="clipping" title="Repeat Animations" id="lNM-lZ-9Jt">
+                        <rect key="frame" x="432" y="219" width="144" height="17"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Repeat Each Animation" id="lNM-lZ-9Jt">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
