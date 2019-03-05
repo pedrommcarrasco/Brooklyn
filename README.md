@@ -11,10 +11,14 @@
 ## Features ✅
 
 * Doesn't require internet connection
+* Homebrew support
 * Select which animations you want to see
 * Loop each animation how many times you want
 * Make the animations' order random
-* Homebrew support
+
+<p align="center">
+    <img src="https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/preferenceMenu.png?raw=true" alt="Example"/>
+</p>
 
 ## Installation 📦
 
