@@ -10,13 +10,13 @@ import Cocoa
 
 // MARK: - AnimationCellView
 final class AnimationCellView: NSTableCellView {
-
+    
     // MARK: Outlets
     @IBOutlet private weak var button: NSButton!
-
+    
     // MARK: Properties
     var title: String { return textField?.stringValue ?? "" }
-    var state: NSControl.StateValue{ return button.state }
+    var state: NSControl.StateValue { return button.state }
     var onToogle: (() -> ())?
 }
 
@@ -30,9 +30,14 @@ extension AnimationCellView {
 }
 
 // MARK: - Actions
-private extension AnimationCellView {
+extension AnimationCellView {
     
-    @IBAction func buttonAction(_ sender: NSButton) {
+    @IBAction private func buttonAction(_ sender: NSButton) {
         onToogle?()
+    }
+    
+    func spacebarAction() {
+        button.state = button.state == .on ? .off : .on
+        buttonAction(button)
     }
 }

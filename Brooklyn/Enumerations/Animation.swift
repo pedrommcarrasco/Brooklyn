@@ -79,7 +79,7 @@ extension Animation {
 
     var name: String {
         switch self {
-        case .original: return "Original"
+        case .original: return "All Animations (Apple's Original Version)"
         case .avatarTissue: return "Avatar Tissue"
         case .auroraBorealis: return "Aurora Borealis"
         case .ballPit: return "Ball Pit"
