@@ -11,13 +11,10 @@
 ## Features ✅
 
 * Doesn't require internet connection
-* Provides an *all animations* screensaver
+* Select which animations you want to see
+* Loop each animation how many times you want
+* Make the animations' order random
 * Homebrew support
-
-### Upcoming ⌛
-
-* Provide a preferences menu to select which animations will be displayed
-* Custom clock
 
 ## Installation 📦
 
@@ -47,7 +44,7 @@ Independently of how you install **Brooklyn**, please **close your System Prefer
 
 ## Compatibility 🔧
 
-Brooklyn is written in Swift, which requires OS X Mavericks (10.9) or above.
+Requires OS X El Capitan (10.11) or above.
 
 ## Contributing  🙌 
 
