@@ -31,16 +31,14 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
 
 // MARK: - Lifecycle
 extension PreferencesWindowController {
-   
+
     override func windowDidLoad() {
         super.windowDidLoad()
         configure()
     }
     
     override func keyUp(with event: NSEvent) {
-        super.keyUp(with: event)
-        
-        if event.keyCode == Constant.spacebarKeyCode {
+        if event.keyCode == Constant.spacebarKeyCode, !event.isARepeat {
             guard !animationsTableView.selectedRowIndexes.isEmpty else { return }
             animationsTableView.selectedRowIndexes.forEach {
                 guard $0 >= 0 else { return }
@@ -136,6 +134,6 @@ private extension PreferencesWindowController {
     @IBAction func doneAction(_ sender: NSButton) {
         animationsTableView.deselectAll(nil)
         guard let window = window else { return }
-        window.endSheet(window)
+        window.sheetParent?.endSheet(window)
     }
 }
