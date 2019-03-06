@@ -20,7 +20,7 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     
     // MARK: Outlets
     @IBOutlet private weak var animationsTableView: NSTableView!
-    @IBOutlet private weak var animationPlayerView: PlayerView!
+    @IBOutlet private weak var animationPlayerView: AVPlayerView!
     @IBOutlet private weak var previewLabel: NSTextField!
     @IBOutlet private weak var randomOrderCheckBox: NSButton!
     @IBOutlet private weak var numberOfLoopsPopUp: NSPopUpButton!

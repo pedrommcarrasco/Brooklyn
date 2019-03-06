@@ -20,9 +20,10 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="240" width="800" height="512"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1200"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="800" height="512"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,7 +105,7 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                     </scrollView>
-                    <avPlayerView controlsStyle="none" translatesAutoresizingMaskIntoConstraints="NO" id="m6K-4m-9AI" customClass="PlayerView" customModule="Brooklyn" customModuleProvider="target">
+                    <avPlayerView controlsStyle="none" translatesAutoresizingMaskIntoConstraints="NO" id="m6K-4m-9AI">
                         <rect key="frame" x="434" y="299" width="350" height="197"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="m6K-4m-9AI" secondAttribute="height" multiplier="16:9" id="kKk-Rk-gUG"/>
@@ -310,15 +311,6 @@ DQ
             </connections>
             <point key="canvasLocation" x="251" y="248"/>
         </window>
-        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="piF-LM-Z4F">
-            <rect key="frame" x="0.0" y="0.0" width="37" height="17"/>
-            <autoresizingMask key="autoresizingMask"/>
-            <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="eWd-PK-ZV9">
-                <font key="font" usesAppearanceFont="YES"/>
-                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-            </textFieldCell>
-        </textField>
     </objects>
     <resources>
         <image name="github" width="686.4000244140625" height="409.60000610351562"/>
