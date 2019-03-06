@@ -59,7 +59,7 @@
                                                     <subviews>
                                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YlX-oQ-WQ2">
                                                             <rect key="frame" x="365" y="-2" width="18" height="18"/>
-                                                            <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="only" inset="2" id="lWN-QX-1EU">
+                                                            <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="only" refusesFirstResponder="YES" inset="2" id="lWN-QX-1EU">
                                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                                 <font key="font" metaFont="system"/>
                                                             </buttonCell>
@@ -104,7 +104,7 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                     </scrollView>
-                    <avPlayerView controlsStyle="none" translatesAutoresizingMaskIntoConstraints="NO" id="m6K-4m-9AI">
+                    <avPlayerView controlsStyle="none" translatesAutoresizingMaskIntoConstraints="NO" id="m6K-4m-9AI" customClass="PlayerView" customModule="Brooklyn" customModuleProvider="target">
                         <rect key="frame" x="434" y="299" width="350" height="197"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="m6K-4m-9AI" secondAttribute="height" multiplier="16:9" id="kKk-Rk-gUG"/>
@@ -163,8 +163,8 @@ DQ
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="U06-cj-0bE">
-                        <rect key="frame" x="432" y="186" width="93" height="17"/>
-                        <textFieldCell key="cell" lineBreakMode="clipping" title="Random Order" id="i0q-Ty-Q3X">
+                        <rect key="frame" x="432" y="186" width="263" height="17"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Play Selected Animations in Random Order" id="i0q-Ty-Q3X">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
