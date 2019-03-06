@@ -26,7 +26,7 @@ Independently of how you install **Brooklyn**, please **close your System Prefer
 
 ### Manual :hand:
 
-1. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/1.0.0/Brooklyn.saver.zip)
+1. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/2.0.0/Brooklyn.saver.zip)
 2. Open **Brooklyn.saver** (double click)
 
 ### Homebrew 🍺
