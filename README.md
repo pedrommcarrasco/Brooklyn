@@ -12,6 +12,7 @@
 
 * Doesn't require internet connection
 * Homebrew support
+* Light & Dark theme
 * Select which animations you want to see
 * Loop each animation how many times you want
 * Make the animations' order random
@@ -28,6 +29,11 @@ Independently of how you install **Brooklyn**, please **close your System Prefer
 
 1. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/2.0.1/Brooklyn.saver.zip)
 2. Open **Brooklyn.saver** (double click)
+3. `"Brooklyn.saver" can't be opened because it is from an unidentified developer` will appear, press `OK`
+4. Open Preferences
+5. Select Security & Privacy
+6. Select `General`
+7. On the bottom side, select `Open Anyway`
 
 ### Homebrew 🍺
 
