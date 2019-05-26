@@ -1,6 +1,6 @@
 ![](https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/logo.jpg?raw=true)
 
-> Screen Saver by [Pedro Carrasco](https://twitter.com/pedrommcarrasco) based on the animations presented during **Apple Special Event** (October 30, 2018) from the Brooklyn Academy of Music, Howard Gilman Opera House.
+> Screen Saver by [Pedro Carrasco](https://twitter.com/pedrommcarrasco) based on the animations presented during **[Apple Special Event](https://www.youtube.com/watch?v=bfHEnw6Rm-4)** (October 30, 2018) from the Brooklyn Academy of Music, Howard Gilman Opera House.
 
 <p align="center">
     <img src="https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/showcase.gif?raw=true" alt="Example"/>
@@ -30,8 +30,8 @@ Independently of how you install **Brooklyn**, please **close your System Prefer
 1. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/2.0.1/Brooklyn.saver.zip)
 2. Open **Brooklyn.saver** (double click)
 3. `"Brooklyn.saver" can't be opened because it is from an unidentified developer` will appear, press `OK`
-4. Open Preferences
-5. Select Security & Privacy
+4. Open `Preferences`
+5. Select `Security & Privacy`
 6. Select `General`
 7. On the bottom side, select `Open Anyway`
 
