@@ -68,7 +68,7 @@ I'm also a conference and meetup organizer, being part of **[SwiftAveiro](https:
 
 If you enjoy my work and would like to help me continue it, please consider:
 * https://www.buymeacoffee.com/pedrommcarrasco
-* https://www.paypal.com/paypalme2/pedrommcarrasco
+* https://www.paypal.me/pedrommcarrasco
 
 
 ## Contributing  🙌 
