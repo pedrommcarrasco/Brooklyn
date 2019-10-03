@@ -67,6 +67,7 @@ I've built and open-sourced multiple frameworks and applications, including **[B
 I'm also a conference and meetup organizer, being part of **[SwiftAveiro](https://swiftaveiro.xyz)** and **[CocoaHeads Porto](https://www.meetup.com/CocoaHeads-Porto/)**.
 
 If you enjoy my work and would like to help me continue it, please consider:
+* https://github.com/users/pedrommcarrasco/sponsorship
 * https://www.buymeacoffee.com/pedrommcarrasco
 * https://www.paypal.me/pedrommcarrasco
 
