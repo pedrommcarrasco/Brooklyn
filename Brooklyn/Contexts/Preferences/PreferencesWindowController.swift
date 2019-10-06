@@ -32,7 +32,7 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
 
 // MARK: - Lifecycle
 extension PreferencesWindowController {
-
+    
     override func windowDidLoad() {
         super.windowDidLoad()
         configure()
@@ -80,7 +80,7 @@ private extension PreferencesWindowController {
     func setupButtons() {
         numberOfLoopsPopUp.selectItem(at: manager.numberOfLoops)
         randomOrderCheckBox.state = manager.hasRandomOrder ? .on : .off
-        currentVersionButton.attributedTitle = NSAttributedString(string: "Version: \(manager.currentVersion)")
+        currentVersionButton.attributedTitle = NSAttributedString(string: "\(Localizations.Preferences.version) \(manager.currentVersion)")
     }
 }
 
