@@ -13,6 +13,7 @@ enum URLType: String {
     case help = "https://github.com/pedrommcarrasco/Brooklyn/issues"
     case github = "https://github.com/pedrommcarrasco/Brooklyn"
     case twitter = "https://twitter.com/pedrommcarrasco"
+    case version = "https://github.com/pedrommcarrasco/Brooklyn/releases"
 }
 
 // MARK: Functions

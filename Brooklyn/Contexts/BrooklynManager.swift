@@ -13,6 +13,11 @@ import AVKit
 // MARK: BrooklynManager
 final class BrooklynManager {
     
+    private enum Constant {
+        static let bundleId = "oedrommcarrasco.brooklyn"
+        static let versionKey = "CFBundleShortVersionString"
+    }
+    
     // MARK: Properties
     let availableAnimations: [Animation]
     let player: LoopPlayer
@@ -72,12 +77,12 @@ extension BrooklynManager {
     }
     
     var currentVersion: String {
-        let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
-        let buildNumber = Bundle.main.infoDictionary?["CFBundleVersion"] as? String
-        var versionString = appVersion ?? ""
-        if let buildNumber = buildNumber {
-            versionString.append(" (\(buildNumber))")
+        //We are running from the Brooklyn screensaver itself
+        if let screensaverBundle = Bundle(identifier: Constant.bundleId) {
+            return screensaverBundle.infoDictionary?[Constant.versionKey] as? String ?? ""
+        } else {
+            //we are running from canvas, lets return the version number from there...just to return something
+            return Bundle.main.infoDictionary?[Constant.versionKey] as? String ?? ""
         }
-        return versionString
     }
 }

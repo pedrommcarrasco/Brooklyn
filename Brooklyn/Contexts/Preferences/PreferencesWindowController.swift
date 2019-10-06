@@ -24,7 +24,7 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     @IBOutlet private weak var previewLabel: NSTextField!
     @IBOutlet private weak var randomOrderCheckBox: NSButton!
     @IBOutlet private weak var numberOfLoopsPopUp: NSPopUpButton!
-    @IBOutlet private weak var currentVersionLabel: NSTextField!
+    @IBOutlet private weak var currentVersionButton: NSButton!
     
     // MARK: Private Properties
     private let manager = BrooklynManager(mode: .preferences)
@@ -74,12 +74,13 @@ private extension PreferencesWindowController {
     
     func setupLabels() {
         previewLabel.stringValue = manager.selectedAnimations.first?.name ?? ""
-        currentVersionLabel.stringValue = "Version: \(manager.currentVersion)"
+        
     }
     
     func setupButtons() {
         numberOfLoopsPopUp.selectItem(at: manager.numberOfLoops)
         randomOrderCheckBox.state = manager.hasRandomOrder ? .on : .off
+        currentVersionButton.attributedTitle = NSAttributedString(string: "Version: \(manager.currentVersion)")
     }
 }
 
@@ -128,9 +129,12 @@ private extension PreferencesWindowController {
         URLType.github.open()
     }
     
-    
     @IBAction func twitterAction(_ sender: NSButton) {
         URLType.twitter.open()
+    }
+    
+    @IBAction func versionAction(_ sender: NSButton) {
+        URLType.version.open()
     }
     
     @IBAction func doneAction(_ sender: NSButton) {
