@@ -24,6 +24,7 @@ final class PreferencesWindowController: NSWindowController, NSWindowDelegate {
     @IBOutlet private weak var previewLabel: NSTextField!
     @IBOutlet private weak var randomOrderCheckBox: NSButton!
     @IBOutlet private weak var numberOfLoopsPopUp: NSPopUpButton!
+    @IBOutlet private weak var currentVersionLabel: NSTextField!
     
     // MARK: Private Properties
     private let manager = BrooklynManager(mode: .preferences)
@@ -73,6 +74,7 @@ private extension PreferencesWindowController {
     
     func setupLabels() {
         previewLabel.stringValue = manager.selectedAnimations.first?.name ?? ""
+        currentVersionLabel.stringValue = "Version: \(manager.currentVersion)"
     }
     
     func setupButtons() {

@@ -70,4 +70,14 @@ extension BrooklynManager {
         hasRandomOrder.toggle()
         Database.standard.set(hasRandomOrder: hasRandomOrder)
     }
+    
+    var currentVersion: String {
+        let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
+        let buildNumber = Bundle.main.infoDictionary?["CFBundleVersion"] as? String
+        var versionString = appVersion ?? ""
+        if let buildNumber = buildNumber {
+            versionString.append(" (\(buildNumber))")
+        }
+        return versionString
+    }
 }
