@@ -167,6 +167,8 @@
 		53E84100221DA1D1005FA65E /* original.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 53E840FE221DA1D1005FA65E /* original.mp4 */; };
 		53E84109221DA549005FA65E /* NSObject+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E84108221DA549005FA65E /* NSObject+Identifier.swift */; };
 		53E8410A221DA549005FA65E /* NSObject+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E84108221DA549005FA65E /* NSObject+Identifier.swift */; };
+		D04ECA65234A3DF4008CCDBC /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04ECA64234A3DF4008CCDBC /* Localizations.swift */; };
+		D04ECA66234A3EA7008CCDBC /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04ECA64234A3DF4008CCDBC /* Localizations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -258,6 +260,7 @@
 		53E840F5221D9BA5005FA65E /* neon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = neon.mp4; sourceTree = "<group>"; };
 		53E840FE221DA1D1005FA65E /* original.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = original.mp4; sourceTree = "<group>"; };
 		53E84108221DA549005FA65E /* NSObject+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Identifier.swift"; sourceTree = "<group>"; };
+		D04ECA64234A3DF4008CCDBC /* Localizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,6 +302,7 @@
 		20CAF50421891F9E0086AED8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D04ECA63234A3DD9008CCDBC /* Localization */,
 				53E840F1221D9B88005FA65E /* Animations */,
 				203E6504218C65CD0021F2F2 /* thumbnail.png */,
 				203E6505218C65CD0021F2F2 /* thumbnail@2x.png */,
@@ -452,6 +456,14 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		D04ECA63234A3DD9008CCDBC /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D04ECA64234A3DF4008CCDBC /* Localizations.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -524,6 +536,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -697,6 +710,7 @@
 				5368993D221C66C10071D26F /* NSTableView+Dequeue.swift in Sources */,
 				206ECE332221869400971C99 /* URLType.swift in Sources */,
 				2023D4FA222204E6007B6243 /* LoopPlayer.swift in Sources */,
+				D04ECA65234A3DF4008CCDBC /* Localizations.swift in Sources */,
 				201F4FB722207868007B43FF /* Collection+Index.swift in Sources */,
 				53689959221C6DA60071D26F /* AnimationCellView.swift in Sources */,
 				206ECE3C2221993000971C99 /* DisplayMode.swift in Sources */,
@@ -718,6 +732,7 @@
 				2023D4FB222205B0007B6243 /* LoopPlayer.swift in Sources */,
 				20B669C4221DEFDE00645925 /* PreferencesWindowController.swift in Sources */,
 				206ECE342221879200971C99 /* URLType.swift in Sources */,
+				D04ECA66234A3EA7008CCDBC /* Localizations.swift in Sources */,
 				53E840EA221D9B48005FA65E /* AnimationCellView.swift in Sources */,
 				206ECE3D2221993000971C99 /* DisplayMode.swift in Sources */,
 				53E840E5221D9AAB005FA65E /* AppDelegate.swift in Sources */,

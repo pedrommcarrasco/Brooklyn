@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "mac",
-      "filename" : "github-dark@1x.png",
+      "filename" : "version-dark@1x.png",
       "scale" : "1x"
     },
     {
       "idiom" : "mac",
-      "filename" : "github-light@1x.png",
+      "filename" : "version-light@1x.png",
       "appearances" : [
         {
           "appearance" : "luminosity",
@@ -18,12 +18,12 @@
     },
     {
       "idiom" : "mac",
-      "filename" : "github-dark@2x.png",
+      "filename" : "version-dark@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "mac",
-      "filename" : "github-light@2x.png",
+      "filename" : "version-light@2x.png",
       "appearances" : [
         {
           "appearance" : "luminosity",

@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "mac",
-      "filename" : "twitter_dark.png",
+      "filename" : "twitter-dark@1x.png",
       "scale" : "1x"
     },
     {
       "idiom" : "mac",
-      "filename" : "twitter_light.png",
+      "filename" : "twitter-light@1x.png",
       "appearances" : [
         {
           "appearance" : "luminosity",
@@ -18,12 +18,12 @@
     },
     {
       "idiom" : "mac",
-      "filename" : "twitter_dark-1.png",
+      "filename" : "twitter-dark@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "mac",
-      "filename" : "twitter_light-1.png",
+      "filename" : "twitter-light@2x.png",
       "appearances" : [
         {
           "appearance" : "luminosity",

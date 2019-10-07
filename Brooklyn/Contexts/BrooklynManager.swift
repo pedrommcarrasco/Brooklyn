@@ -13,6 +13,11 @@ import AVKit
 // MARK: BrooklynManager
 final class BrooklynManager {
     
+    private enum Constant {
+        static let bundleId = "oedrommcarrasco.brooklyn"
+        static let versionKey = "CFBundleShortVersionString"
+    }
+    
     // MARK: Properties
     let availableAnimations: [Animation]
     let player: LoopPlayer
@@ -40,6 +45,16 @@ final class BrooklynManager {
                                      shouldRandomize: false)
         }
     }
+    
+    lazy var currentVersion: String = {
+        // We are running from the Brooklyn screensaver itself
+        if let screensaverBundle = Bundle(identifier: Constant.bundleId) {
+            return screensaverBundle.infoDictionary?[Constant.versionKey] as? String ?? ""
+        } else {
+            // We are running from canvas, lets return the version number from there...just to return something
+            return Bundle.main.infoDictionary?[Constant.versionKey] as? String ?? ""
+        }
+    }()
 }
 
 // MARK: - Animations
