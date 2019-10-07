@@ -45,6 +45,16 @@ final class BrooklynManager {
                                      shouldRandomize: false)
         }
     }
+    
+    lazy var currentVersion: String = {
+        // We are running from the Brooklyn screensaver itself
+        if let screensaverBundle = Bundle(identifier: Constant.bundleId) {
+            return screensaverBundle.infoDictionary?[Constant.versionKey] as? String ?? ""
+        } else {
+            // We are running from canvas, lets return the version number from there...just to return something
+            return Bundle.main.infoDictionary?[Constant.versionKey] as? String ?? ""
+        }
+    }()
 }
 
 // MARK: - Animations
@@ -74,15 +84,5 @@ extension BrooklynManager {
     func toogleHasRandomOrder() {
         hasRandomOrder.toggle()
         Database.standard.set(hasRandomOrder: hasRandomOrder)
-    }
-    
-    var currentVersion: String {
-        //We are running from the Brooklyn screensaver itself
-        if let screensaverBundle = Bundle(identifier: Constant.bundleId) {
-            return screensaverBundle.infoDictionary?[Constant.versionKey] as? String ?? ""
-        } else {
-            //we are running from canvas, lets return the version number from there...just to return something
-            return Bundle.main.infoDictionary?[Constant.versionKey] as? String ?? ""
-        }
     }
 }

@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "mac",
-      "filename" : "version-dark 2.png",
+      "filename" : "version-dark@1x.png",
       "scale" : "1x"
     },
     {
       "idiom" : "mac",
-      "filename" : "version-light.png",
+      "filename" : "version-light@1x.png",
       "appearances" : [
         {
           "appearance" : "luminosity",

@@ -10,6 +10,6 @@ import Foundation
 
 struct Localizations {
     enum Preferences {
-        static let version = "Version:"
+        static let version = "Version"
     }
 }
