@@ -137,6 +137,10 @@
 		20CAF50621891FCE0086AED8 /* BrooklynView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAF50521891FCE0086AED8 /* BrooklynView.swift */; };
 		20CC535D222C46AA0011AFA8 /* cursor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20CC535C222C46AA0011AFA8 /* cursor.mp4 */; };
 		20CC535E222C46AA0011AFA8 /* cursor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20CC535C222C46AA0011AFA8 /* cursor.mp4 */; };
+		4C95DB8B234D5E54000D05FD /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95DB89234D5E53000D05FD /* String+Localized.swift */; };
+		4C95DB8E234D5E80000D05FD /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95DB89234D5E53000D05FD /* String+Localized.swift */; };
+		4C95DB98234D63FE000D05FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C95DB9B234D63FE000D05FD /* Localizable.strings */; };
+		4C95DB99234D63FE000D05FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C95DB9B234D63FE000D05FD /* Localizable.strings */; };
 		5332EB19221F091F00286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
 		5332EB1A221F095100286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
 		5334E3E0221EBBA000C3811A /* BrooklynManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3DF221EBBA000C3811A /* BrooklynManager.swift */; };
@@ -240,6 +244,9 @@
 		20CC535C222C46AA0011AFA8 /* cursor.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cursor.mp4; sourceTree = "<group>"; };
 		218D6EDE20FC3CEB0029D4A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F222261B73B5AC00B9A11A /* Brooklyn.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brooklyn.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C95DB89234D5E53000D05FD /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		4C95DB9A234D63FE000D05FD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4C95DB9C234D67FE000D05FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5332EB18221F091F00286C65 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		5334E3DF221EBBA000C3811A /* BrooklynManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrooklynManager.swift; sourceTree = "<group>"; };
 		53689935221C66BD0071D26F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -355,10 +362,11 @@
 		5368993B221C66C10071D26F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5368993C221C66C10071D26F /* NSTableView+Dequeue.swift */,
 				5368994D221C68790071D26F /* AVPlayerItem+Init.swift */,
-				53E84108221DA549005FA65E /* NSObject+Identifier.swift */,
 				201F4FB622207868007B43FF /* Collection+Index.swift */,
+				53E84108221DA549005FA65E /* NSObject+Identifier.swift */,
+				5368993C221C66C10071D26F /* NSTableView+Dequeue.swift */,
+				4C95DB89234D5E53000D05FD /* String+Localized.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -460,6 +468,7 @@
 			isa = PBXGroup;
 			children = (
 				D04ECA64234A3DF4008CCDBC /* Localizations.swift */,
+				4C95DB9B234D63FE000D05FD /* Localizable.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -539,6 +548,7 @@
 				English,
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 21F2221C1B73B5AC00B9A11A;
 			productRefGroup = 21F222271B73B5AC00B9A11A /* Products */;
@@ -611,6 +621,7 @@
 				20C1226E22254ED7004CAF67 /* waterDrops.mp4 in Resources */,
 				202F52BE2229EC07004FF9CD /* blueSand.mp4 in Resources */,
 				20C1226522254E9A004CAF67 /* trapezium.mp4 in Resources */,
+				4C95DB98234D63FE000D05FD /* Localizable.strings in Resources */,
 				20CC535D222C46AA0011AFA8 /* cursor.mp4 in Resources */,
 				20C1222622254C70004CAF67 /* glow.mp4 in Resources */,
 				208BB882222D9A0000C65D5C /* doodle.mp4 in Resources */,
@@ -684,6 +695,7 @@
 				20C1226F22254ED7004CAF67 /* waterDrops.mp4 in Resources */,
 				202F52BF2229EC07004FF9CD /* blueSand.mp4 in Resources */,
 				20C1226622254E9A004CAF67 /* trapezium.mp4 in Resources */,
+				4C95DB99234D63FE000D05FD /* Localizable.strings in Resources */,
 				20CC535E222C46AA0011AFA8 /* cursor.mp4 in Resources */,
 				20C1222722254C70004CAF67 /* glow.mp4 in Resources */,
 				208BB883222D9A0000C65D5C /* doodle.mp4 in Resources */,
@@ -715,6 +727,7 @@
 				53689959221C6DA60071D26F /* AnimationCellView.swift in Sources */,
 				206ECE3C2221993000971C99 /* DisplayMode.swift in Sources */,
 				53689939221C66BD0071D26F /* Animation.swift in Sources */,
+				4C95DB8B234D5E54000D05FD /* String+Localized.swift in Sources */,
 				5368994E221C68790071D26F /* AVPlayerItem+Init.swift in Sources */,
 				5332EB19221F091F00286C65 /* Database.swift in Sources */,
 				53689937221C66BD0071D26F /* Extension.swift in Sources */,
@@ -737,6 +750,7 @@
 				206ECE3D2221993000971C99 /* DisplayMode.swift in Sources */,
 				53E840E5221D9AAB005FA65E /* AppDelegate.swift in Sources */,
 				5332EB1A221F095100286C65 /* Database.swift in Sources */,
+				4C95DB8E234D5E80000D05FD /* String+Localized.swift in Sources */,
 				201F4FB8222078B6007B43FF /* Collection+Index.swift in Sources */,
 				53E840EC221D9B51005FA65E /* Extension.swift in Sources */,
 				53E840ED221D9B53005FA65E /* Animation.swift in Sources */,
@@ -746,6 +760,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C95DB9B234D63FE000D05FD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C95DB9A234D63FE000D05FD /* fr */,
+				4C95DB9C234D67FE000D05FD /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		21F2222F1B73B5AC00B9A11A /* Debug */ = {
