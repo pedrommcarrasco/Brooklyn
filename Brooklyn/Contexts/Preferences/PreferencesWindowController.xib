@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14868" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.AVKitIBPlugin" version="14868"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14868"/>
+        <plugIn identifier="com.apple.AVKitIBPlugin" version="15400"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,7 +24,7 @@
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="240" width="800" height="532"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="800" height="536"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,6 +121,9 @@
                             <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="done"/>
+                            </userDefinedRuntimeAttributes>
                         </buttonCell>
                         <connections>
                             <action selector="doneAction:" target="-2" id="Use-GB-i0A"/>
@@ -132,6 +135,9 @@ DQ
                             <font key="font" usesAppearanceFont="YES"/>
                             <color key="textColor" name="quaternaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="legal"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="g1H-Cn-yWz">
@@ -148,6 +154,9 @@ DQ
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="repeatEachAnimation"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
                     <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="l6l-ao-xLf">
@@ -170,6 +179,9 @@ DQ
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="randomOrder"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Gwy-W7-7Lu">
@@ -178,6 +190,9 @@ DQ
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="haveAProblem"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BKJ-de-W2J">
@@ -196,6 +211,9 @@ DQ
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="wantToKeepUpdated"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="czd-mF-Tcj">
@@ -206,6 +224,9 @@ DQ
                         <buttonCell key="cell" type="square" title="Version" bezelStyle="shadowlessSquare" image="version" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="ovm-cK-RFP">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="version"/>
+                            </userDefinedRuntimeAttributes>
                         </buttonCell>
                         <color key="contentTintColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                         <connections>
@@ -220,6 +241,9 @@ DQ
                         <buttonCell key="cell" type="square" title="Follow the creator on Twitter" bezelStyle="shadowlessSquare" image="twitter" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="Xgd-vn-cgV">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="follow"/>
+                            </userDefinedRuntimeAttributes>
                         </buttonCell>
                         <color key="contentTintColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                         <connections>
@@ -234,6 +258,9 @@ DQ
                         <buttonCell key="cell" type="square" title="Star Brooklyn &amp; watch it on GitHub" bezelStyle="shadowlessSquare" image="github" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="KgX-fg-HvM">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="starBrooklyn"/>
+                            </userDefinedRuntimeAttributes>
                         </buttonCell>
                         <color key="contentTintColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                         <connections>
@@ -273,6 +300,9 @@ DQ
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="times"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
                 </subviews>
@@ -325,6 +355,9 @@ DQ
                     <constraint firstItem="BKJ-de-W2J" firstAttribute="trailing" secondItem="dkX-KT-WfU" secondAttribute="trailing" id="zNm-Va-qol"/>
                 </constraints>
             </view>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences"/>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="delegate" destination="-2" id="r4c-qq-VgC"/>
             </connections>
@@ -332,8 +365,8 @@ DQ
         </window>
     </objects>
     <resources>
-        <image name="github" width="429" height="256"/>
-        <image name="twitter" width="429" height="256"/>
-        <image name="version" width="406" height="256"/>
+        <image name="github" width="60" height="40"/>
+        <image name="twitter" width="60" height="40"/>
+        <image name="version" width="60" height="40"/>
     </resources>
 </document>

@@ -141,6 +141,8 @@
 		4C95DB8E234D5E80000D05FD /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95DB89234D5E53000D05FD /* String+Localized.swift */; };
 		4C95DB98234D63FE000D05FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C95DB9B234D63FE000D05FD /* Localizable.strings */; };
 		4C95DB99234D63FE000D05FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C95DB9B234D63FE000D05FD /* Localizable.strings */; };
+		4C95DB9E234E931A000D05FD /* XIBLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95DB9D234E931A000D05FD /* XIBLocalizable.swift */; };
+		4C95DB9F234E9327000D05FD /* XIBLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95DB9D234E931A000D05FD /* XIBLocalizable.swift */; };
 		5332EB19221F091F00286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
 		5332EB1A221F095100286C65 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332EB18221F091F00286C65 /* Database.swift */; };
 		5334E3E0221EBBA000C3811A /* BrooklynManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334E3DF221EBBA000C3811A /* BrooklynManager.swift */; };
@@ -247,6 +249,7 @@
 		4C95DB89234D5E53000D05FD /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		4C95DB9A234D63FE000D05FD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4C95DB9C234D67FE000D05FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4C95DB9D234E931A000D05FD /* XIBLocalizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBLocalizable.swift; sourceTree = "<group>"; };
 		5332EB18221F091F00286C65 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		5334E3DF221EBBA000C3811A /* BrooklynManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrooklynManager.swift; sourceTree = "<group>"; };
 		53689935221C66BD0071D26F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -367,6 +370,7 @@
 				53E84108221DA549005FA65E /* NSObject+Identifier.swift */,
 				5368993C221C66C10071D26F /* NSTableView+Dequeue.swift */,
 				4C95DB89234D5E53000D05FD /* String+Localized.swift */,
+				4C95DB9D234E931A000D05FD /* XIBLocalizable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -726,6 +730,7 @@
 				201F4FB722207868007B43FF /* Collection+Index.swift in Sources */,
 				53689959221C6DA60071D26F /* AnimationCellView.swift in Sources */,
 				206ECE3C2221993000971C99 /* DisplayMode.swift in Sources */,
+				4C95DB9E234E931A000D05FD /* XIBLocalizable.swift in Sources */,
 				53689939221C66BD0071D26F /* Animation.swift in Sources */,
 				4C95DB8B234D5E54000D05FD /* String+Localized.swift in Sources */,
 				5368994E221C68790071D26F /* AVPlayerItem+Init.swift in Sources */,
@@ -749,6 +754,7 @@
 				53E840EA221D9B48005FA65E /* AnimationCellView.swift in Sources */,
 				206ECE3D2221993000971C99 /* DisplayMode.swift in Sources */,
 				53E840E5221D9AAB005FA65E /* AppDelegate.swift in Sources */,
+				4C95DB9F234E9327000D05FD /* XIBLocalizable.swift in Sources */,
 				5332EB1A221F095100286C65 /* Database.swift in Sources */,
 				4C95DB8E234D5E80000D05FD /* String+Localized.swift in Sources */,
 				201F4FB8222078B6007B43FF /* Collection+Index.swift in Sources */,
