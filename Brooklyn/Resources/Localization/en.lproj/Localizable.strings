@@ -1,0 +1,70 @@
+/*
+  Localized.strings
+  Brooklyn
+
+  Created by Michael Charland on 2019-10-07.
+  Copyright © 2019 Pedro Carrasco. All rights reserved.
+*/
+
+"animation.original" = "Apple's Original Version";
+"animation.avatarTissue" = "Avatar Tissue";
+"animation.auroraBorealis" = "Aurora Borealis";
+"animation.ballPit" = "Ball Pit";
+"animation.bits" = "Bits";
+"animation.blueSand" = "Blue Sand";
+"animation.cells" = "Cells";
+"animation.cityLife" = "City Life";
+"animation.connectivity" = "Connectivity";
+"animation.crescentMoon" = "Crescent Moon";
+"animation.cubicMess" = "Cubic Mess";
+"animation.cuphead" = "Cuphead";
+"animation.cursor" = "Cursor";
+"animation.defragmentation" = "Defragmentation";
+"animation.doodle" = "Doodle";
+"animation.fadingPieces" = "Fading Pieces";
+"animation.fangs" = "Fangs";
+"animation.fruitNinja" = "Fruit Ninja";
+"animation.fullMoon" = "Full Moon";
+"animation.geometricShapes" = "Geometric Shapes";
+"animation.glow" = "Glow";
+"animation.goldenBarbs" = "Golden Barbs";
+"animation.gummyWorms" = "Gummy Worms";
+"animation.hills" = "Hills";
+"animation.inception" = "Inception";
+"animation.juicy" = "Juicy";
+"animation.layers" = "Layers";
+"animation.leaf" = "Leaf";
+"animation.lines" = "Lines";
+"animation.magnify" = "Magnify";
+"animation.monochrome" = "Monochrome";
+"animation.nature" = "Nature";
+"animation.neon" = "Neon";
+"animation.noiseStripes" = "Noise Stripes";
+"animation.paintbrush" = "Paintbrush";
+"animation.pangea" = "Pangea";
+"animation.picasso" = "Picasso";
+"animation.playDoh" = "Play-Doh";
+"animation.polarPeak" = "Polar Peak";
+"animation.riverNoir" = "River Noir";
+"animation.runningInGrass" = "Running in Grass";
+"animation.sapphire" = "Sapphire";
+"animation.shards" = "Shards";
+"animation.shelves" = "Shelves";
+"animation.snakes" = "Snakes";
+"animation.soundSpectrum" = "Sound Spectrum";
+"animation.splash" = "Splash";
+"animation.stripes" = "Stripes";
+"animation.sulleysFur" = "Sulley's Fur";
+"animation.sunset" = "Sunset";
+"animation.theRoom" = "The Room";
+"animation.tissue" = "Tissue";
+"animation.trapezium" = "Trapezium";
+"animation.unstablePipes" = "Unstable Pipes";
+"animation.volumetric" = "Volumetric";
+"animation.warp" = "Warp";
+"animation.watercolors" = "Watercolors";
+"animation.waterDrops" = "Water Drops";
+"animation.wet" = "Wet";
+"animation.yolk" = "Yolk";
+"animation.zebra" = "Zebra";
+"animation.zelda" = "Zelda";

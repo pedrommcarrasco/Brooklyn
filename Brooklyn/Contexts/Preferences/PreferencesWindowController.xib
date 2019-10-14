@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14868" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.AVKitIBPlugin" version="14868"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14868"/>
+        <plugIn identifier="com.apple.AVKitIBPlugin" version="15400"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,7 +24,7 @@
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="240" width="800" height="532"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="800" height="536"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,14 +37,14 @@
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="18" viewBased="YES" id="XXi-ZT-dKw">
                                     <rect key="frame" x="0.0" y="0.0" width="400" height="470"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
                                         <tableColumn width="397" minWidth="40" maxWidth="1000" id="xxn-hO-7p3">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                                <font key="font" metaFont="smallSystem"/>
+                                                <font key="font" metaFont="controlContent" size="11"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                             </tableHeaderCell>
@@ -121,6 +121,9 @@
                             <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.done"/>
+                            </userDefinedRuntimeAttributes>
                         </buttonCell>
                         <connections>
                             <action selector="doneAction:" target="-2" id="Use-GB-i0A"/>
@@ -132,29 +135,35 @@ DQ
                             <font key="font" usesAppearanceFont="YES"/>
                             <color key="textColor" name="quaternaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.legal"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="g1H-Cn-yWz">
-                        <rect key="frame" x="432" y="294" width="354" height="21"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g1H-Cn-yWz">
+                        <rect key="frame" x="432" y="290" width="354" height="21"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Label" id="CQf-FJ-y78">
                             <font key="font" metaFont="systemSemibold" size="18"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fah-n6-w7f">
-                        <rect key="frame" x="432" y="245" width="144" height="16"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fah-n6-w7f">
+                        <rect key="frame" x="432" y="241" width="144" height="16"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" title="Repeat Each Animation" id="lNM-lZ-9Jt">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.repeatEachAnimation"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
-                    <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="l6l-ao-xLf">
-                        <rect key="frame" x="434" y="194" width="350" height="5"/>
+                    <box verticalHuggingPriority="750" ambiguous="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="l6l-ao-xLf">
+                        <rect key="frame" x="434" y="190" width="350" height="5"/>
                     </box>
-                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dkX-KT-WfU">
-                        <rect key="frame" x="768" y="212" width="18" height="18"/>
+                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dkX-KT-WfU">
+                        <rect key="frame" x="768" y="208" width="18" height="18"/>
                         <buttonCell key="cell" type="check" title="Check" bezelStyle="regularSquare" imagePosition="only" state="on" inset="2" id="ijd-t5-07q">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
@@ -164,24 +173,30 @@ DQ
                             <action selector="randomOrderAction:" target="-2" id="Nwm-kN-JKt"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="U06-cj-0bE">
-                        <rect key="frame" x="432" y="213" width="263" height="16"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U06-cj-0bE">
+                        <rect key="frame" x="432" y="209" width="263" height="16"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" title="Play Selected Animations in Random Order" id="i0q-Ty-Q3X">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.randomOrder"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Gwy-W7-7Lu">
-                        <rect key="frame" x="432" y="164" width="213" height="16"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gwy-W7-7Lu">
+                        <rect key="frame" x="432" y="160" width="213" height="16"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" title="Have a problem or found an issue?" id="V74-BV-ole">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.haveAProblem"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
-                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BKJ-de-W2J">
-                        <rect key="frame" x="761" y="158" width="25" height="25"/>
+                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BKJ-de-W2J">
+                        <rect key="frame" x="761" y="154" width="25" height="25"/>
                         <buttonCell key="cell" type="help" bezelStyle="helpButton" imagePosition="overlaps" alignment="center" borderStyle="border" inset="2" id="8Ji-31-b9p">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -190,12 +205,15 @@ DQ
                             <action selector="helpAction:" target="-2" id="Gew-Ip-iiV"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QPA-Ty-yka">
-                        <rect key="frame" x="432" y="136" width="354" height="16"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QPA-Ty-yka">
+                        <rect key="frame" x="432" y="132" width="354" height="16"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" title="Want to keep updated?" id="3ad-ri-H5Y">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.wantToKeepUpdated"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="czd-mF-Tcj">
@@ -206,6 +224,9 @@ DQ
                         <buttonCell key="cell" type="square" title="Version" bezelStyle="shadowlessSquare" image="version" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="ovm-cK-RFP">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.version"/>
+                            </userDefinedRuntimeAttributes>
                         </buttonCell>
                         <color key="contentTintColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                         <connections>
@@ -220,6 +241,9 @@ DQ
                         <buttonCell key="cell" type="square" title="Follow the creator on Twitter" bezelStyle="shadowlessSquare" image="twitter" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="Xgd-vn-cgV">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.follow"/>
+                            </userDefinedRuntimeAttributes>
                         </buttonCell>
                         <color key="contentTintColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                         <connections>
@@ -234,17 +258,20 @@ DQ
                         <buttonCell key="cell" type="square" title="Star Brooklyn &amp; watch it on GitHub" bezelStyle="shadowlessSquare" image="github" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyDown" inset="2" id="KgX-fg-HvM">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.starBrooklyn"/>
+                            </userDefinedRuntimeAttributes>
                         </buttonCell>
                         <color key="contentTintColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                         <connections>
                             <action selector="githubAction:" target="-2" id="TAd-H1-TlY"/>
                         </connections>
                     </button>
-                    <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tdt-p9-Ns2">
-                        <rect key="frame" x="693" y="240" width="47" height="25"/>
+                    <popUpButton verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tdt-p9-Ns2">
+                        <rect key="frame" x="693" y="236" width="47" height="25"/>
                         <popUpButtonCell key="cell" type="push" title="0" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="UIQ-Yg-eD7" id="toG-O3-2if">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="menu"/>
+                            <font key="font" metaFont="system"/>
                             <menu key="menu" id="8kY-7R-GOo">
                                 <items>
                                     <menuItem title="0" state="on" id="UIQ-Yg-eD7"/>
@@ -264,15 +291,18 @@ DQ
                             </connections>
                         </popUpButtonCell>
                     </popUpButton>
-                    <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Eql-OE-qtq">
-                        <rect key="frame" x="434" y="275" width="350" height="5"/>
+                    <box verticalHuggingPriority="750" ambiguous="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Eql-OE-qtq">
+                        <rect key="frame" x="434" y="271" width="350" height="5"/>
                     </box>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="d8w-bT-mmB">
-                        <rect key="frame" x="739" y="245" width="47" height="16"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d8w-bT-mmB">
+                        <rect key="frame" x="739" y="241" width="47" height="16"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" title="time(s)" id="6zy-5T-w5g">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.times"/>
+                            </userDefinedRuntimeAttributes>
                         </textFieldCell>
                     </textField>
                 </subviews>
@@ -325,6 +355,9 @@ DQ
                     <constraint firstItem="BKJ-de-W2J" firstAttribute="trailing" secondItem="dkX-KT-WfU" secondAttribute="trailing" id="zNm-Va-qol"/>
                 </constraints>
             </view>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences.preferences"/>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="delegate" destination="-2" id="r4c-qq-VgC"/>
             </connections>
@@ -332,8 +365,8 @@ DQ
         </window>
     </objects>
     <resources>
-        <image name="github" width="429" height="256"/>
-        <image name="twitter" width="429" height="256"/>
-        <image name="version" width="406" height="256"/>
+        <image name="github" width="60" height="40"/>
+        <image name="twitter" width="60" height="40"/>
+        <image name="version" width="60" height="40"/>
     </resources>
 </document>
