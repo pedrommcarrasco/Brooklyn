@@ -28,7 +28,7 @@
                             <menuItem title="About BrooklynPreferences" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="aboutBrooklynPreferences"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.aboutBrooklynPreferences"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
@@ -37,7 +37,7 @@
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
                             <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="preferences"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.preferences"/>
                                 </userDefinedRuntimeAttributes>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
@@ -45,17 +45,17 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5">
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="services"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.services"/>
                                     </userDefinedRuntimeAttributes>
                                 </menu>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="services"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.services"/>
                                 </userDefinedRuntimeAttributes>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
                             <menuItem title="Hide BrooklynPreferences" keyEquivalent="h" id="Olw-nP-bQN">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="hideBrooklynPreferences"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.hideBrooklynPreferences"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
@@ -64,7 +64,7 @@
                             <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="hideOthers"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.hideOthers"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="hideOtherApplications:" target="-1" id="VT4-aY-XCT"/>
@@ -73,7 +73,7 @@
                             <menuItem title="Show All" id="Kd2-mp-pUS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="showAll"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.showAll"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="unhideAllApplications:" target="-1" id="Dhg-Le-xox"/>
@@ -82,7 +82,7 @@
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
                             <menuItem title="Quit BrooklynPreferences" keyEquivalent="q" id="4sb-4s-VLi">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="quitBrooklynPreferences"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.quitBrooklynPreferences"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
@@ -90,11 +90,11 @@
                             </menuItem>
                         </items>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="brooklynPreferences"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.brooklynPreferences"/>
                         </userDefinedRuntimeAttributes>
                     </menu>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="brooklynPreferences"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.brooklynPreferences"/>
                     </userDefinedRuntimeAttributes>
                 </menuItem>
                 <menuItem title="File" id="dMs-cI-mzQ">
@@ -108,7 +108,7 @@
                             </menuItem>
                             <menuItem title="Open…" keyEquivalent="o" id="IAo-SY-fd9">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="open"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.open"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openDocument:" target="-1" id="bVn-NM-KNZ"/>
@@ -121,7 +121,7 @@
                                         <menuItem title="Clear Menu" id="vNY-rz-j42">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="clearMenu"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.clearMenu"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="clearRecentDocuments:" target="-1" id="Daa-9d-B3U"/>
@@ -129,17 +129,17 @@
                                         </menuItem>
                                     </items>
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="openRecent"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.openRecent"/>
                                     </userDefinedRuntimeAttributes>
                                 </menu>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="openRecent"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.openRecent"/>
                                 </userDefinedRuntimeAttributes>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="m54-Is-iLE"/>
                             <menuItem title="Close" keyEquivalent="w" id="DVo-aG-piG">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="close"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.close"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="performClose:" target="-1" id="HmO-Ls-i7Q"/>
@@ -147,7 +147,7 @@
                             </menuItem>
                             <menuItem title="Save…" keyEquivalent="s" id="pxx-59-PXV">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="save"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.save"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="saveDocument:" target="-1" id="teZ-XB-qJY"/>
@@ -155,7 +155,7 @@
                             </menuItem>
                             <menuItem title="Save As…" keyEquivalent="S" id="Bw7-FT-i3A">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="saveAs"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.saveAs"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="saveDocumentAs:" target="-1" id="mDf-zr-I0C"/>
@@ -163,7 +163,7 @@
                             </menuItem>
                             <menuItem title="Revert to Saved" keyEquivalent="r" id="KaW-ft-85H">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="revertToSaved"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.revertToSaved"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="revertDocumentToSaved:" target="-1" id="iJ3-Pv-kwq"/>
@@ -173,7 +173,7 @@
                             <menuItem title="Page Setup…" keyEquivalent="P" id="qIS-W8-SiK">
                                 <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="pageSetup"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.pageSetup"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="runPageLayout:" target="-1" id="Din-rz-gC5"/>
@@ -181,7 +181,7 @@
                             </menuItem>
                             <menuItem title="Print…" keyEquivalent="p" id="aTl-1u-JFS">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="print"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.print"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="print:" target="-1" id="qaZ-4w-aoO"/>
@@ -189,7 +189,7 @@
                             </menuItem>
                         </items>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="file"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.file"/>
                         </userDefinedRuntimeAttributes>
                     </menu>
                 </menuItem>
@@ -199,7 +199,7 @@
                         <items>
                             <menuItem title="Undo" keyEquivalent="z" id="dRJ-4n-Yzg">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="undo"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.undo"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="undo:" target="-1" id="M6e-cu-g7V"/>
@@ -207,7 +207,7 @@
                             </menuItem>
                             <menuItem title="Redo" keyEquivalent="Z" id="6dh-zS-Vam">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="redo"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.redo"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="redo:" target="-1" id="oIA-Rs-6OD"/>
@@ -216,7 +216,7 @@
                             <menuItem isSeparatorItem="YES" id="WRV-NI-Exz"/>
                             <menuItem title="Cut" keyEquivalent="x" id="uRl-iY-unG">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="cut"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.cut"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="cut:" target="-1" id="YJe-68-I9s"/>
@@ -224,7 +224,7 @@
                             </menuItem>
                             <menuItem title="Copy" keyEquivalent="c" id="x3v-GG-iWU">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="copy"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.copy"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="copy:" target="-1" id="G1f-GL-Joy"/>
@@ -232,7 +232,7 @@
                             </menuItem>
                             <menuItem title="Paste" keyEquivalent="v" id="gVA-U4-sdL">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="paste"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.paste"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="paste:" target="-1" id="UvS-8e-Qdg"/>
@@ -241,7 +241,7 @@
                             <menuItem title="Paste and Match Style" keyEquivalent="V" id="WeT-3V-zwk">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="pasteAndMatchStyle"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.pasteAndMatchStyle"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="pasteAsPlainText:" target="-1" id="cEh-KX-wJQ"/>
@@ -250,7 +250,7 @@
                             <menuItem title="Delete" id="pa3-QI-u2k">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="delete"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.delete"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="delete:" target="-1" id="0Mk-Ml-PaM"/>
@@ -258,7 +258,7 @@
                             </menuItem>
                             <menuItem title="Select All" keyEquivalent="a" id="Ruw-6m-B2m">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="selectAll"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.selectAll"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="selectAll:" target="-1" id="VNm-Mi-diN"/>
@@ -271,7 +271,7 @@
                                     <items>
                                         <menuItem title="Find…" tag="1" keyEquivalent="f" id="Xz5-n4-O0W">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="find…"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.find…"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="cD7-Qs-BN4"/>
@@ -280,7 +280,7 @@
                                         <menuItem title="Find and Replace…" tag="12" keyEquivalent="f" id="YEy-JH-Tfz">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="findandReplace…"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.findandReplace…"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="WD3-Gg-5AJ"/>
@@ -288,7 +288,7 @@
                                         </menuItem>
                                         <menuItem title="Find Next" tag="2" keyEquivalent="g" id="q09-fT-Sye">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="findNext"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.findNext"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="NDo-RZ-v9R"/>
@@ -296,7 +296,7 @@
                                         </menuItem>
                                         <menuItem title="Find Previous" tag="3" keyEquivalent="G" id="OwM-mh-QMV">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="findPrevious"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.findPrevious"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="HOh-sY-3ay"/>
@@ -304,7 +304,7 @@
                                         </menuItem>
                                         <menuItem title="Use Selection for Find" tag="7" keyEquivalent="e" id="buJ-ug-pKt">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="useSelectionForFind"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.useSelectionForFind"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="U76-nv-p5D"/>
@@ -312,7 +312,7 @@
                                         </menuItem>
                                         <menuItem title="Jump to Selection" keyEquivalent="j" id="S0p-oC-mLd">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="jumpToSelection"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.jumpToSelection"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="centerSelectionInVisibleArea:" target="-1" id="IOG-6D-g5B"/>
@@ -320,11 +320,11 @@
                                         </menuItem>
                                     </items>
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="find"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.find"/>
                                     </userDefinedRuntimeAttributes>
                                 </menu>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="find"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.find"/>
                                 </userDefinedRuntimeAttributes>
                             </menuItem>
                             <menuItem title="Spelling and Grammar" id="Dv1-io-Yv7">
@@ -333,7 +333,7 @@
                                     <items>
                                         <menuItem title="Show Spelling and Grammar" keyEquivalent=":" id="HFo-cy-zxI">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="showSpellingAndGrammar"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.showSpellingAndGrammar"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="showGuessPanel:" target="-1" id="vFj-Ks-hy3"/>
@@ -341,7 +341,7 @@
                                         </menuItem>
                                         <menuItem title="Check Document Now" keyEquivalent=";" id="hz2-CU-CR7">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="checkDocumentNow"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.checkDocumentNow"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="checkSpelling:" target="-1" id="fz7-VC-reM"/>
@@ -351,7 +351,7 @@
                                         <menuItem title="Check Spelling While Typing" id="rbD-Rh-wIN">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="checkSpellingWhileTyping"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.checkSpellingWhileTyping"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleContinuousSpellChecking:" target="-1" id="7w6-Qz-0kB"/>
@@ -360,7 +360,7 @@
                                         <menuItem title="Check Grammar With Spelling" id="mK6-2p-4JG">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="checkGrammarWithSpelling"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.checkGrammarWithSpelling"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleGrammarChecking:" target="-1" id="muD-Qn-j4w"/>
@@ -369,7 +369,7 @@
                                         <menuItem title="Correct Spelling Automatically" id="78Y-hA-62v">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="correctSpellingAutomatically"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.correctSpellingAutomatically"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleAutomaticSpellingCorrection:" target="-1" id="2lM-Qi-WAP"/>
@@ -377,11 +377,11 @@
                                         </menuItem>
                                     </items>
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="spellingAndGrammar"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.spellingAndGrammar"/>
                                     </userDefinedRuntimeAttributes>
                                 </menu>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="spellingAndGrammar"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.spellingAndGrammar"/>
                                 </userDefinedRuntimeAttributes>
                             </menuItem>
                             <menuItem title="Substitutions" id="9ic-FL-obx">
@@ -391,7 +391,7 @@
                                         <menuItem title="Show Substitutions" id="z6F-FW-3nz">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="showSubstitutions"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.showSubstitutions"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="orderFrontSubstitutionsPanel:" target="-1" id="oku-mr-iSq"/>
@@ -401,7 +401,7 @@
                                         <menuItem title="Smart Copy/Paste" id="9yt-4B-nSM">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="smartCopyPaste"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.smartCopyPaste"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleSmartInsertDelete:" target="-1" id="3IJ-Se-DZD"/>
@@ -410,7 +410,7 @@
                                         <menuItem title="Smart Quotes" id="hQb-2v-fYv">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="smartQuotes"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.smartQuotes"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleAutomaticQuoteSubstitution:" target="-1" id="ptq-xd-QOA"/>
@@ -419,7 +419,7 @@
                                         <menuItem title="Smart Dashes" id="rgM-f4-ycn">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="smartDashes"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.smartDashes"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleAutomaticDashSubstitution:" target="-1" id="oCt-pO-9gS"/>
@@ -428,7 +428,7 @@
                                         <menuItem title="Smart Links" id="cwL-P1-jid">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="smartLinks"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.smartLinks"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleAutomaticLinkDetection:" target="-1" id="Gip-E3-Fov"/>
@@ -437,7 +437,7 @@
                                         <menuItem title="Data Detectors" id="tRr-pd-1PS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="dataDetectors"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.dataDetectors"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleAutomaticDataDetection:" target="-1" id="R1I-Nq-Kbl"/>
@@ -446,7 +446,7 @@
                                         <menuItem title="Text Replacement" id="HFQ-gK-NFA">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="textReplacement"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.textReplacement"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleAutomaticTextReplacement:" target="-1" id="DvP-Fe-Py6"/>
@@ -454,11 +454,11 @@
                                         </menuItem>
                                     </items>
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="substitutions"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.substitutions"/>
                                     </userDefinedRuntimeAttributes>
                                 </menu>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="substitutions"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.substitutions"/>
                                 </userDefinedRuntimeAttributes>
                             </menuItem>
                             <menuItem title="Transformations" id="2oI-Rn-ZJC">
@@ -468,7 +468,7 @@
                                         <menuItem title="Make Upper Case" id="vmV-6d-7jI">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="makeUpperCase"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.makeUpperCase"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="uppercaseWord:" target="-1" id="sPh-Tk-edu"/>
@@ -477,7 +477,7 @@
                                         <menuItem title="Make Lower Case" id="d9M-CD-aMd">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="makeLowerCase"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.makeLowerCase"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="lowercaseWord:" target="-1" id="iUZ-b5-hil"/>
@@ -486,7 +486,7 @@
                                         <menuItem title="Capitalize" id="UEZ-Bs-lqG">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="capitalize"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.capitalize"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="capitalizeWord:" target="-1" id="26H-TL-nsh"/>
@@ -494,7 +494,7 @@
                                         </menuItem>
                                     </items>
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="transformations"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.transformations"/>
                                     </userDefinedRuntimeAttributes>
                                 </menu>
                             </menuItem>
@@ -505,7 +505,7 @@
                                         <menuItem title="Start Speaking" id="Ynk-f8-cLZ">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="startSpeaking"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.startSpeaking"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="startSpeaking:" target="-1" id="654-Ng-kyl"/>
@@ -514,7 +514,7 @@
                                         <menuItem title="Stop Speaking" id="Oyz-dy-DGm">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="stopSpeaking"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.stopSpeaking"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="stopSpeaking:" target="-1" id="dX8-6p-jy9"/>
@@ -522,20 +522,20 @@
                                         </menuItem>
                                     </items>
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="speech"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.speech"/>
                                     </userDefinedRuntimeAttributes>
                                 </menu>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="speech"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.speech"/>
                                 </userDefinedRuntimeAttributes>
                             </menuItem>
                         </items>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="edit"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.edit"/>
                         </userDefinedRuntimeAttributes>
                     </menu>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="edit"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.edit"/>
                     </userDefinedRuntimeAttributes>
                 </menuItem>
                 <menuItem title="Format" id="jxT-CU-nIS">
@@ -548,7 +548,7 @@
                                     <items>
                                         <menuItem title="Show Fonts" keyEquivalent="t" id="Q5e-8K-NDq">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="showFonts"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.showFonts"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="orderFrontFontPanel:" target="YLy-65-1bz" id="WHr-nq-2xA"/>
@@ -556,7 +556,7 @@
                                         </menuItem>
                                         <menuItem title="Bold" tag="2" keyEquivalent="b" id="GB9-OM-e27">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="bold"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.bold"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="addFontTrait:" target="YLy-65-1bz" id="hqk-hr-sYV"/>
@@ -564,7 +564,7 @@
                                         </menuItem>
                                         <menuItem title="Italic" tag="1" keyEquivalent="i" id="Vjx-xi-njq">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="italic"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.italic"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="addFontTrait:" target="YLy-65-1bz" id="IHV-OB-c03"/>
@@ -572,7 +572,7 @@
                                         </menuItem>
                                         <menuItem title="Underline" keyEquivalent="u" id="WRG-CD-K1S">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="underline"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.underline"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="underline:" target="-1" id="FYS-2b-JAY"/>
@@ -581,7 +581,7 @@
                                         <menuItem isSeparatorItem="YES" id="5gT-KC-WSO"/>
                                         <menuItem title="Bigger" tag="3" keyEquivalent="+" id="Ptp-SP-VEL">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="bigger"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.bigger"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="modifyFont:" target="YLy-65-1bz" id="Uc7-di-UnL"/>
@@ -589,7 +589,7 @@
                                         </menuItem>
                                         <menuItem title="Smaller" tag="4" keyEquivalent="-" id="i1d-Er-qST">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="smaller"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.smaller"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="modifyFont:" target="YLy-65-1bz" id="HcX-Lf-eNd"/>
@@ -603,7 +603,7 @@
                                                     <menuItem title="Use Default" id="GUa-eO-cwY">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="useDefault"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.useDefault"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="useStandardKerning:" target="-1" id="6dk-9l-Ckg"/>
@@ -612,7 +612,7 @@
                                                     <menuItem title="Use None" id="cDB-IK-hbR">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="useNone"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.useNone"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="turnOffKerning:" target="-1" id="U8a-gz-Maa"/>
@@ -621,7 +621,7 @@
                                                     <menuItem title="Tighten" id="46P-cB-AYj">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="tighten"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.tighten"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="tightenKerning:" target="-1" id="hr7-Nz-8ro"/>
@@ -630,7 +630,7 @@
                                                     <menuItem title="Loosen" id="ogc-rX-tC1">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="loosen"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.loosen"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="loosenKerning:" target="-1" id="8i4-f9-FKE"/>
@@ -638,11 +638,11 @@
                                                     </menuItem>
                                                 </items>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="kern"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.kern"/>
                                                 </userDefinedRuntimeAttributes>
                                             </menu>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="kern"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.kern"/>
                                             </userDefinedRuntimeAttributes>
                                         </menuItem>
                                         <menuItem title="Ligatures" id="o6e-r0-MWq">
@@ -652,7 +652,7 @@
                                                     <menuItem title="Use Default" id="agt-UL-0e3">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="useDefault"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.useDefault"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="useStandardLigatures:" target="-1" id="7uR-wd-Dx6"/>
@@ -661,7 +661,7 @@
                                                     <menuItem title="Use None" id="J7y-lM-qPV">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="useNone"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.useNone"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="turnOffLigatures:" target="-1" id="iX2-gA-Ilz"/>
@@ -670,7 +670,7 @@
                                                     <menuItem title="Use All" id="xQD-1f-W4t">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="useAll"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.useAll"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="useAllLigatures:" target="-1" id="KcB-kA-TuK"/>
@@ -678,11 +678,11 @@
                                                     </menuItem>
                                                 </items>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="ligatures"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.ligatures"/>
                                                 </userDefinedRuntimeAttributes>
                                             </menu>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="ligatures"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.ligatures"/>
                                             </userDefinedRuntimeAttributes>
                                         </menuItem>
                                         <menuItem title="Baseline" id="OaQ-X3-Vso">
@@ -692,7 +692,7 @@
                                                     <menuItem title="Use Default" id="3Om-Ey-2VK">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="useDefault"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.useDefault"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="unscript:" target="-1" id="0vZ-95-Ywn"/>
@@ -701,7 +701,7 @@
                                                     <menuItem title="Superscript" id="Rqc-34-cIF">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="superscript"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.superscript"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="superscript:" target="-1" id="3qV-fo-wpU"/>
@@ -710,7 +710,7 @@
                                                     <menuItem title="Subscript" id="I0S-gh-46l">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="subscript"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.subscript"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="subscript:" target="-1" id="Q6W-4W-IGz"/>
@@ -719,7 +719,7 @@
                                                     <menuItem title="Raise" id="2h7-ER-AoG">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="raise"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.raise"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="raiseBaseline:" target="-1" id="4sk-31-7Q9"/>
@@ -728,7 +728,7 @@
                                                     <menuItem title="Lower" id="1tx-W0-xDw">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="lower"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.lower"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="lowerBaseline:" target="-1" id="OF1-bc-KW4"/>
@@ -736,17 +736,17 @@
                                                     </menuItem>
                                                 </items>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="baseline"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.baseline"/>
                                                 </userDefinedRuntimeAttributes>
                                             </menu>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="baseline"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.baseline"/>
                                             </userDefinedRuntimeAttributes>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="Ndw-q3-faq"/>
                                         <menuItem title="Show Colors" keyEquivalent="C" id="bgn-CT-cEk">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="showColors"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.showColors"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="orderFrontColorPanel:" target="-1" id="mSX-Xz-DV3"/>
@@ -756,7 +756,7 @@
                                         <menuItem title="Copy Style" keyEquivalent="c" id="5Vv-lz-BsD">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="copyStyle"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.copyStyle"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="copyFont:" target="-1" id="GJO-xA-L4q"/>
@@ -765,7 +765,7 @@
                                         <menuItem title="Paste Style" keyEquivalent="v" id="vKC-jM-MkH">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="pasteStyle"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.pasteStyle"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="pasteFont:" target="-1" id="JfD-CL-leO"/>
@@ -773,11 +773,11 @@
                                         </menuItem>
                                     </items>
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="font"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.font"/>
                                     </userDefinedRuntimeAttributes>
                                 </menu>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="font"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.font"/>
                                 </userDefinedRuntimeAttributes>
                             </menuItem>
                             <menuItem title="Text" id="Fal-I4-PZk">
@@ -786,7 +786,7 @@
                                     <items>
                                         <menuItem title="Align Left" keyEquivalent="{" id="ZM1-6Q-yy1">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="alignLeft"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.alignLeft"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="alignLeft:" target="-1" id="zUv-R1-uAa"/>
@@ -794,7 +794,7 @@
                                         </menuItem>
                                         <menuItem title="Center" keyEquivalent="|" id="VIY-Ag-zcb">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="center"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.center"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="alignCenter:" target="-1" id="spX-mk-kcS"/>
@@ -803,7 +803,7 @@
                                         <menuItem title="Justify" id="J5U-5w-g23">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="justify"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.justify"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="alignJustified:" target="-1" id="ljL-7U-jND"/>
@@ -811,7 +811,7 @@
                                         </menuItem>
                                         <menuItem title="Align Right" keyEquivalent="}" id="wb2-vD-lq4">
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="alignRight"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.alignRight"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="alignRight:" target="-1" id="r48-bG-YeY"/>
@@ -825,14 +825,14 @@
                                                     <menuItem title="Paragraph" enabled="NO" id="ZvO-Gk-QUH">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="paragraph"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.paragraph"/>
                                                         </userDefinedRuntimeAttributes>
                                                     </menuItem>
                                                     <menuItem id="YGs-j5-SAR">
                                                         <string key="title">	Default</string>
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="default"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.default"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="makeBaseWritingDirectionNatural:" target="-1" id="qtV-5e-UBP"/>
@@ -842,7 +842,7 @@
                                                         <string key="title">	Left to Right</string>
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="leftToRight"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.leftToRight"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="makeBaseWritingDirectionLeftToRight:" target="-1" id="S0X-9S-QSf"/>
@@ -852,7 +852,7 @@
                                                         <string key="title">	Right to Left</string>
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="rightToLeft"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.rightToLeft"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="makeBaseWritingDirectionRightToLeft:" target="-1" id="5fk-qB-AqJ"/>
@@ -862,14 +862,14 @@
                                                     <menuItem title="Selection" enabled="NO" id="cqv-fj-IhA">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="selection"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.selection"/>
                                                         </userDefinedRuntimeAttributes>
                                                     </menuItem>
                                                     <menuItem id="Nop-cj-93Q">
                                                         <string key="title">	Default</string>
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="default"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.default"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="makeTextWritingDirectionNatural:" target="-1" id="lPI-Se-ZHp"/>
@@ -879,7 +879,7 @@
                                                         <string key="title">	Left to Right</string>
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="leftToRight"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.leftToRight"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="makeTextWritingDirectionLeftToRight:" target="-1" id="caW-Bv-w94"/>
@@ -889,7 +889,7 @@
                                                         <string key="title">	Right to Left</string>
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="rightToLeft"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.rightToLeft"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="makeTextWritingDirectionRightToLeft:" target="-1" id="EXD-6r-ZUu"/>
@@ -897,18 +897,18 @@
                                                     </menuItem>
                                                 </items>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="writingDirection"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.writingDirection"/>
                                                 </userDefinedRuntimeAttributes>
                                             </menu>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="writingDirection"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.writingDirection"/>
                                             </userDefinedRuntimeAttributes>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="fKy-g9-1gm"/>
                                         <menuItem title="Show Ruler" id="vLm-3I-IUL">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="showRuler"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.showRuler"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="toggleRuler:" target="-1" id="FOx-HJ-KwY"/>
@@ -917,7 +917,7 @@
                                         <menuItem title="Copy Ruler" keyEquivalent="c" id="MkV-Pr-PK5">
                                             <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="copyCuler"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.copyCuler"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="copyRuler:" target="-1" id="71i-fW-3W2"/>
@@ -926,7 +926,7 @@
                                         <menuItem title="Paste Ruler" keyEquivalent="v" id="LVM-kO-fVI">
                                             <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="pasteRuler"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.pasteRuler"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="pasteRuler:" target="-1" id="cSh-wd-qM2"/>
@@ -935,16 +935,16 @@
                                     </items>
                                 </menu>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="text"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.text"/>
                                 </userDefinedRuntimeAttributes>
                             </menuItem>
                         </items>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="format"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.format"/>
                         </userDefinedRuntimeAttributes>
                     </menu>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="format"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.format"/>
                     </userDefinedRuntimeAttributes>
                 </menuItem>
                 <menuItem title="View" id="H8h-7b-M4v">
@@ -954,7 +954,7 @@
                             <menuItem title="Show Toolbar" keyEquivalent="t" id="snW-S8-Cw5">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="showToolbar"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.showToolbar"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="toggleToolbarShown:" target="-1" id="BXY-wc-z0C"/>
@@ -963,7 +963,7 @@
                             <menuItem title="Customize Toolbar…" id="1UK-8n-QPP">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="customizeToolbar"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.customizeToolbar"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="runToolbarCustomizationPalette:" target="-1" id="pQI-g3-MTW"/>
@@ -973,7 +973,7 @@
                             <menuItem title="Show Sidebar" keyEquivalent="s" id="kIP-vf-haE">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="showSidebar"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.showSidebar"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="toggleSidebar:" target="-1" id="iwa-gc-5KM"/>
@@ -987,11 +987,11 @@
                             </menuItem>
                         </items>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="view"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.view"/>
                         </userDefinedRuntimeAttributes>
                     </menu>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="view"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.view"/>
                     </userDefinedRuntimeAttributes>
                 </menuItem>
                 <menuItem title="Window" id="aUF-d1-5bR">
@@ -1000,7 +1000,7 @@
                         <items>
                             <menuItem title="Minimize" keyEquivalent="m" id="OY7-WF-poV">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="minimize"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.minimize"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="performMiniaturize:" target="-1" id="VwT-WD-YPe"/>
@@ -1009,7 +1009,7 @@
                             <menuItem title="Zoom" id="R4o-n2-Eq4">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="zoom"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.zoom"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="performZoom:" target="-1" id="DIl-cC-cCs"/>
@@ -1019,7 +1019,7 @@
                             <menuItem title="Bring All to Front" id="LE2-aR-0XJ">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="bringAllToFront"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.bringAllToFront"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="arrangeInFront:" target="-1" id="DRN-fu-gQh"/>
@@ -1027,11 +1027,11 @@
                             </menuItem>
                         </items>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="window"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.window"/>
                         </userDefinedRuntimeAttributes>
                     </menu>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="window"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.window"/>
                     </userDefinedRuntimeAttributes>
                 </menuItem>
                 <menuItem title="Help" id="wpr-3q-Mcd">
@@ -1040,7 +1040,7 @@
                         <items>
                             <menuItem title="BrooklynPreferences Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="brooklynPreferencesHelp"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.brooklynPreferencesHelp"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="showHelp:" target="-1" id="y7X-2Q-9no"/>
@@ -1048,11 +1048,11 @@
                             </menuItem>
                         </items>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="help"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.help"/>
                         </userDefinedRuntimeAttributes>
                     </menu>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="help"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="menu.help"/>
                     </userDefinedRuntimeAttributes>
                 </menuItem>
             </items>

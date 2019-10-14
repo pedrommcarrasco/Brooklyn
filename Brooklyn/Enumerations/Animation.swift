@@ -78,6 +78,6 @@ enum Animation: String, CaseIterable {
 extension Animation {
 
     var name: String {
-        return self.rawValue.localized
+        return "animation.\(rawValue)".localized
     }
 }
