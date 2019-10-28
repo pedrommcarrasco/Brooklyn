@@ -30,5 +30,9 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
+	<key>SUFeedURL</key>
+	<string></string>
 </dict>
 </plist>
