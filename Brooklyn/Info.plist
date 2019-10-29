@@ -20,5 +20,7 @@
 	<string>3</string>
 	<key>NSPrincipalClass</key>
 	<string>Brooklyn.BrooklynView</string>
+	<key>SUFeedURL</key>
+	<string></string>
 </dict>
 </plist>
