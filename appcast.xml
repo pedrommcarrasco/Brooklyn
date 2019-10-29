@@ -3,10 +3,10 @@
     <channel>
         <title>Brooklyn</title>
         <item>
-            <title>2.1.0</title>
-            <pubDate>Tue, 29 Oct 2019 09:07:08 -0700</pubDate>
+            <title>2.0.1</title>
+            <pubDate>Wed, 6 Mar 2019 09:07:08 -0700</pubDate>
             <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/pedrommcarrasco/Brooklyn/releases/download/2.1.0/Brooklyn.saver.zip" sparkle:version="3" sparkle:shortVersionString="2.1.0" length="216674805" type="application/octet-stream"/>
+            <enclosure url="https://github.com/pedrommcarrasco/Brooklyn/releases/download/2.0.1/Brooklyn.saver.zip" sparkle:version="3" sparkle:shortVersionString="2.1.0" length="216674805" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
