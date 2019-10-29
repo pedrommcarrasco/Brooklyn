@@ -21,6 +21,8 @@
 	<key>NSPrincipalClass</key>
 	<string>Brooklyn.BrooklynView</string>
 	<key>SUFeedURL</key>
-	<string></string>
+	<string>https://github.com/pedrommcarrasco/Brooklyn/raw/master/appcast.xml</string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
 </dict>
 </plist>
