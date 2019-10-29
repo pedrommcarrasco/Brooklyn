@@ -5,9 +5,10 @@ install: true
 
 env:
   global:
+  - WORKSPACE=Brooklyn.xcworkspace
   - SCHEME=Brooklyn
 
 script:
  - set -o pipefail
- - xcodebuild clean -scheme "$SCHEME"
- - xcodebuild build -scheme "$SCHEME"
+ - xcodebuild -workspace $WORKSPACE clean -scheme "$SCHEME"
+ - xcodebuild -workspace $WORKSPACE build -scheme "$SCHEME"

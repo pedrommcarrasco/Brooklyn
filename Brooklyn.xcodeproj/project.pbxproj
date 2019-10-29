@@ -177,6 +177,7 @@
 		5481917678FC42E446563B1E /* Pods_Brooklyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40228A1B4A3EE1DB8326B0F5 /* Pods_Brooklyn.framework */; };
 		D04ECA65234A3DF4008CCDBC /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04ECA64234A3DF4008CCDBC /* Localizations.swift */; };
 		D04ECA66234A3EA7008CCDBC /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04ECA64234A3DF4008CCDBC /* Localizations.swift */; };
+		DBA5FB9B8E0D76FB2C86EC0B /* Pods_Canvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A525DE564063FDDE23E7AA30 /* Pods_Canvas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -487,6 +488,27 @@
 				20C1227622254F19004CAF67 /* zebra.mp4 */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		A26720847AA868DC8E42874E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C09883C2E987A9BB658CBB99 /* Pods_Brooklyn.framework */,
+				A525DE564063FDDE23E7AA30 /* Pods_Canvas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17E1BAAC4138E1773C20E90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B424B7E4BD38103976A6DD0 /* Pods-Brooklyn.debug.xcconfig */,
+				23322EC78C1EA447776C298A /* Pods-Brooklyn.release.xcconfig */,
+				5EC55D97E313957A8045E42C /* Pods-Canvas.debug.xcconfig */,
+				8EDCBD2B52FD6B686EE5D6C1 /* Pods-Canvas.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		D04ECA63234A3DD9008CCDBC /* Localization */ = {
