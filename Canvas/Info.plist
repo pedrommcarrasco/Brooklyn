@@ -33,8 +33,10 @@
 	<key>CFBundleDisplayName</key>
 	<string></string>
 	<key>SUFeedURL</key>
-	<string>https://github.com/pedrommcarrasco/Brooklyn/raw/master/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/pedrommcarrasco/Brooklyn/master/appcast.xml</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUPublicEDKey</key>
+	<string>MTH0QlQzAxEaw5hHy+653O4Nwg5buZ9GP72dOr6J+os</string>
 </dict>
 </plist>
