@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Brooklyn</title>
+        <item>
+            <title>2.1.0</title>
+            <pubDate>Tue, 29 Oct 2019 09:07:08 -0700</pubDate>
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+            <enclosure url="Brooklyn.saver.zip" sparkle:version="3" sparkle:shortVersionString="2.1.0" length="216674805" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
