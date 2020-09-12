@@ -175,6 +175,42 @@
 		53E8410A221DA549005FA65E /* NSObject+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E84108221DA549005FA65E /* NSObject+Identifier.swift */; };
 		5481917678FC42E446563B1E /* Pods_Brooklyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40228A1B4A3EE1DB8326B0F5 /* Pods_Brooklyn.framework */; };
 		A2B48209A70FAAC401186DAB /* Pods_Canvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CA6D8D6077F1DDF379AC50 /* Pods_Canvas.framework */; };
+		C3167738250D677700C09FFA /* zoetrope.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167726250D677100C09FFA /* zoetrope.mp4 */; };
+		C3167739250D677700C09FFA /* zoetrope.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167726250D677100C09FFA /* zoetrope.mp4 */; };
+		C316773A250D677700C09FFA /* kaleidoscope.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167727250D677100C09FFA /* kaleidoscope.mp4 */; };
+		C316773B250D677700C09FFA /* kaleidoscope.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167727250D677100C09FFA /* kaleidoscope.mp4 */; };
+		C316773C250D677700C09FFA /* oldScreen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167728250D677200C09FFA /* oldScreen.mp4 */; };
+		C316773D250D677700C09FFA /* oldScreen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167728250D677200C09FFA /* oldScreen.mp4 */; };
+		C316773E250D677700C09FFA /* cases.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167729250D677200C09FFA /* cases.mp4 */; };
+		C316773F250D677700C09FFA /* cases.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167729250D677200C09FFA /* cases.mp4 */; };
+		C3167740250D677700C09FFA /* binary.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772A250D677200C09FFA /* binary.mp4 */; };
+		C3167741250D677700C09FFA /* binary.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772A250D677200C09FFA /* binary.mp4 */; };
+		C3167742250D677700C09FFA /* dots.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772B250D677200C09FFA /* dots.mp4 */; };
+		C3167743250D677700C09FFA /* dots.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772B250D677200C09FFA /* dots.mp4 */; };
+		C3167744250D677700C09FFA /* colorfulSunset.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772C250D677300C09FFA /* colorfulSunset.mp4 */; };
+		C3167745250D677700C09FFA /* colorfulSunset.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772C250D677300C09FFA /* colorfulSunset.mp4 */; };
+		C3167746250D677700C09FFA /* candy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772D250D677300C09FFA /* candy.mp4 */; };
+		C3167747250D677700C09FFA /* candy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772D250D677300C09FFA /* candy.mp4 */; };
+		C3167748250D677700C09FFA /* bloomingRoses.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772E250D677400C09FFA /* bloomingRoses.mp4 */; };
+		C3167749250D677700C09FFA /* bloomingRoses.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772E250D677400C09FFA /* bloomingRoses.mp4 */; };
+		C316774A250D677700C09FFA /* soapBubble.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772F250D677400C09FFA /* soapBubble.mp4 */; };
+		C316774B250D677700C09FFA /* soapBubble.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C316772F250D677400C09FFA /* soapBubble.mp4 */; };
+		C316774C250D677700C09FFA /* dandelion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167730250D677400C09FFA /* dandelion.mp4 */; };
+		C316774D250D677700C09FFA /* dandelion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167730250D677400C09FFA /* dandelion.mp4 */; };
+		C316774E250D677700C09FFA /* furBalls.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167731250D677500C09FFA /* furBalls.mp4 */; };
+		C316774F250D677700C09FFA /* furBalls.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167731250D677500C09FFA /* furBalls.mp4 */; };
+		C3167750250D677700C09FFA /* paintRivers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167732250D677500C09FFA /* paintRivers.mp4 */; };
+		C3167751250D677700C09FFA /* paintRivers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167732250D677500C09FFA /* paintRivers.mp4 */; };
+		C3167752250D677700C09FFA /* cuphead2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167733250D677500C09FFA /* cuphead2.mp4 */; };
+		C3167753250D677700C09FFA /* cuphead2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167733250D677500C09FFA /* cuphead2.mp4 */; };
+		C3167754250D677700C09FFA /* triangles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167734250D677500C09FFA /* triangles.mp4 */; };
+		C3167755250D677700C09FFA /* triangles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167734250D677500C09FFA /* triangles.mp4 */; };
+		C3167756250D677700C09FFA /* bluePipes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167735250D677600C09FFA /* bluePipes.mp4 */; };
+		C3167757250D677700C09FFA /* bluePipes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167735250D677600C09FFA /* bluePipes.mp4 */; };
+		C3167758250D677700C09FFA /* paintDripping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167736250D677700C09FFA /* paintDripping.mp4 */; };
+		C3167759250D677700C09FFA /* paintDripping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167736250D677700C09FFA /* paintDripping.mp4 */; };
+		C316775A250D677700C09FFA /* penrose.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167737250D677700C09FFA /* penrose.mp4 */; };
+		C316775B250D677700C09FFA /* penrose.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3167737250D677700C09FFA /* penrose.mp4 */; };
 		D04ECA65234A3DF4008CCDBC /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04ECA64234A3DF4008CCDBC /* Localizations.swift */; };
 		D04ECA66234A3EA7008CCDBC /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04ECA64234A3DF4008CCDBC /* Localizations.swift */; };
 /* End PBXBuildFile section */
@@ -277,6 +313,24 @@
 		936D4DCEEE7A6E9544AE621C /* Pods-Canvas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.release.xcconfig"; path = "Target Support Files/Pods-Canvas/Pods-Canvas.release.xcconfig"; sourceTree = "<group>"; };
 		A8CA6D8D6077F1DDF379AC50 /* Pods_Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B8BDB24F26BE9AF47697D4 /* Pods-Brooklyn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brooklyn.release.xcconfig"; path = "Target Support Files/Pods-Brooklyn/Pods-Brooklyn.release.xcconfig"; sourceTree = "<group>"; };
+		C3167726250D677100C09FFA /* zoetrope.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zoetrope.mp4; sourceTree = "<group>"; };
+		C3167727250D677100C09FFA /* kaleidoscope.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaleidoscope.mp4; sourceTree = "<group>"; };
+		C3167728250D677200C09FFA /* oldScreen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = oldScreen.mp4; sourceTree = "<group>"; };
+		C3167729250D677200C09FFA /* cases.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cases.mp4; sourceTree = "<group>"; };
+		C316772A250D677200C09FFA /* binary.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = binary.mp4; sourceTree = "<group>"; };
+		C316772B250D677200C09FFA /* dots.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dots.mp4; sourceTree = "<group>"; };
+		C316772C250D677300C09FFA /* colorfulSunset.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = colorfulSunset.mp4; sourceTree = "<group>"; };
+		C316772D250D677300C09FFA /* candy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = candy.mp4; sourceTree = "<group>"; };
+		C316772E250D677400C09FFA /* bloomingRoses.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bloomingRoses.mp4; sourceTree = "<group>"; };
+		C316772F250D677400C09FFA /* soapBubble.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = soapBubble.mp4; sourceTree = "<group>"; };
+		C3167730250D677400C09FFA /* dandelion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dandelion.mp4; sourceTree = "<group>"; };
+		C3167731250D677500C09FFA /* furBalls.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = furBalls.mp4; sourceTree = "<group>"; };
+		C3167732250D677500C09FFA /* paintRivers.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = paintRivers.mp4; sourceTree = "<group>"; };
+		C3167733250D677500C09FFA /* cuphead2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cuphead2.mp4; sourceTree = "<group>"; };
+		C3167734250D677500C09FFA /* triangles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = triangles.mp4; sourceTree = "<group>"; };
+		C3167735250D677600C09FFA /* bluePipes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bluePipes.mp4; sourceTree = "<group>"; };
+		C3167736250D677700C09FFA /* paintDripping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = paintDripping.mp4; sourceTree = "<group>"; };
+		C3167737250D677700C09FFA /* penrose.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = penrose.mp4; sourceTree = "<group>"; };
 		D04ECA64234A3DF4008CCDBC /* Localizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
 		E99E01DBBFC861938DCE4359 /* Pods-Canvas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.debug.xcconfig"; path = "Target Support Files/Pods-Canvas/Pods-Canvas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -426,57 +480,73 @@
 				208BB854222CA7DF00C65D5C /* auroraBorealis.mp4 */,
 				20C1221622254BBC004CAF67 /* avatarTissue.mp4 */,
 				20C1221922254BDE004CAF67 /* ballPit.mp4 */,
-				202F52BD2229EC07004FF9CD /* blueSand.mp4 */,
+				C316772A250D677200C09FFA /* binary.mp4 */,
 				208BB884222D9A1F00C65D5C /* bits.mp4 */,
+				C316772E250D677400C09FFA /* bloomingRoses.mp4 */,
+				C3167735250D677600C09FFA /* bluePipes.mp4 */,
+				202F52BD2229EC07004FF9CD /* blueSand.mp4 */,
+				C316772D250D677300C09FFA /* candy.mp4 */,
+				C3167729250D677200C09FFA /* cases.mp4 */,
 				202F52C62229EC5E004FF9CD /* cells.mp4 */,
 				202F52D22229FCBA004FF9CD /* cityLife.mp4 */,
-				208BB866222D515000C65D5C /* nature.mp4 */,
-				208BB881222D9A0000C65D5C /* doodle.mp4 */,
+				C316772C250D677300C09FFA /* colorfulSunset.mp4 */,
 				204295332228A23B00477014 /* connectivity.mp4 */,
 				208BB85D222CB29A00C65D5C /* crescentMoon.mp4 */,
 				53E840F2221D9BA3005FA65E /* cubicMess.mp4 */,
 				208BB860222CC35800C65D5C /* cuphead.mp4 */,
+				C3167733250D677500C09FFA /* cuphead2.mp4 */,
 				20CC535C222C46AA0011AFA8 /* cursor.mp4 */,
+				C3167730250D677400C09FFA /* dandelion.mp4 */,
 				20C1221C22254C12004CAF67 /* defragmentation.mp4 */,
+				208BB881222D9A0000C65D5C /* doodle.mp4 */,
+				C316772B250D677200C09FFA /* dots.mp4 */,
 				2072124D222B14D90026F1E1 /* fadingPieces.mp4 */,
 				20C1221F22254C37004CAF67 /* fangs.mp4 */,
 				202F52D52229FCE1004FF9CD /* fruitNinja.mp4 */,
+				208BB878222D852500C65D5C /* fullMoon.mp4 */,
+				C3167731250D677500C09FFA /* furBalls.mp4 */,
 				20C1222222254C58004CAF67 /* geometricShapes.mp4 */,
 				20C1222522254C70004CAF67 /* glow.mp4 */,
 				202F52D82229FCFD004FF9CD /* goldenBarbs.mp4 */,
 				20C1222822254C8B004CAF67 /* gummyWorms.mp4 */,
 				20C1222B22254CA2004CAF67 /* hills.mp4 */,
+				208BB869222D52B500C65D5C /* inception.mp4 */,
+				208BB87B222D8A0800C65D5C /* juicy.mp4 */,
+				C3167727250D677100C09FFA /* kaleidoscope.mp4 */,
 				20C1223122254CD9004CAF67 /* layers.mp4 */,
 				20C1223422254CEF004CAF67 /* leaf.mp4 */,
 				20C1223722254D06004CAF67 /* lines.mp4 */,
 				20C1223A22254D21004CAF67 /* magnify.mp4 */,
 				20C1224022254D73004CAF67 /* monochrome.mp4 */,
+				208BB866222D515000C65D5C /* nature.mp4 */,
 				53E840F5221D9BA5005FA65E /* neon.mp4 */,
 				20C1224322254D88004CAF67 /* noiseStripes.mp4 */,
+				C3167728250D677200C09FFA /* oldScreen.mp4 */,
 				53E840FE221DA1D1005FA65E /* original.mp4 */,
 				20C1224622254D9B004CAF67 /* paintbrush.mp4 */,
-				208BB87B222D8A0800C65D5C /* juicy.mp4 */,
-				208BB86C222D594B00C65D5C /* tissue.mp4 */,
-				20C1224922254DB5004CAF67 /* picasso.mp4 */,
-				208BB872222D84EE00C65D5C /* sapphire.mp4 */,
-				208BB86F222D84D400C65D5C /* polarPeak.mp4 */,
-				208BB878222D852500C65D5C /* fullMoon.mp4 */,
+				C3167736250D677700C09FFA /* paintDripping.mp4 */,
+				C3167732250D677500C09FFA /* paintRivers.mp4 */,
 				208BB87E222D8A9C00C65D5C /* pangea.mp4 */,
+				C3167737250D677700C09FFA /* penrose.mp4 */,
+				20C1224922254DB5004CAF67 /* picasso.mp4 */,
 				20C1224C22254DC9004CAF67 /* playDoh.mp4 */,
+				208BB86F222D84D400C65D5C /* polarPeak.mp4 */,
 				20C1224F22254DDD004CAF67 /* riverNoir.mp4 */,
 				53E840F3221D9BA4005FA65E /* runningInGrass.mp4 */,
+				208BB872222D84EE00C65D5C /* sapphire.mp4 */,
 				20C1225222254DFF004CAF67 /* shards.mp4 */,
-				208BB875222D850C00C65D5C /* zelda.mp4 */,
-				208BB869222D52B500C65D5C /* inception.mp4 */,
 				20C1225522254E1B004CAF67 /* shelves.mp4 */,
 				202F52C02229EC1C004FF9CD /* snakes.mp4 */,
+				C316772F250D677400C09FFA /* soapBubble.mp4 */,
 				20721241222B11690026F1E1 /* soundSpectrum.mp4 */,
 				20C1225E22254E71004CAF67 /* splash.mp4 */,
 				208BB863222D4EDF00C65D5C /* stripes.mp4 */,
 				202F52CC2229FC62004FF9CD /* sulleysFur.mp4 */,
 				208BB857222CA83300C65D5C /* sunset.mp4 */,
 				208BB85A222CAE1400C65D5C /* theRoom.mp4 */,
+				208BB86C222D594B00C65D5C /* tissue.mp4 */,
 				20C1226422254E9A004CAF67 /* trapezium.mp4 */,
+				C3167734250D677500C09FFA /* triangles.mp4 */,
 				53E840F4221D9BA5005FA65E /* unstablePipes.mp4 */,
 				20C1226A22254EC3004CAF67 /* volumetric.mp4 */,
 				208BB851222C9D2300C65D5C /* warp.mp4 */,
@@ -485,6 +555,8 @@
 				20C1227022254EF4004CAF67 /* wet.mp4 */,
 				20C1227322254F04004CAF67 /* yolk.mp4 */,
 				20C1227622254F19004CAF67 /* zebra.mp4 */,
+				208BB875222D850C00C65D5C /* zelda.mp4 */,
+				C3167726250D677100C09FFA /* zoetrope.mp4 */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -610,16 +682,21 @@
 				202F52D62229FCE1004FF9CD /* fruitNinja.mp4 in Resources */,
 				20C1222C22254CA2004CAF67 /* hills.mp4 in Resources */,
 				53E840FC221D9BA5005FA65E /* neon.mp4 in Resources */,
+				C316774E250D677700C09FFA /* furBalls.mp4 in Resources */,
+				C316773E250D677700C09FFA /* cases.mp4 in Resources */,
 				203E6506218C65CD0021F2F2 /* thumbnail.png in Resources */,
 				20C1225022254DDD004CAF67 /* riverNoir.mp4 in Resources */,
 				20C1227122254EF4004CAF67 /* wet.mp4 in Resources */,
 				208BB873222D84EE00C65D5C /* sapphire.mp4 in Resources */,
 				208BB852222C9D2300C65D5C /* warp.mp4 in Resources */,
+				C316774C250D677700C09FFA /* dandelion.mp4 in Resources */,
 				208BB87C222D8A0800C65D5C /* juicy.mp4 in Resources */,
+				C3167758250D677700C09FFA /* paintDripping.mp4 in Resources */,
 				202F52D32229FCBA004FF9CD /* cityLife.mp4 in Resources */,
 				20C1223522254CEF004CAF67 /* leaf.mp4 in Resources */,
 				20C1221D22254C12004CAF67 /* defragmentation.mp4 in Resources */,
 				208BB885222D9A1F00C65D5C /* bits.mp4 in Resources */,
+				C3167742250D677700C09FFA /* dots.mp4 in Resources */,
 				208BB870222D84D400C65D5C /* polarPeak.mp4 in Resources */,
 				20721242222B11690026F1E1 /* soundSpectrum.mp4 in Resources */,
 				20C1225F22254E71004CAF67 /* splash.mp4 in Resources */,
@@ -635,9 +712,14 @@
 				20C1221722254BBC004CAF67 /* avatarTissue.mp4 in Resources */,
 				20C1222322254C58004CAF67 /* geometricShapes.mp4 in Resources */,
 				208BB85B222CAE1500C65D5C /* theRoom.mp4 in Resources */,
+				C3167752250D677700C09FFA /* cuphead2.mp4 in Resources */,
+				C3167748250D677700C09FFA /* bloomingRoses.mp4 in Resources */,
+				C3167740250D677700C09FFA /* binary.mp4 in Resources */,
 				53E840F6221D9BA5005FA65E /* cubicMess.mp4 in Resources */,
 				20C1222022254C37004CAF67 /* fangs.mp4 in Resources */,
+				C316775A250D677700C09FFA /* penrose.mp4 in Resources */,
 				20C1224D22254DC9004CAF67 /* playDoh.mp4 in Resources */,
+				C316773A250D677700C09FFA /* kaleidoscope.mp4 in Resources */,
 				20C1221A22254BDE004CAF67 /* ballPit.mp4 in Resources */,
 				20C1224122254D73004CAF67 /* monochrome.mp4 in Resources */,
 				208BB861222CC35800C65D5C /* cuphead.mp4 in Resources */,
@@ -649,14 +731,20 @@
 				208BB87F222D8A9C00C65D5C /* pangea.mp4 in Resources */,
 				20B669C2221DEE3800645925 /* PreferencesWindowController.xib in Resources */,
 				53E840FA221D9BA5005FA65E /* unstablePipes.mp4 in Resources */,
+				C3167738250D677700C09FFA /* zoetrope.mp4 in Resources */,
 				208BB86A222D52B500C65D5C /* inception.mp4 in Resources */,
+				C316774A250D677700C09FFA /* soapBubble.mp4 in Resources */,
+				C3167750250D677700C09FFA /* paintRivers.mp4 in Resources */,
 				208BB85E222CB29B00C65D5C /* crescentMoon.mp4 in Resources */,
 				20C1223222254CD9004CAF67 /* layers.mp4 in Resources */,
+				C3167744250D677700C09FFA /* colorfulSunset.mp4 in Resources */,
 				202F52D92229FCFD004FF9CD /* goldenBarbs.mp4 in Resources */,
 				20C1224722254D9B004CAF67 /* paintbrush.mp4 in Resources */,
 				53E840F8221D9BA5005FA65E /* runningInGrass.mp4 in Resources */,
 				206ECE3022217ECC00971C99 /* Media.xcassets in Resources */,
 				204295312228A21600477014 /* watercolors.mp4 in Resources */,
+				C3167754250D677700C09FFA /* triangles.mp4 in Resources */,
+				C316773C250D677700C09FFA /* oldScreen.mp4 in Resources */,
 				20C1223B22254D21004CAF67 /* magnify.mp4 in Resources */,
 				20C1226E22254ED7004CAF67 /* waterDrops.mp4 in Resources */,
 				202F52BE2229EC07004FF9CD /* blueSand.mp4 in Resources */,
@@ -666,6 +754,8 @@
 				20C1222622254C70004CAF67 /* glow.mp4 in Resources */,
 				208BB882222D9A0000C65D5C /* doodle.mp4 in Resources */,
 				20C1224422254D88004CAF67 /* noiseStripes.mp4 in Resources */,
+				C3167746250D677700C09FFA /* candy.mp4 in Resources */,
+				C3167756250D677700C09FFA /* bluePipes.mp4 in Resources */,
 				202F52C72229EC5E004FF9CD /* cells.mp4 in Resources */,
 				53E840FF221DA1D1005FA65E /* original.mp4 in Resources */,
 				20C1226B22254EC4004CAF67 /* volumetric.mp4 in Resources */,
@@ -684,16 +774,21 @@
 				202F52D72229FCE1004FF9CD /* fruitNinja.mp4 in Resources */,
 				20C1222D22254CA2004CAF67 /* hills.mp4 in Resources */,
 				53E840FD221D9BA5005FA65E /* neon.mp4 in Resources */,
+				C316774F250D677700C09FFA /* furBalls.mp4 in Resources */,
+				C316773F250D677700C09FFA /* cases.mp4 in Resources */,
 				53E840DA221D9A8F005FA65E /* Assets.xcassets in Resources */,
 				20C1225122254DDD004CAF67 /* riverNoir.mp4 in Resources */,
 				20C1227222254EF4004CAF67 /* wet.mp4 in Resources */,
 				208BB874222D84EE00C65D5C /* sapphire.mp4 in Resources */,
 				208BB853222C9D2300C65D5C /* warp.mp4 in Resources */,
+				C316774D250D677700C09FFA /* dandelion.mp4 in Resources */,
 				208BB87D222D8A0800C65D5C /* juicy.mp4 in Resources */,
+				C3167759250D677700C09FFA /* paintDripping.mp4 in Resources */,
 				202F52D42229FCBA004FF9CD /* cityLife.mp4 in Resources */,
 				20C1223622254CEF004CAF67 /* leaf.mp4 in Resources */,
 				20C1221E22254C12004CAF67 /* defragmentation.mp4 in Resources */,
 				208BB886222D9A1F00C65D5C /* bits.mp4 in Resources */,
+				C3167743250D677700C09FFA /* dots.mp4 in Resources */,
 				208BB871222D84D400C65D5C /* polarPeak.mp4 in Resources */,
 				20721243222B11690026F1E1 /* soundSpectrum.mp4 in Resources */,
 				20C1226022254E71004CAF67 /* splash.mp4 in Resources */,
@@ -709,9 +804,14 @@
 				20C1221822254BBC004CAF67 /* avatarTissue.mp4 in Resources */,
 				20C1222422254C58004CAF67 /* geometricShapes.mp4 in Resources */,
 				208BB85C222CAE1500C65D5C /* theRoom.mp4 in Resources */,
+				C3167753250D677700C09FFA /* cuphead2.mp4 in Resources */,
+				C3167749250D677700C09FFA /* bloomingRoses.mp4 in Resources */,
+				C3167741250D677700C09FFA /* binary.mp4 in Resources */,
 				53E840F7221D9BA5005FA65E /* cubicMess.mp4 in Resources */,
 				20C1222122254C37004CAF67 /* fangs.mp4 in Resources */,
+				C316775B250D677700C09FFA /* penrose.mp4 in Resources */,
 				20C1224E22254DC9004CAF67 /* playDoh.mp4 in Resources */,
+				C316773B250D677700C09FFA /* kaleidoscope.mp4 in Resources */,
 				20C1221B22254BDE004CAF67 /* ballPit.mp4 in Resources */,
 				20C1224222254D73004CAF67 /* monochrome.mp4 in Resources */,
 				208BB862222CC35800C65D5C /* cuphead.mp4 in Resources */,
@@ -723,14 +823,20 @@
 				208BB880222D8A9C00C65D5C /* pangea.mp4 in Resources */,
 				20B669C3221DEFDB00645925 /* PreferencesWindowController.xib in Resources */,
 				53E840FB221D9BA5005FA65E /* unstablePipes.mp4 in Resources */,
+				C3167739250D677700C09FFA /* zoetrope.mp4 in Resources */,
 				208BB86B222D52B500C65D5C /* inception.mp4 in Resources */,
+				C316774B250D677700C09FFA /* soapBubble.mp4 in Resources */,
+				C3167751250D677700C09FFA /* paintRivers.mp4 in Resources */,
 				208BB85F222CB29B00C65D5C /* crescentMoon.mp4 in Resources */,
 				20C1223322254CD9004CAF67 /* layers.mp4 in Resources */,
+				C3167745250D677700C09FFA /* colorfulSunset.mp4 in Resources */,
 				202F52DA2229FCFD004FF9CD /* goldenBarbs.mp4 in Resources */,
 				20C1224822254D9B004CAF67 /* paintbrush.mp4 in Resources */,
 				53E840F9221D9BA5005FA65E /* runningInGrass.mp4 in Resources */,
 				206ECE312221827400971C99 /* Media.xcassets in Resources */,
 				204295322228A21600477014 /* watercolors.mp4 in Resources */,
+				C3167755250D677700C09FFA /* triangles.mp4 in Resources */,
+				C316773D250D677700C09FFA /* oldScreen.mp4 in Resources */,
 				20C1223C22254D21004CAF67 /* magnify.mp4 in Resources */,
 				20C1226F22254ED7004CAF67 /* waterDrops.mp4 in Resources */,
 				202F52BF2229EC07004FF9CD /* blueSand.mp4 in Resources */,
@@ -740,6 +846,8 @@
 				20C1222722254C70004CAF67 /* glow.mp4 in Resources */,
 				208BB883222D9A0000C65D5C /* doodle.mp4 in Resources */,
 				20C1224522254D88004CAF67 /* noiseStripes.mp4 in Resources */,
+				C3167747250D677700C09FFA /* candy.mp4 in Resources */,
+				C3167757250D677700C09FFA /* bluePipes.mp4 in Resources */,
 				202F52C82229EC5E004FF9CD /* cells.mp4 in Resources */,
 				53E84100221DA1D1005FA65E /* original.mp4 in Resources */,
 				20C1226C22254EC4004CAF67 /* volumetric.mp4 in Resources */,
