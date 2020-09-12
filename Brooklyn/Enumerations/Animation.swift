@@ -11,24 +11,34 @@ import Foundation
 // MARK: - Animation
 enum Animation: String, CaseIterable {
     case original
-    case avatarTissue
     case auroraBorealis
+    case avatarTissue
     case ballPit
+    case binary
     case bits
+    case bloomingRoses
+    case bluePipes
     case blueSand
+    case candy
+    case cases
     case cells
     case cityLife
+    case colorfulSunset
     case connectivity
     case crescentMoon
     case cubicMess
     case cuphead
+    case cuphead2
     case cursor
+    case dandelion
     case defragmentation
     case doodle
+    case dots
     case fadingPieces
     case fangs
     case fruitNinja
     case fullMoon
+    case furBalls
     case geometricShapes
     case glow
     case goldenBarbs
@@ -36,6 +46,7 @@ enum Animation: String, CaseIterable {
     case hills
     case inception
     case juicy
+    case kaleidoscope
     case layers
     case leaf
     case lines
@@ -44,8 +55,12 @@ enum Animation: String, CaseIterable {
     case nature
     case neon
     case noiseStripes
+    case oldScreen
     case paintbrush
+    case paintDripping
+    case paintRivers
     case pangea
+    case penrose
     case picasso
     case playDoh
     case polarPeak
@@ -55,6 +70,7 @@ enum Animation: String, CaseIterable {
     case shards
     case shelves
     case snakes
+    case soapBubble
     case soundSpectrum
     case splash
     case stripes
@@ -63,6 +79,7 @@ enum Animation: String, CaseIterable {
     case theRoom
     case tissue
     case trapezium
+    case trinagles
     case unstablePipes
     case volumetric
     case warp
@@ -72,6 +89,7 @@ enum Animation: String, CaseIterable {
     case yolk
     case zebra
     case zelda
+    case zoetrope
 }
 
 // MARK: - Properties
