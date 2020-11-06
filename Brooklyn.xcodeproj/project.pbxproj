@@ -965,7 +965,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = oedrommcarrasco.brooklyn;
 				PRODUCT_NAME = Brooklyn;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -993,7 +993,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = oedrommcarrasco.brooklyn;
 				PRODUCT_NAME = Brooklyn;
 				PROVISIONING_PROFILE_SPECIFIER = "";
