@@ -1,14 +1,14 @@
 language: swift
-osx_image: xcode10
+osx_image: xcode12
 
 install: true
 
 env:
   global:
-  - WORKSPACE=Brooklyn.xcworkspace
+  - PROJECT=Brooklyn.xcodeproj
   - SCHEME=Brooklyn
 
 script:
  - set -o pipefail
- - xcodebuild -workspace $WORKSPACE clean -scheme "$SCHEME"
- - xcodebuild -workspace $WORKSPACE build -scheme "$SCHEME"
+ - xcodebuild -project $PROJECT clean -scheme "$SCHEME"
+ - xcodebuild -project $PROJECT build -scheme "$SCHEME"
