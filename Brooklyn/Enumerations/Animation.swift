@@ -19,7 +19,6 @@ enum Animation: String, CaseIterable {
     case bloomingRoses
     case bluePipes
     case blueSand
-    case candy
     case cases
     case cells
     case cityLife
@@ -30,7 +29,6 @@ enum Animation: String, CaseIterable {
     case cuphead
     case cuphead2
     case cursor
-    case dandelion
     case defragmentation
     case doodle
     case dots
@@ -38,7 +36,6 @@ enum Animation: String, CaseIterable {
     case fangs
     case fruitNinja
     case fullMoon
-    case furBalls
     case geometricShapes
     case glow
     case goldenBarbs
@@ -57,7 +54,6 @@ enum Animation: String, CaseIterable {
     case noiseStripes
     case oldScreen
     case paintbrush
-    case paintDripping
     case paintRivers
     case pangea
     case penrose
@@ -70,7 +66,6 @@ enum Animation: String, CaseIterable {
     case shards
     case shelves
     case snakes
-    case soapBubble
     case soundSpectrum
     case splash
     case stripes
@@ -79,7 +74,6 @@ enum Animation: String, CaseIterable {
     case theRoom
     case tissue
     case trapezium
-    case trinagles
     case unstablePipes
     case volumetric
     case warp

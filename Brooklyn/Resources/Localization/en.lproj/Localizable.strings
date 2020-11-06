@@ -15,7 +15,6 @@
 "animation.bloomingRoses" = "Blooming Roses";
 "animation.bluePipes" = "Blue Pipes";
 "animation.blueSand" = "Blue Sand";
-"animation.candy" = "Candy";
 "animation.cases" = "Cases";
 "animation.cells" = "Cells";
 "animation.cityLife" = "City Life";
@@ -26,7 +25,6 @@
 "animation.cuphead" = "Cuphead";
 "animation.cuphead2" = "Cuphead 2";
 "animation.cursor" = "Cursor";
-"animation.dandelion" = "Dandelion";
 "animation.defragmentation" = "Defragmentation";
 "animation.doodle" = "Doodle";
 "animation.dots" = "Dots";
@@ -34,7 +32,6 @@
 "animation.fangs" = "Fangs";
 "animation.fruitNinja" = "Fruit Ninja";
 "animation.fullMoon" = "Full Moon";
-"animation.furBalls" = "Fur Balls";
 "animation.geometricShapes" = "Geometric Shapes";
 "animation.glow" = "Glow";
 "animation.goldenBarbs" = "Golden Barbs";
@@ -53,7 +50,6 @@
 "animation.noiseStripes" = "Noise Stripes";
 "animation.oldScreen" = "Old Screen";
 "animation.paintbrush" = "Paintbrush";
-"animation.paintDripping" = "Paint Dripping";
 "animation.paintRivers" = "Paint Rivers";
 "animation.pangea" = "Pangea";
 "animation.penrose" = "Penrose";
@@ -66,7 +62,6 @@
 "animation.shards" = "Shards";
 "animation.shelves" = "Shelves";
 "animation.snakes" = "Snakes";
-"animation.soapBubble" = "Soap Bubble";
 "animation.soundSpectrum" = "Sound Spectrum";
 "animation.splash" = "Splash";
 "animation.stripes" = "Stripes";
@@ -75,7 +70,6 @@
 "animation.theRoom" = "The Room";
 "animation.tissue" = "Tissue";
 "animation.trapezium" = "Trapezium";
-"animation.trinagles" = "Triangles";
 "animation.unstablePipes" = "Unstable Pipes";
 "animation.volumetric" = "Volumetric";
 "animation.warp" = "Warp";
