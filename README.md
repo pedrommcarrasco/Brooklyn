@@ -27,7 +27,7 @@ Independently of how you install **Brooklyn**, please **close your System Prefer
 
 ### Manual :hand:
 
-1. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/2.0.1/Brooklyn.saver.zip)
+1. [Click here to Download](https://github.com/pedrommcarrasco/Brooklyn/releases/download/2.1.0/Brooklyn.saver.zip)
 2. Open **Brooklyn.saver** (double click)
 3. `"Brooklyn.saver" can't be opened because it is from an unidentified developer` will appear, press `OK`
 4. Open `Preferences`
