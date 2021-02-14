@@ -38,7 +38,7 @@ Independently of how you install **Brooklyn**, please **close your System Prefer
 ### Homebrew 🍺
 
 1. Open terminal
-2. Enter `brew cask install brooklyn`
+2. Enter `brew install --cask brooklyn`
 
 ## Uninstallation 🗑️
 
@@ -50,7 +50,7 @@ Independently of how you install **Brooklyn**, please **close your System Prefer
 ### Homebrew 🍺
 
 1. Open terminal
-2. Enter `brew cask uninstall brooklyn`
+2. Enter `brew uninstall --cask brooklyn`
 
 ## Compatibility 🔧
 
