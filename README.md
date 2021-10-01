@@ -56,6 +56,16 @@ Independently of how you install **Brooklyn**, please **close your System Prefer
 
 Requires OS X El Capitan (10.11) or above.
 
+## Troubleshooting 🤕
+
+The Brooklyn screen saver can be blocked by the system as a malicious software. Sometimes on macOS Big Sur clicking `Open Anyway` in `Security & Privacy` is not fixing the issue.  
+
+To bypass this quarantine made by apple, you can use this command in your terminal :
+
+```shell
+sudo xattr -d com.apple.quarantine ~/"Library/Screen Savers/Brooklyn.saver"
+```
+
 ## Support Brooklyn ❤️
 
 Hello there 👋
