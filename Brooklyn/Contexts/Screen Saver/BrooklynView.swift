@@ -19,7 +19,7 @@ final class BrooklynView: ScreenSaverView {
     // MARK: Constant
     private enum Constant {
         static let secondPerFrame = 1.0 / 30.0
-        static let backgroundColor = NSColor(red: 0.00, green: 0.01, blue: 0.00, alpha:1.0)
+        static let backgroundColor = NSColor(red: 0.00, green: 0.00, blue: 0.00, alpha:1.0)
     }
     
     // MARK: Outlets
