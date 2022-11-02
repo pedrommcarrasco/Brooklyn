@@ -23,7 +23,13 @@
 
 ## Installation 📦
 
-Independently of how you install **Brooklyn**, please **close your System Preferences**
+Independently of how you install **Brooklyn**, please **close your System Preferences**.
+
+Screen savers can be set programmatically with this Terminal command :
+
+```shell
+defaults -currentHost write com.apple.screensaver moduleDict -dict moduleName Brooklyn path "$HOME/Library/Screen Savers/Brooklyn.saver"
+```
 
 ### Manual :hand:
 
@@ -38,7 +44,7 @@ Independently of how you install **Brooklyn**, please **close your System Prefer
 ### Homebrew 🍺
 
 1. Open terminal
-2. Enter `brew install --cask brooklyn`
+2. Enter `brew install --cask brooklyn --no-quarantine`
 
 ## Uninstallation 🗑️
 
