@@ -1,4 +1,4 @@
-![](https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/logo.jpg?raw=true)
+![Brooklyn](https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/logo.jpg?raw=true)
 
 > Screen Saver by [Pedro Carrasco](https://twitter.com/pedrommcarrasco) based on the animations presented during **[Apple Special Event](https://www.youtube.com/watch?v=bfHEnw6Rm-4)** (October 30, 2018) from the Brooklyn Academy of Music, Howard Gilman Opera House.
 
@@ -50,8 +50,8 @@ defaults -currentHost write com.apple.screensaver moduleDict -dict moduleName Br
 
 ### Manual :hand:
 
-- Right-click on Brooklyn in System Preferences and select `Delete Brooklyn`, or
-- Delete `Brooklyn.saver` either in `/Library/Screen Savers` or `/Users/USERNAME/Library/Screen Savers`. 
+* Right-click on Brooklyn in System Preferences and select `Delete Brooklyn`, or
+* Delete `Brooklyn.saver` either in `/Library/Screen Savers` or `/Users/USERNAME/Library/Screen Savers`. 
 
 ### Homebrew 🍺
 
@@ -60,7 +60,7 @@ defaults -currentHost write com.apple.screensaver moduleDict -dict moduleName Br
 
 ## Compatibility 🔧
 
-Requires OS X El Capitan (10.11) or above.
+Requires macOS High Sierra (10.13) or above.
 
 ## Troubleshooting 🤕
 
@@ -83,10 +83,10 @@ I've built and open-sourced multiple frameworks and applications, including **[B
 I'm also a conference and meetup organizer, being part of **[SwiftAveiro](https://swiftaveiro.xyz)** and **[CocoaHeads Porto](https://www.meetup.com/CocoaHeads-Porto/)**.
 
 If you enjoy my work and would like to help me continue it, please consider:
-* https://github.com/users/pedrommcarrasco/sponsorship
-* https://www.buymeacoffee.com/pedrommcarrasco
-* https://www.paypal.me/pedrommcarrasco
 
+* [https://github.com/users/pedrommcarrasco/sponsorship](https://github.com/users/pedrommcarrasco/sponsorship)
+* [https://www.buymeacoffee.com/pedrommcarrasco](https://www.buymeacoffee.com/pedrommcarrasco)
+* [https://www.paypal.me/pedrommcarrasco](https://www.paypal.me/pedrommcarrasco)
 
 ## Contributing  🙌 
 
