@@ -54,7 +54,7 @@
 
 ## 호환성 🔧
 
-OS X El Capitan (10.11) 또는 그 이상을 필요로 합니다.
+macOS High Sierra (10.13) 또는 그 이상을 필요로 합니다.
 
 ## Brooklyn 지원 ❤️
 
