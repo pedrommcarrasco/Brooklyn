@@ -19,7 +19,6 @@ final class BrooklynView: ScreenSaverView {
     // MARK: Constant
     private enum Constant {
         static let secondPerFrame = 1.0 / 30.0
-        static let backgroundColor = NSColor(red: 0.00, green: 0.01, blue: 0.00, alpha:1.0)
     }
     
     // MARK: Outlets
@@ -84,7 +83,6 @@ private extension BrooklynView {
         videoLayer.autoresizingMask = [.layerWidthSizable, .layerHeightSizable]
         videoLayer.needsDisplayOnBoundsChange = true
         videoLayer.contentsGravity = .resizeAspect
-        videoLayer.backgroundColor = Constant.backgroundColor.cgColor
     }
 }
 
