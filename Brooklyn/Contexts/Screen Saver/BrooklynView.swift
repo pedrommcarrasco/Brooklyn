@@ -40,6 +40,18 @@ final class BrooklynView: ScreenSaverView {
         super.init(frame: frame, isPreview: isPreview)
         animationTimeInterval = Constant.secondPerFrame
         configure()
+        DistributedNotificationCenter.default.addObserver(
+            self,
+            selector: #selector(BrooklynView.willStop(_:)),
+            name: Notification.Name("com.apple.screensaver.willstop"),
+            object: nil
+        )
+    }
+    
+    @objc func willStop(_ aNotification: Notification) {
+        if (!isPreview) {
+            NSApplication.shared.terminate(nil)
+        }
     }
 }
 
@@ -52,8 +64,8 @@ extension BrooklynView {
     }
     
     override func stopAnimation() {
-        super.stopAnimation()
         manager.player.pause()
+        super.stopAnimation()
     }
 }
 
