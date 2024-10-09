@@ -1,4 +1,4 @@
-**Brooklyn is not actively maintained, as it doesn’t generate income to justify the time investment. If you need a bug fixed, feel free to contact the author by email to discuss having it resolved for a fee.**
+**Brooklyn is not actively maintained, as it doesn’t generate income to justify the time investment. If you need a bug fixed, feel free to contact the author via email to discuss having it resolved for a fee.**
 
 ![](https://github.com/pedrommcarrasco/Brooklyn/blob/master/Design/logo.jpg?raw=true)
 
